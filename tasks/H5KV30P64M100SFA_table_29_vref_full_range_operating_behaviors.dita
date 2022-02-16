@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="ABC7B465-5C57211-F215476C5D74558-4CDB83">
+  <title>Table 29. VREF full-range operating behaviors</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="7" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Typ.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col6">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col7">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Vout </entry>
+              <entry colname="col2"> Voltage reference output with factory trim at nominal V<sub>DDA</sub> and temperature=25°C </entry>
+              <entry colname="col3" translate="no"> 1.1920 </entry>
+              <entry colname="col4" translate="no"> 1.1950 </entry>
+              <entry colname="col5" translate="no"> 1.1980 </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#ABC7B465-5C57211-F215476C5D74558-4CDB83/_bookmark136">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Vout </entry>
+              <entry colname="col2"> Voltage reference output with user trim at nominal V<sub>DDA</sub> and temperature=25°C </entry>
+              <entry colname="col3" translate="no"> 1.1945 </entry>
+              <entry colname="col4" translate="no"> 1.1950 </entry>
+              <entry colname="col5" translate="no"> 1.1955 </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#ABC7B465-5C57211-F215476C5D74558-4CDB83/_bookmark136">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Vstep </entry>
+              <entry colname="col2"> Voltage reference trim step </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 0.5 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> mV </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#ABC7B465-5C57211-F215476C5D74558-4CDB83/_bookmark136">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Vtdrift </entry>
+              <entry colname="col2"> Temperature drift (Vmax -Vmin across the full temperature range) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 15 </entry>
+              <entry colname="col6"> mV </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#ABC7B465-5C57211-F215476C5D74558-4CDB83/_bookmark136">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Ibg </entry>
+              <entry colname="col2"> Bandgap only current </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 80 </entry>
+              <entry colname="col6"> µA </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Ilp </entry>
+              <entry colname="col2"> Low-power buffer current </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 360 </entry>
+              <entry colname="col6"> uA </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#ABC7B465-5C57211-F215476C5D74558-4CDB83/_bookmark136">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Ihp </entry>
+              <entry colname="col2"> High-power buffer current </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 1 </entry>
+              <entry colname="col6"> mA </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#ABC7B465-5C57211-F215476C5D74558-4CDB83/_bookmark136">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> ΔVLOAD </entry>
+              <entry colname="col2">
+                <p>Load regulation</p>
+                <ul>
+                  <li>current = ± 1.0 mA</li>
+                </ul>
+              </entry>
+              <entry colname="col3">  — </entry>
+              <entry colname="col4" translate="no">  200 </entry>
+              <entry colname="col5">  — </entry>
+              <entry colname="col6"> µV </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#ABC7B465-5C57211-F215476C5D74558-4CDB83/_bookmark136">1</xref>, <xref href="#ABC7B465-5C57211-F215476C5D74558-4CDB83/_bookmark137">2</xref></entry>
+            </row>
+            <row>
+              <entry colname="col1"> Tstup </entry>
+              <entry colname="col2"> Buffer startup time </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 100 </entry>
+              <entry colname="col6"> µs </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <p>Tchop_osc_st</p>
+                <p>up</p>
+              </entry>
+              <entry colname="col2"> Internal bandgap start-up delay with chop oscillator enabled </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 35 </entry>
+              <entry colname="col6"> ms </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Vvdrift </entry>
+              <entry colname="col2"> Voltage drift (Vmax -Vmin across the full voltage range) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 2 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> mV </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#ABC7B465-5C57211-F215476C5D74558-4CDB83/_bookmark136">1</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark136">See the chip's Reference
+ Manual for the appropriate settings
+ of the VREF Status and Control register.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark137">Load regulation voltage is the difference between
+ the VREF_OUT voltage with no load vs. voltage with defined load</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

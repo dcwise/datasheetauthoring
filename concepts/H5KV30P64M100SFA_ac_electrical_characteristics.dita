@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A74C7465-51C7C51-1158751712797E3-AE807C">
+  <title>AC electrical characteristics</title>
+  <shortdesc>Unless otherwise specified,
+ propagation delays are measured from the 50% to the 50% point, and rise and fall times are measured at the 20% and 80%
+ points, as shown in the following
+ figure.</shortdesc>
+  <conbody>
+    <p>The
+ midpoint is V<sub>IL</sub> + (V<sub>IH</sub> - V<sub>IL</sub>) / 2</p>
+    <p>
+      <b>Figure 2.
+ Input signal measurement reference</b>
+    </p>
+  </conbody>
+</concept>

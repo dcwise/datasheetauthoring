@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7765285-1411217-15D715EE48616AB-F00524">
+  <title>Figure 7. Test clock input timing</title>
+  <shortdesc>
+    <image href="../graphics/H5KV30P64M100SFA_topic45_image003.png" />TCLK</shortdesc>
+  <conbody>
+    <p>Data inputs</p>
+    <p>Data outputs</p>
+    <p>Data outputs</p>
+    <p>Data outputs</p>
+  </conbody>
+</concept>

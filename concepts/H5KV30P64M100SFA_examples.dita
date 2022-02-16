@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AAC7B452-C575211-F21A87F155A7815-25DCCF">
+  <title>Examples</title>
+  <shortdesc>
+    <i>EXAMPLE</i>
+  </shortdesc>
+  <conbody>
+    <p>
+      <i>Operating rating</i>:</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/H5KV30P64M100SFA_topic116_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>
+      <i>EXAMPLE</i>
+    </p>
+    <p>
+      <i>Operating requirement</i>:</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/H5KV30P64M100SFA_topic116_image004.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>
+      <i>EXAMPLE</i>
+    </p>
+    <p>
+      <i>Operating behavior
+ </i>that includes a <i>typical value</i>:</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/H5KV30P64M100SFA_topic116_image006.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </conbody>
+</concept>

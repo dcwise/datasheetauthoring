@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7BC7B46-45A4571-11F2587A1355D74-58C9E9">
+  <title>Figure 9. Test Access Port timing</title>
+  <shortdesc>
+    <image href="../graphics/H5KV30P64M100SFA_topic47_image002.png" />TCLK</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/H5KV30P64M100SFA_topic47_image003.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>TRST</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/H5KV30P64M100SFA_topic47_image004.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>
+      <b>Figure 10. TRST timing</b>
+    </p>
+  </conbody>
+</concept>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7BB4645-A851472-1F2154A87157415-50C355">
+  <title>Table 28. VREF full-range operating requirements</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="6" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col6">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VDDA </entry>
+              <entry colname="col2"> Supply voltage </entry>
+              <entry colname="col3" translate="no"> 1.71 </entry>
+              <entry colname="col4" translate="no"> 3.6 </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> T<sub>A</sub></entry>
+              <entry colname="col2"> Temperature </entry>
+              <entry namest="col3" nameend="col4"> Operating temperature range of the device </entry>
+              <entry colname="col5"> °C </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> C<sub>L</sub></entry>
+              <entry colname="col2"> Output load capacitance </entry>
+              <entry namest="col3" nameend="col4" translate="no"> 100 </entry>
+              <entry colname="col5"> nF </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#A7BB4645-A851472-1F2154A87157415-50C355/_bookmark134">1</xref>, <xref href="#A7BB4645-A851472-1F2154A87157415-50C355/_bookmark135">2</xref></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark134">C<sub>L</sub> must be connected
+ to VREF_OUT if the VREF_OUT
+ functionality is being used for either an internal or external reference.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark135">The load capacitance should not exceed +/-25% of the nominal
+ specified C<sub>L</sub> value over the operating temperature range of the device.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

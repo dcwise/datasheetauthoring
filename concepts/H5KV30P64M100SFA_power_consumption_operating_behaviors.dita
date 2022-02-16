@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B7B464-5A51C45-7521F21AFC52D45-5512AF">
+  <title>Power consumption operating behaviors</title>
+  <shortdesc>The current parameters in the
+ table below are derived from code executing a while(1) loop from flash, unless otherwise noted.</shortdesc>
+  <conbody>
+    <p>The IDD
+ typical values represent the statistical mean at 25°C, and the IDD maximum
+ values for RUN, WAIT, VLPR, and VLPW represent data collected at 125°C
+ junction temperature unless otherwise
+ noted. The maximum values represent characterized results equivalent to the mean plus three
+ times the standard
+ deviation (mean + 3 sigma).</p>
+  </conbody>
+</concept>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AAC7B465-855C111-F54875A52D768AA-A792B6">
+  <title>KV30F Pinouts</title>
+  <shortdesc>The pinout diagrams are also
+ provided in an Excel file attached to
+ this document:</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>Click
+ the paperclip symbol on the left side of the PDF window.</cmd>
+      </step>
+      <step>
+        <cmd>Double-click
+ on the Excel file to open it.</cmd>
+      </step>
+      <step>
+        <cmd>Select the
+ respective package tab.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>Many signals may be
+ multiplexed onto a single pin. To determine what signals can be used on which pin, see the previous
+ section.</p>
+    </result>
+  </taskbody>
+</task>

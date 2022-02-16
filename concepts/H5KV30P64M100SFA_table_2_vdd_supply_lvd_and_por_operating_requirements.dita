@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="ABCB4645-A25C552-111F14A87F52558-FAD881">
+  <title>Table 2. VDD supply LVD and POR operating requirements</title>
+  <conbody>
+    <table>
+      <tgroup cols="7" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <colspec colname="col7" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Typ.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col6">
+              <b>Unit</b>
+            </entry>
+            <entry colname="col7">
+              <b>Notes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> VPOR </entry>
+            <entry colname="col2"> Falling VDD POR detect voltage </entry>
+            <entry colname="col3" translate="no"> 0.8 </entry>
+            <entry colname="col4" translate="no"> 1.1 </entry>
+            <entry colname="col5" translate="no"> 1.5 </entry>
+            <entry colname="col6"> V </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> VLVDH </entry>
+            <entry colname="col2"> Falling low-voltage detect threshold — high range (LVDV=01) </entry>
+            <entry colname="col3" translate="no"> 2.48 </entry>
+            <entry colname="col4" translate="no"> 2.56 </entry>
+            <entry colname="col5" translate="no"> 2.64 </entry>
+            <entry colname="col6"> V </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">  VLVW1H VLVW2H VLVW3H VLVW4H </entry>
+            <entry colname="col2">
+              <p>Low-voltage warning thresholds — high range</p>
+              <ul>
+                <li>Level 1 falling (LVWV=00)</li>
+                <li>Level 2 falling (LVWV=01)</li>
+                <li>Level 3 falling (LVWV=10)</li>
+                <li>Level 4 falling (LVWV=11)</li>
+              </ul>
+            </entry>
+            <entry colname="col3" translate="no">
+              <p>2.62</p>
+              <p>2.72</p>
+              <p>2.82</p>
+              <p>2.92</p>
+            </entry>
+            <entry colname="col4" translate="no">
+              <p>2.70</p>
+              <p>2.80</p>
+              <p>2.90</p>
+              <p>3.00</p>
+            </entry>
+            <entry colname="col5" translate="no">
+              <p>2.78</p>
+              <p>2.88</p>
+              <p>2.98</p>
+              <p>3.08</p>
+            </entry>
+            <entry colname="col6">  V V V V </entry>
+            <entry colname="col7" translate="no">
+              <xref href="#ABCB4645-A25C552-111F14A87F52558-FAD881/_bookmark21">1</xref>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <b>Table 2. V<sub>DD</sub> supply LVD and POR operating
+ requirements (continued)</b>
+    </p>
+    <table>
+      <tgroup cols="7" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <colspec colname="col7" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Typ.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col6">
+              <b>Unit</b>
+            </entry>
+            <entry colname="col7">
+              <b>Notes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> VHYSH </entry>
+            <entry colname="col2"> Low-voltage inhibit reset/recover hysteresis — high range </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 80 </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6"> mV </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> VLVDL </entry>
+            <entry colname="col2"> Falling low-voltage detect threshold — low range (LVDV=00) </entry>
+            <entry colname="col3" translate="no"> 1.54 </entry>
+            <entry colname="col4" translate="no"> 1.60 </entry>
+            <entry colname="col5" translate="no"> 1.66 </entry>
+            <entry colname="col6"> V </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">  VLVW1L VLVW2L VLVW3L VLVW4L </entry>
+            <entry colname="col2">
+              <p>Low-voltage warning thresholds — low range</p>
+              <ul>
+                <li>Level 1 falling (LVWV=00)</li>
+                <li>Level 2 falling (LVWV=01)</li>
+                <li>Level 3 falling (LVWV=10)</li>
+                <li>Level 4 falling (LVWV=11)</li>
+              </ul>
+            </entry>
+            <entry colname="col3" translate="no">
+              <p>1.74</p>
+              <p>1.84</p>
+              <p>1.94</p>
+              <p>2.04</p>
+            </entry>
+            <entry colname="col4" translate="no">
+              <p>1.80</p>
+              <p>1.90</p>
+              <p>2.00</p>
+              <p>2.10</p>
+            </entry>
+            <entry colname="col5" translate="no">
+              <p>1.86</p>
+              <p>1.96</p>
+              <p>2.06</p>
+              <p>2.16</p>
+            </entry>
+            <entry colname="col6">  V V V V </entry>
+            <entry colname="col7" translate="no">
+              <xref href="#ABCB4645-A25C552-111F14A87F52558-FAD881/_bookmark21">1</xref>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> VHYSL </entry>
+            <entry colname="col2"> Low-voltage inhibit reset/recover hysteresis — low range </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 60 </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6"> mV </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> VBG </entry>
+            <entry colname="col2"> Bandgap voltage reference </entry>
+            <entry colname="col3" translate="no"> 0.97 </entry>
+            <entry colname="col4" translate="no"> 1.00 </entry>
+            <entry colname="col5" translate="no"> 1.03 </entry>
+            <entry colname="col6"> V </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> tLPO </entry>
+            <entry colname="col2"> Internal low power oscillator period — factory trimmed </entry>
+            <entry colname="col3" translate="no"> 900 </entry>
+            <entry colname="col4" translate="no"> 1000 </entry>
+            <entry colname="col5" translate="no"> 1100 </entry>
+            <entry colname="col6"> μs </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p id="_bookmark21">1. Rising threshold
+ is the sum of falling
+ threshold and hysteresis voltage.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AC7B4452-851C57C-5111F5875525D71-D39B38">
+  <title>Figure 5. Serial wire clock input timing</title>
+  <shortdesc>
+    <image href="../graphics/H5KV30P64M100SFA_topic41_image004.png" />SWD_CLK</shortdesc>
+  <conbody>
+    <p>S9 S10</p>
+    <p>SWD_DIO</p>
+    <p>S11</p>
+    <p>SWD_DIO </p>
+    <p>Input data
+ valid</p>
+    <p>Output data valid </p>
+    <p>S12</p>
+    <p>SWD_DIO </p>
+    <p>SWD_DIO</p>
+    <p>S11</p>
+    <p>Output data valid </p>
+    <p>
+      <b>Figure 6. Serial wire data timing</b>
+    </p>
+  </conbody>
+</concept>

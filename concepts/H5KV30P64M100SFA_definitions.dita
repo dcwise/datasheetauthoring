@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AAC46458-C45C511-F248755A7815897-BE475F">
+  <title>Definitions</title>
+  <shortdesc>Key terms are defined in the
+ following table:</shortdesc>
+  <conbody>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Term</b>
+            </entry>
+            <entry colname="col2">
+              <b>Definition</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Rating </entry>
+            <entry colname="col2">
+              <p>A minimum or maximum value of a technical characteristic that, if exceeded, may cause permanent chip failure:</p>
+              <ul>
+                <li>
+                  <i>Operating ratings </i>apply during operation of the chip.</li>
+                <li>
+                  <i>Handling ratings </i>apply when the chip is not powered.</li>
+              </ul>
+              <p>
+                <b>NOTE: </b>The likelihood of permanent chip failure increases rapidly as soon as a characteristic begins to exceed one of its operating ratings.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Operating requirement </entry>
+            <entry colname="col2"> A specified value or range of values for a technical characteristic that you must guarantee during operation to avoid incorrect operation and possibly decreasing the useful life of the chip </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Operating behavior </entry>
+            <entry colname="col2"> A specified value or range of values for a technical characteristic that are guaranteed during operation if you meet the operating requirements and any other specified conditions </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Typical value </entry>
+            <entry colname="col2">
+              <p>A specified value for a technical characteristic that:</p>
+              <ul>
+                <li>Lies within the range of values specified by the operating behavior</li>
+                <li>Is representative of that characteristic during operation when you meet the <xref href="H5KV30P64M100SFA_typical_value_conditions.dita">typical-value</xref><xref href="H5KV30P64M100SFA_typical_value_conditions.dita">conditions </xref>or other specified conditions</li>
+              </ul>
+              <p>
+                <b>NOTE: </b>Typical values are provided as design guidelines and are neither tested nor guaranteed.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

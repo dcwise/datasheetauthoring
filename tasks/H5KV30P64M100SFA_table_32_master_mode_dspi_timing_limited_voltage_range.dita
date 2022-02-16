@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B4851C-4C52121-54A81757557AD59-DAEB4F">
+  <title>Table 32. Master mode DSPI timing (limited voltage range)</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="6" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Num</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col6">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> Operating voltage </entry>
+              <entry colname="col3" translate="no"> 2.7 </entry>
+              <entry colname="col4" translate="no"> 3.6 </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> Frequency of operation </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 25 </entry>
+              <entry colname="col5"> MHz </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS1 </entry>
+              <entry colname="col2"> DSPI_SCK output cycle time </entry>
+              <entry colname="col3"> 2 x t<sub>BUS</sub></entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS2 </entry>
+              <entry colname="col2"> DSPI_SCK output high/low time </entry>
+              <entry colname="col3"> (t<sub>SCK</sub>/2) − 2 </entry>
+              <entry colname="col4"> (t<sub>SCK</sub>/2) + 2 </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS3 </entry>
+              <entry colname="col2"> DSPI_PCS<i>n </i>valid to DSPI_SCK delay </entry>
+              <entry colname="col3"> (t<sub>BUS</sub> x 2) − 2 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#A7B4851C-4C52121-54A81757557AD59-DAEB4F/_bookmark141">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS4 </entry>
+              <entry colname="col2"> DSPI_SCK to DSPI_PCS<i>n </i>invalid delay </entry>
+              <entry colname="col3"> (t<sub>BUS</sub> x 2) − 2 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#A7B4851C-4C52121-54A81757557AD59-DAEB4F/_bookmark142">2</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS5 </entry>
+              <entry colname="col2"> DSPI_SCK to DSPI_SOUT valid </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 8.5 </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS6 </entry>
+              <entry colname="col2"> DSPI_SCK to DSPI_SOUT invalid </entry>
+              <entry colname="col3" translate="no"> -2 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS7 </entry>
+              <entry colname="col2"> DSPI_SIN to DSPI_SCK input setup </entry>
+              <entry colname="col3" translate="no"> 16.2 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS8 </entry>
+              <entry colname="col2"> DSPI_SCK to DSPI_SIN input hold </entry>
+              <entry colname="col3" translate="no"> 0 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark141">The delay is programmable in SPIx_CTARn[PSSCK] and SPIx_CTARn[CSSCK].</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark142">The delay is programmable in SPIx_CTARn[PASC] and SPIx_CTARn[ASC].</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/H5KV30P64M100SFA_topic93_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

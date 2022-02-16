@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AC7B45A8-515C511-F215A7F145A781E-2D929D">
+  <title>Recommended connection for unused analog and digital pins</title>
+  <shortdesc>The following table shows the
+ recommended connections for analog interface pins if those analog interfaces are not used in the customer's
+ application.</shortdesc>
+  <conbody>
+    <p>
+      <b>Table 38. Recommended
+ connection for unused analog
+ interfaces</b>
+    </p>
+    <table>
+      <tgroup cols="4" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Pin Type</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3">
+              <b>Short recommendation</b>
+            </entry>
+            <entry colname="col4">
+              <b>Detailed recommendation</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Analog/non GPIO </entry>
+            <entry colname="col2"> PGAx/ADCx </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Analog input - Float </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Analog/non GPIO </entry>
+            <entry colname="col2"> ADCx/CMPx </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Analog input - Float </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Analog/non GPIO </entry>
+            <entry colname="col2"> VREF_OUT </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Analog output - Float </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Analog/non GPIO </entry>
+            <entry colname="col2"> DACx_OUT </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Analog output - Float </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Analog/non GPIO </entry>
+            <entry colname="col2"> RTC_WAKEUP_B </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Analog output - Float </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Analog/non GPIO </entry>
+            <entry colname="col2"> XTAL32 </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Analog output - Float </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Analog/non GPIO </entry>
+            <entry colname="col2"> EXTAL32 </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Analog input - Float </entry>
+          </row>
+          <row>
+            <entry colname="col1"> GPIO/Analog </entry>
+            <entry colname="col2"> PTA18/EXTAL0 </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Analog input - Float </entry>
+          </row>
+          <row>
+            <entry colname="col1"> GPIO/Analog </entry>
+            <entry colname="col2"> PTA19/XTAL0 </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Analog output - Float </entry>
+          </row>
+          <row>
+            <entry colname="col1"> GPIO/Analog </entry>
+            <entry colname="col2"> PTx/ADCx </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Float (default is analog input) </entry>
+          </row>
+          <row>
+            <entry colname="col1"> GPIO/Analog </entry>
+            <entry colname="col2"> PTx/CMPx </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Float (default is analog input) </entry>
+          </row>
+          <row>
+            <entry colname="col1"> GPIO/Digital </entry>
+            <entry colname="col2"> PTA0/JTAG_TCLK </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Float (default is JTAG with pulldown) </entry>
+          </row>
+          <row>
+            <entry colname="col1"> GPIO/Digital </entry>
+            <entry colname="col2"> PTA1/JTAG_TDI </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Float (default is JTAG with pullup) </entry>
+          </row>
+          <row>
+            <entry colname="col1"> GPIO/Digital </entry>
+            <entry colname="col2"> PTA2/JTAG_TDO </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Float (default is JTAG with pullup) </entry>
+          </row>
+          <row>
+            <entry colname="col1"> GPIO/Digital </entry>
+            <entry colname="col2"> PTA3/JTAG_TMS </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Float (default is JTAG with pullup) </entry>
+          </row>
+          <row>
+            <entry colname="col1"> GPIO/Digital </entry>
+            <entry colname="col2"> PTA4/NMI_b </entry>
+            <entry colname="col3"> 10kΩ pullup or disable and float </entry>
+            <entry colname="col4"> Pull high or disable in PCR &amp; FOPT and float </entry>
+          </row>
+          <row>
+            <entry colname="col1"> GPIO/Digital </entry>
+            <entry colname="col2"> PTx </entry>
+            <entry colname="col3"> Float </entry>
+            <entry colname="col4"> Float (default is disabled) </entry>
+          </row>
+          <row>
+            <entry colname="col1"> VDDA </entry>
+            <entry colname="col2"> VDDA </entry>
+            <entry colname="col3"> Always connect to VDD potential </entry>
+            <entry colname="col4"> Always connect to VDD potential </entry>
+          </row>
+          <row>
+            <entry colname="col1"> VREFH </entry>
+            <entry colname="col2"> VREFH </entry>
+            <entry colname="col3"> Always connect to VDD potential </entry>
+            <entry colname="col4"> Always connect to VDD potential </entry>
+          </row>
+          <row>
+            <entry colname="col1"> VREFL </entry>
+            <entry colname="col2"> VREFL </entry>
+            <entry colname="col3"> Always connect to VSS potential </entry>
+            <entry colname="col4"> Always connect to VSS potential </entry>
+          </row>
+          <row>
+            <entry colname="col1"> VSSA </entry>
+            <entry colname="col2"> VSSA </entry>
+            <entry colname="col3"> Always connect to VSS potential </entry>
+            <entry colname="col4"> Always connect to VSS potential </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

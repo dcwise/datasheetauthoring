@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7BC7B54-5115A87-165254179E312DE-7835F7">
+  <title>Flash electrical specifications</title>
+  <shortdesc>This section describes the
+ electrical characteristics of the flash
+ memory module.</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd id="Flash_timing_specifications_—_program_an">
+          <b>Flash timing specifications —
+ program and erase</b>
+        </cmd>
+      </step>
+    </steps>
+    <result>
+      <p>The following specifications
+ represent the amount of time the internal charge pumps are active and do not include command overhead.</p>
+    </result>
+  </taskbody>
+</task>

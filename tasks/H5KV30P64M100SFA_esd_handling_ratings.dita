@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AC762855-111F215-8B1571275364CA2-715BEE">
+  <title>ESD handling ratings</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="6" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col6">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VHBM </entry>
+              <entry colname="col2"> Electrostatic discharge voltage, human body model </entry>
+              <entry colname="col3" translate="no"> -2000 </entry>
+              <entry colname="col4" translate="no"> +2000 </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#AC762855-111F215-8B1571275364CA2-715BEE/_bookmark8">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VCDM </entry>
+              <entry colname="col2"> Electrostatic discharge voltage, charged-device model </entry>
+              <entry colname="col3" translate="no"> -500 </entry>
+              <entry colname="col4" translate="no"> +500 </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#AC762855-111F215-8B1571275364CA2-715BEE/_bookmark9">2</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> ILAT </entry>
+              <entry colname="col2"> Latch-up current at ambient temperature of 105°C </entry>
+              <entry colname="col3" translate="no"> -100 </entry>
+              <entry colname="col4" translate="no"> +100 </entry>
+              <entry colname="col5"> mA </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#AC762855-111F215-8B1571275364CA2-715BEE/_bookmark10">3</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark8">Determined according
+ to JEDEC Standard JESD22-A114, <i>Electrostatic Discharge (ESD) Sensitivity Testing Human Body Model (HBM)</i>.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark9">Determined according
+ to JEDEC Standard
+ JESD22-C101, <i>Field-Induced Charged-Device Model Test Method for Electrostatic-Discharge-Withstand Thresholds of Microelectronic Components</i>.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark10">Determined according
+ to JEDEC Standard
+ JESD78, <i>IC Latch-Up
+ Test</i>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

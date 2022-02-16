@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B7B465-A81C4C2-11114A8952D45B8-AC8687">
+  <title>Table 25. Comparator and 6-bit DAC electrical specifications</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="6" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Typ.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col6">
+                <b>Unit</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VDD </entry>
+              <entry colname="col2"> Supply voltage </entry>
+              <entry colname="col3" translate="no"> 1.71 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 3.6 </entry>
+              <entry colname="col6"> V </entry>
+            </row>
+            <row>
+              <entry colname="col1"> IDDHS </entry>
+              <entry colname="col2"> Supply current, high-speed mode (EN=1, PMODE=1) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 200 </entry>
+              <entry colname="col6"> μA </entry>
+            </row>
+            <row>
+              <entry colname="col1"> IDDLS </entry>
+              <entry colname="col2"> Supply current, low-speed mode (EN=1, PMODE=0) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 20 </entry>
+              <entry colname="col6"> μA </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VAIN </entry>
+              <entry colname="col2"> Analog input voltage </entry>
+              <entry colname="col3"> V<sub>SS</sub> – 0.3 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> VDD </entry>
+              <entry colname="col6"> V </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VAIO </entry>
+              <entry colname="col2"> Analog input offset voltage </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 20 </entry>
+              <entry colname="col6"> mV </entry>
+            </row>
+            <row>
+              <entry colname="col1"> V<sub>H</sub></entry>
+              <entry colname="col2"> Analog comparator hysteresis<xref href="#task1597/_bookmark120">1</xref></entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+                <ul>
+                  <li>CR0[HYSTCTR] = 00</li>
+                </ul>
+              </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 5 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> mV </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+                <ul>
+                  <li>CR0[HYSTCTR] = 01</li>
+                </ul>
+              </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 10 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> mV </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+                <ul>
+                  <li>CR0[HYSTCTR] = 10</li>
+                </ul>
+              </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 20 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> mV </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+                <ul>
+                  <li>CR0[HYSTCTR] = 11</li>
+                </ul>
+              </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 30 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> mV </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VCMPOh </entry>
+              <entry colname="col2"> Output high </entry>
+              <entry colname="col3"> V<sub>DD</sub> – 0.5 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> V </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VCMPOl </entry>
+              <entry colname="col2"> Output low </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 0.5 </entry>
+              <entry colname="col6"> V </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tDHS </entry>
+              <entry colname="col2"> Propagation delay, high-speed mode (EN=1, PMODE=1) </entry>
+              <entry colname="col3" translate="no"> 20 </entry>
+              <entry colname="col4" translate="no"> 50 </entry>
+              <entry colname="col5" translate="no"> 200 </entry>
+              <entry colname="col6"> ns </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tDLS </entry>
+              <entry colname="col2"> Propagation delay, low-speed mode (EN=1, PMODE=0) </entry>
+              <entry colname="col3" translate="no"> 80 </entry>
+              <entry colname="col4" translate="no"> 250 </entry>
+              <entry colname="col5" translate="no"> 600 </entry>
+              <entry colname="col6"> ns </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> Analog comparator initialization delay<xref href="#A7B7B465-A81C4C2-11114A8952D45B8-AC8687/_bookmark121">2</xref></entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 40 </entry>
+              <entry colname="col6"> μs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> IDAC6b </entry>
+              <entry colname="col2"> 6-bit DAC current adder (enabled) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 7 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> μA </entry>
+            </row>
+            <row>
+              <entry colname="col1"> INL </entry>
+              <entry colname="col2"> 6-bit DAC integral non-linearity </entry>
+              <entry colname="col3" translate="no"> –0.5 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 0.5 </entry>
+              <entry colname="col6"> LSB<xref href="#A7B7B465-A81C4C2-11114A8952D45B8-AC8687/_bookmark122">3</xref></entry>
+            </row>
+            <row>
+              <entry colname="col1"> DNL </entry>
+              <entry colname="col2"> 6-bit DAC differential non-linearity </entry>
+              <entry colname="col3" translate="no"> –0.3 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 0.3 </entry>
+              <entry colname="col6"> LSB </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark121">Typical hysteresis is measured with input voltage
+ range limited to 0.6 to V<sub>DD</sub>–0.6 V.</cmd>
+      </step>
+      <step>
+        <cmd>Comparator
+ initialization delay is defined as
+ the time between software writes to change control inputs (Writes to CMP_DACCR[DACEN], CMP_DACCR[VRSEL], CMP_DACCR[VOSEL], CMP_MUXCR[PSEL], and CMP_MUXCR[MSEL]) and the comparator
+ output settling to a stable level.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark122">1 LSB = V<sub>reference</sub>/64</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/H5KV30P64M100SFA_topic78_image041.png" />0.08</p>
+      <p>0.07</p>
+      <p>0.06</p>
+      <p>CMP Hystereris (V)</p>
+      <p>0.05</p>
+      <p>HYSTCTR</p>
+      <p>
+        <u>Setting</u>
+      </p>
+      <p>
+        <image href="../graphics/H5KV30P64M100SFA_topic78_image042.png" />00</p>
+      <p>
+        <image href="../graphics/H5KV30P64M100SFA_topic78_image043.png" />0.04 01</p>
+      <p>10</p>
+      <p>0.03 <sup>11</sup></p>
+      <p>0.02</p>
+      <p>0.01</p>
+      <p>0</p>
+      <p>0.1</p>
+      <p>0.4</p>
+      <p>0.7</p>
+      <p>1 1.3</p>
+      <p>1.6</p>
+      <p>1.9</p>
+      <p>2.2</p>
+      <p>2.5</p>
+      <p>2.8</p>
+      <p>3.1</p>
+      <p>Vin level (V)</p>
+    </result>
+  </taskbody>
+</task>

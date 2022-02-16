@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A77B4645-A285147-C2111215487A102-5D7155">
+  <title>Table 13. JTAG limited voltage range electricals (continued)</title>
+  <conbody>
+    <table>
+      <tgroup cols="5" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Unit</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+              <ul>
+                <li>Boundary Scan</li>
+                <li>JTAG and CJTAG</li>
+              </ul>
+            </entry>
+            <entry colname="col3" translate="no"> 25 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J4 </entry>
+            <entry colname="col2"> TCLK rise and fall times </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 3 </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J5 </entry>
+            <entry colname="col2"> Boundary scan input data setup time to TCLK rise </entry>
+            <entry colname="col3" translate="no"> 20 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J6 </entry>
+            <entry colname="col2"> Boundary scan input data hold time after TCLK rise </entry>
+            <entry colname="col3" translate="no"> 1 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J7 </entry>
+            <entry colname="col2"> TCLK low to boundary scan output data valid </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 25 </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J8 </entry>
+            <entry colname="col2"> TCLK low to boundary scan output high-Z </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 25 </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J9 </entry>
+            <entry colname="col2"> TMS, TDI input data setup time to TCLK rise </entry>
+            <entry colname="col3" translate="no"> 8 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J10 </entry>
+            <entry colname="col2"> TMS, TDI input data hold time after TCLK rise </entry>
+            <entry colname="col3" translate="no"> 1 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J11 </entry>
+            <entry colname="col2"> TCLK low to TDO data valid </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 19 </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J12 </entry>
+            <entry colname="col2"> TCLK low to TDO high-Z </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 19 </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J13 </entry>
+            <entry colname="col2"> TRST assert time </entry>
+            <entry colname="col3" translate="no"> 100 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J14 </entry>
+            <entry colname="col2"> TRST setup time (negation) to TCLK high </entry>
+            <entry colname="col3" translate="no"> 8 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <b>Table 14. JTAG
+ full voltage range electricals</b>
+    </p>
+    <table>
+      <tgroup cols="5" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Unit</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2"> Operating voltage </entry>
+            <entry colname="col3" translate="no"> 1.71 </entry>
+            <entry colname="col4" translate="no"> 3.6 </entry>
+            <entry colname="col5"> V </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J1 </entry>
+            <entry colname="col2">
+              <p>TCLK frequency of operation</p>
+              <ul>
+                <li>Boundary Scan</li>
+                <li>JTAG and CJTAG</li>
+              </ul>
+            </entry>
+            <entry colname="col3" translate="no">
+              <p>0</p>
+              <p>0</p>
+            </entry>
+            <entry colname="col4" translate="no">
+              <p>10</p>
+              <p>15</p>
+            </entry>
+            <entry colname="col5"> MHz </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J2 </entry>
+            <entry colname="col2"> TCLK cycle period </entry>
+            <entry colname="col3"> 1/J1 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J3 </entry>
+            <entry colname="col2">
+              <p>TCLK clock pulse width</p>
+              <ul>
+                <li>Boundary Scan</li>
+                <li>JTAG and CJTAG</li>
+              </ul>
+            </entry>
+            <entry colname="col3" translate="no">
+              <p>50</p>
+              <p>33</p>
+            </entry>
+            <entry colname="col4">
+              <p>—</p>
+              <p>—</p>
+            </entry>
+            <entry colname="col5">  ns ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J4 </entry>
+            <entry colname="col2"> TCLK rise and fall times </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 3 </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J5 </entry>
+            <entry colname="col2"> Boundary scan input data setup time to TCLK rise </entry>
+            <entry colname="col3" translate="no"> 20 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J6 </entry>
+            <entry colname="col2"> Boundary scan input data hold time after TCLK rise </entry>
+            <entry colname="col3" translate="no"> 1.4 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J7 </entry>
+            <entry colname="col2"> TCLK low to boundary scan output data valid </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 27 </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J8 </entry>
+            <entry colname="col2"> TCLK low to boundary scan output high-Z </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 27 </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J9 </entry>
+            <entry colname="col2"> TMS, TDI input data setup time to TCLK rise </entry>
+            <entry colname="col3" translate="no"> 8 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J10 </entry>
+            <entry colname="col2"> TMS, TDI input data hold time after TCLK rise </entry>
+            <entry colname="col3" translate="no"> 1.4 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J11 </entry>
+            <entry colname="col2"> TCLK low to TDO data valid </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 26.2 </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J12 </entry>
+            <entry colname="col2"> TCLK low to TDO high-Z </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 26.2 </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J13 </entry>
+            <entry colname="col2"> TRST assert time </entry>
+            <entry colname="col3" translate="no"> 100 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J14 </entry>
+            <entry colname="col2"> TRST setup time (negation) to TCLK high </entry>
+            <entry colname="col3" translate="no"> 8 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <image href="../graphics/H5KV30P64M100SFA_topic44_image003.png" />TCLK (input)</p>
+    <p>
+      <table>
+        <tgroup cols="2" colsep="1" rowsep="1">
+          <colspec colname="col2" align="left" />
+          <colspec colname="col4" align="left" />
+          <tbody>
+            <row>
+              <entry align="left" colname="col2">
+                <fig>
+                  <image href="../graphics/H5KV30P64M100SFA_topic44_image005.png" />
+                </fig>
+              </entry>
+              <entry align="left" colname="col4">
+                <image href="../graphics/H5KV30P64M100SFA_topic44_image006.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </conbody>
+</concept>

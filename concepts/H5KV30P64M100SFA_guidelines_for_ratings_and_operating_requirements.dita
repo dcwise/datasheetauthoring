@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A7464A-28515C2-111F487F155A7E2-5592B3">
+  <title>Guidelines for ratings and operating requirements</title>
+  <shortdesc>Follow these guidelines for
+ ratings and operating requirements:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Never exceed any of the chip’s ratings.</li>
+      <li>During normal operation, don’t exceed any of the chip’s
+ operating requirements.</li>
+      <li>If you must exceed an operating requirement at times
+ other than during normal operation (for example, during power
+ sequencing), limit the duration as much as
+ possible.</li>
+    </ul>
+  </conbody>
+</concept>

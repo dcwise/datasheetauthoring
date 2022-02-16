@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B74528-14721F2-154A712455DB4DC-FAF69D">
+  <title>Figure 18. DSPI classic SPI timing — master mode</title>
+  <shortdesc id="_bookmark144">
+    <b>Table 33. Slave
+ mode DSPI timing (limited voltage range)</b>
+  </shortdesc>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="6" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Num</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col6">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> Operating voltage </entry>
+              <entry colname="col3" translate="no"> 2.7 </entry>
+              <entry colname="col4" translate="no"> 3.6 </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> Frequency of operation </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 12.5 </entry>
+              <entry colname="col5"> MHz </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#A7B74528-14721F2-154A712455DB4DC-FAF69D/_bookmark143">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS9 </entry>
+              <entry colname="col2"> DSPI_SCK input cycle time </entry>
+              <entry colname="col3"> 4 x t<sub>BUS</sub></entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS10 </entry>
+              <entry colname="col2"> DSPI_SCK input high/low time </entry>
+              <entry colname="col3"> (t<sub>SCK</sub>/2) − 2 </entry>
+              <entry colname="col4"> (t<sub>SCK</sub>/2) + 2 </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS11 </entry>
+              <entry colname="col2"> DSPI_SCK to DSPI_SOUT valid </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 21.4 </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS12 </entry>
+              <entry colname="col2"> DSPI_SCK to DSPI_SOUT invalid </entry>
+              <entry colname="col3" translate="no"> 0 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS13 </entry>
+              <entry colname="col2"> DSPI_SIN to DSPI_SCK input setup </entry>
+              <entry colname="col3" translate="no"> 2.6 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS14 </entry>
+              <entry colname="col2"> DSPI_SCK to DSPI_SIN input hold </entry>
+              <entry colname="col3" translate="no"> 7 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS15 </entry>
+              <entry colname="col2"> DSPI_SS active to DSPI_SOUT driven </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 17 </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DS16 </entry>
+              <entry colname="col2"> DSPI_SS inactive to DSPI_SOUT not driven </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 17 </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark143">The
+ maximum operating frequency is measured with noncontinuous CS and SCK. When
+ DSPI is configured with continuous CS
+ and SCK, the SPI clock must not be greater than 1/6 of the bus clock. For
+ example, when the bus clock is 60 MHz, the SPI clock must not be greater than 10 MHz.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/H5KV30P64M100SFA_topic94_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>
+        <b>Figure 19. DSPI classic SPI
+ timing — slave mode</b>
+      </p>
+    </result>
+  </taskbody>
+</task>

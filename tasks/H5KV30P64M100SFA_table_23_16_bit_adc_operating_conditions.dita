@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AC4645A2-5C5751A-72D745524337933-A6E814">
+  <title>Table 23. 16-bit ADC operating conditions</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="8" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <colspec colname="col8" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Conditions</b>
+              </entry>
+              <entry colname="col4">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Typ.</b>
+                <xref href="#AC4645A2-5C5751A-72D745524337933-A6E814/_bookmark105">
+                  <b>1</b>
+                </xref>
+              </entry>
+              <entry colname="col6">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col7">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col8">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VDDA </entry>
+              <entry colname="col2"> Supply voltage </entry>
+              <entry colname="col3"> Absolute </entry>
+              <entry colname="col4" translate="no"> 1.71 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6" translate="no"> 3.6 </entry>
+              <entry colname="col7"> V </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> ΔVDDA </entry>
+              <entry colname="col2"> Supply voltage </entry>
+              <entry colname="col3"> Delta to V<sub>DD</sub> (V<sub>DD</sub> – V<sub>DDA</sub>) </entry>
+              <entry colname="col4" translate="no"> -100 </entry>
+              <entry colname="col5" translate="no"> 0 </entry>
+              <entry colname="col6" translate="no"> +100 </entry>
+              <entry colname="col7"> mV </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#AC4645A2-5C5751A-72D745524337933-A6E814/_bookmark106">2</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> ΔVSSA </entry>
+              <entry colname="col2"> Ground voltage </entry>
+              <entry colname="col3"> Delta to V<sub>SS</sub> (V<sub>SS</sub> – V<sub>SSA</sub>) </entry>
+              <entry colname="col4" translate="no"> -100 </entry>
+              <entry colname="col5" translate="no"> 0 </entry>
+              <entry colname="col6" translate="no"> +100 </entry>
+              <entry colname="col7"> mV </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#AC4645A2-5C5751A-72D745524337933-A6E814/_bookmark106">2</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VREFH </entry>
+              <entry colname="col2"> ADC reference voltage high </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4" translate="no"> 1.13 </entry>
+              <entry colname="col5"> VDDA </entry>
+              <entry colname="col6"> VDDA </entry>
+              <entry colname="col7"> V </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VREFL </entry>
+              <entry colname="col2"> ADC reference voltage low </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4"> VSSA </entry>
+              <entry colname="col5"> VSSA </entry>
+              <entry colname="col6"> VSSA </entry>
+              <entry colname="col7"> V </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VADIN </entry>
+              <entry colname="col2"> Input voltage </entry>
+              <entry colname="col3">
+                <ul>
+                  <li>16-bit differential mode</li>
+                </ul>
+                <ul>
+                  <li>All other modes</li>
+                </ul>
+              </entry>
+              <entry colname="col4">
+                <p>VREFL</p>
+                <p>VREFL</p>
+              </entry>
+              <entry colname="col5">
+                <p>—</p>
+                <p>—</p>
+              </entry>
+              <entry colname="col6">
+                <p>31/32 * VREFH</p>
+                <p>VREFH</p>
+              </entry>
+              <entry colname="col7"> V </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> CADIN </entry>
+              <entry colname="col2"> Input capacitance </entry>
+              <entry colname="col3">
+                <ul>
+                  <li>16-bit mode</li>
+                  <li>8-bit / 10-bit / 12-bit modes</li>
+                </ul>
+              </entry>
+              <entry colname="col4">
+                <p>—</p>
+                <p>—</p>
+              </entry>
+              <entry colname="col5" translate="no">
+                <p>8</p>
+                <p>4</p>
+              </entry>
+              <entry colname="col6" translate="no">
+                <p>10</p>
+                <p>5</p>
+              </entry>
+              <entry colname="col7"> pF </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> RADIN </entry>
+              <entry colname="col2"> Input series resistance </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 2 </entry>
+              <entry colname="col6" translate="no"> 5 </entry>
+              <entry colname="col7"> kΩ </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> RAS </entry>
+              <entry colname="col2"> Analog source resistance (external) </entry>
+              <entry colname="col3"> 13-bit / 12-bit modes f<sub>ADCK</sub> &lt; 4 MHz </entry>
+              <entry colname="col4">  — </entry>
+              <entry colname="col5">  — </entry>
+              <entry colname="col6" translate="no">  5 </entry>
+              <entry colname="col7">  kΩ </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#task2207/_bookmark107">3</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> fADCK </entry>
+              <entry colname="col2"> ADC conversion clock frequency </entry>
+              <entry colname="col3"> ≤ 13-bit mode </entry>
+              <entry colname="col4" translate="no"> 1.0 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6" translate="no"> 24.0 </entry>
+              <entry colname="col7"> MHz </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#AC4645A2-5C5751A-72D745524337933-A6E814/_bookmark108">4</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> fADCK </entry>
+              <entry colname="col2"> ADC conversion clock frequency </entry>
+              <entry colname="col3"> 16-bit mode </entry>
+              <entry colname="col4" translate="no"> 2.0 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6" translate="no"> 12.0 </entry>
+              <entry colname="col7"> MHz </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#AC4645A2-5C5751A-72D745524337933-A6E814/_bookmark108">4</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Crate </entry>
+              <entry colname="col2"> ADC conversion rate </entry>
+              <entry colname="col3">
+                <p>≤ 13-bit modes</p>
+                <p>No ADC hardware averaging</p>
+                <p>Continuous conversions enabled, subsequent conversion time</p>
+              </entry>
+              <entry colname="col4" translate="no">  20 </entry>
+              <entry colname="col5">  — </entry>
+              <entry colname="col6" translate="no">  1200 </entry>
+              <entry colname="col7">  Ksps </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#AC4645A2-5C5751A-72D745524337933-A6E814/_bookmark109">5</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Crate </entry>
+              <entry colname="col2"> ADC conversion rate </entry>
+              <entry colname="col3">
+                <p>16-bit mode</p>
+                <p>No ADC hardware averaging</p>
+                <p>Continuous conversions enabled, subsequent conversion time</p>
+              </entry>
+              <entry colname="col4" translate="no">  37 </entry>
+              <entry colname="col5">  — </entry>
+              <entry colname="col6" translate="no">  461 </entry>
+              <entry colname="col7">  Ksps </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#AC4645A2-5C5751A-72D745524337933-A6E814/_bookmark109">5</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark105">Typical values assume V<sub>DDA</sub> = 3.0 V, Temp = 25 °C, f<sub>ADCK</sub> = 1.0 MHz, unless otherwise
+ stated. Typical values are for reference only, and are not tested in production.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark106">DC potential
+ difference.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark108">This resistance is external to MCU. To achieve the best results, the analog source resistance must be kept as low as possible. The results in this data sheet were derived from a system that had &lt; 8 Ω analog source resistance. The R<sub>AS</sub>/C<sub>AS</sub> time constant should be kept to &lt; 1 ns.</cmd>
+      </step>
+      <step>
+        <cmd>To use the maximum ADC conversion
+ clock frequency, CFG2[ADHSC] must be set and CFG1[ADLPC] must be clear.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark109">For guidelines and examples of conversion rate calculation, download the <xref href="http://cache.freescale.com/files/soft_dev_tools/software/app_software/converters/ADC_CALCULATOR_CNV.zip?fpsp=1" scope="external" format="html">ADC calculator tool</xref>.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>ZAS</p>
+      <p>SIMPLIFIED INPUT PIN EQUIVALENT</p>
+      <p>Pad leakage</p>
+      <p>CIRCUIT</p>
+      <p>ZADIN</p>
+      <p>
+        <image href="../graphics/H5KV30P64M100SFA_topic72_image006.png" />SIMPLIFIED CHANNEL SELECT</p>
+      <p>CIRCUIT ADC SAR</p>
+      <p>RAS</p>
+      <p>VAS CAS</p>
+      <p>VADIN</p>
+      <p>INPUT PIN</p>
+      <p>INPUT PIN</p>
+      <p>INPUT PIN</p>
+      <p>RADIN</p>
+      <p>RADIN</p>
+      <p>RADIN</p>
+      <p>RADIN</p>
+      <p>ENGINE</p>
+      <p> CADIN</p>
+      <p>
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic72_image007.png" />
+        </fig>
+      </p>
+      <p>
+        <b>Figure 11. ADC input impedance equivalency
+ diagram</b>
+      </p>
+    </result>
+  </taskbody>
+</task>

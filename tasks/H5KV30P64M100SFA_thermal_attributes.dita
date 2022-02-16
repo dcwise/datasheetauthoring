@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7CBA28C-5211487-D1252D74155172D-D7342C">
+  <title>Thermal attributes</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="8" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <colspec colname="col8" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Board type</b>
+              </entry>
+              <entry colname="col2">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col3">
+                <b>Descriptio n</b>
+              </entry>
+              <entry colname="col4">
+                <b>64 LQFP</b>
+              </entry>
+              <entry colname="col5">
+                <b>48 LQFP</b>
+              </entry>
+              <entry colname="col6">
+                <b>32 QFN</b>
+              </entry>
+              <entry colname="col7">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col8">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Single-layer (1s) </entry>
+              <entry colname="col2"> RθJA </entry>
+              <entry colname="col3"> Thermal resistance, junction to ambient (natural convection) </entry>
+              <entry colname="col4" translate="no"> 66 </entry>
+              <entry colname="col5" translate="no"> 79 </entry>
+              <entry colname="col6" translate="no"> 97 </entry>
+              <entry colname="col7"> °C/W </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#A7CBA28C-5211487-D1252D74155172D-D7342C/_bookmark64">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Four-layer (2s2p) </entry>
+              <entry colname="col2"> RθJA </entry>
+              <entry colname="col3"> Thermal resistance, junction to ambient (natural convection) </entry>
+              <entry colname="col4" translate="no"> 48 </entry>
+              <entry colname="col5" translate="no"> 55 </entry>
+              <entry colname="col6" translate="no"> 33 </entry>
+              <entry colname="col7"> °C/W </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#A7CBA28C-5211487-D1252D74155172D-D7342C/_bookmark64">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Single-layer (1s) </entry>
+              <entry colname="col2"> RθJMA </entry>
+              <entry colname="col3"> Thermal resistance, junction to ambient (200 ft./min. air speed) </entry>
+              <entry colname="col4" translate="no"> 54 </entry>
+              <entry colname="col5" translate="no"> 67 </entry>
+              <entry colname="col6" translate="no"> 81 </entry>
+              <entry colname="col7"> °C/W </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#A7CBA28C-5211487-D1252D74155172D-D7342C/_bookmark64">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Four-layer (2s2p) </entry>
+              <entry colname="col2"> RθJMA </entry>
+              <entry colname="col3"> Thermal resistance, junction to ambient (200 ft./min. air speed) </entry>
+              <entry colname="col4" translate="no"> 41 </entry>
+              <entry colname="col5" translate="no"> 49 </entry>
+              <entry colname="col6" translate="no"> 28 </entry>
+              <entry colname="col7"> °C/W </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#A7CBA28C-5211487-D1252D74155172D-D7342C/_bookmark64">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> — </entry>
+              <entry colname="col2"> RθJB </entry>
+              <entry colname="col3"> Thermal resistance, junction to board </entry>
+              <entry colname="col4" translate="no"> 30 </entry>
+              <entry colname="col5" translate="no"> 33 </entry>
+              <entry colname="col6" translate="no"> 13 </entry>
+              <entry colname="col7"> °C/W </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#A7CBA28C-5211487-D1252D74155172D-D7342C/_bookmark65">2</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> — </entry>
+              <entry colname="col2"> RθJC </entry>
+              <entry colname="col3"> Thermal resistance, junction to case </entry>
+              <entry colname="col4" translate="no"> 17 </entry>
+              <entry colname="col5" translate="no"> 23 </entry>
+              <entry colname="col6" translate="no"> 2.0 </entry>
+              <entry colname="col7"> °C/W </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#A7CBA28C-5211487-D1252D74155172D-D7342C/_bookmark66">3</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> — </entry>
+              <entry colname="col2"> ΨJT </entry>
+              <entry colname="col3"> Thermal characterizati </entry>
+              <entry colname="col4" translate="no"> 3 </entry>
+              <entry colname="col5" translate="no"> 5 </entry>
+              <entry colname="col6" translate="no"> 6 </entry>
+              <entry colname="col7"> °C/W </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#A7CBA28C-5211487-D1252D74155172D-D7342C/_bookmark67">4</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table>
+        <tgroup cols="8" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <colspec colname="col8" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Board type</b>
+              </entry>
+              <entry colname="col2">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col3">
+                <b>Descriptio n</b>
+              </entry>
+              <entry colname="col4">
+                <b>64 LQFP</b>
+              </entry>
+              <entry colname="col5">
+                <b>48 LQFP</b>
+              </entry>
+              <entry colname="col6">
+                <b>32 QFN</b>
+              </entry>
+              <entry colname="col7">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col8">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col3"> on parameter, junction to package top outside center (natural convection) </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6">
+              </entry>
+              <entry colname="col7">
+              </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark64">Determined according
+ to JEDEC Standard
+ JESD51-2, <i>Integrated Circuits Thermal
+ Test Method Environmental Conditions—Natural Convection (Still Air)</i>, or EIA/JEDEC Standard
+ JESD51-6, <i>Integrated Circuit Thermal Test Method Environmental Conditions—Forced Convection (Moving Air)</i>.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark65">Determined according
+ to JEDEC Standard JESD51-8, <i>Integrated
+ Circuit Thermal Test Method
+ Environmental Conditions—Junction-to-Board</i>.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark66">Determined according
+ to Method 1012.1 of MIL-STD 883, <i>Test Method Standard, Microcircuits</i>, with the cold plate temperature used for the case
+ temperature. The value includes the thermal resistance
+ of the interface material between the top of the package and the cold plate.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark67">Determined according
+ to JEDEC Standard JESD51-2, <i>Integrated
+ Circuits Thermal Test Method
+ Environmental Conditions—Natural
+ Convection (Still Air)</i>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

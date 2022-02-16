@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="ABC7B45A-2851C45-7CF154A78271559-7135CC">
+  <title>Flash high voltage current behaviors</title>
+  <shortdesc>
+    <b>Table 21. Flash high voltage current behaviors</b>
+  </shortdesc>
+  <conbody>
+    <table>
+      <tgroup cols="6" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Typ.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col6">
+              <b>Unit</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> IDD_PGM </entry>
+            <entry colname="col2"> Average current adder during high voltage flash programming operation </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 2.5 </entry>
+            <entry colname="col5" translate="no"> 6.0 </entry>
+            <entry colname="col6"> mA </entry>
+          </row>
+          <row>
+            <entry colname="col1"> IDD_ERS </entry>
+            <entry colname="col2"> Average current adder during high voltage flash erase operation </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 1.5 </entry>
+            <entry colname="col5" translate="no"> 4.0 </entry>
+            <entry colname="col6"> mA </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

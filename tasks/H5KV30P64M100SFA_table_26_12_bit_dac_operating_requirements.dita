@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B4645A-281C457-C511214A816525D-741555">
+  <title>Table 26. 12-bit DAC operating requirements</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="6" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Desciption</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col6">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VDDA </entry>
+              <entry colname="col2"> Supply voltage </entry>
+              <entry colname="col3" translate="no"> 1.71 </entry>
+              <entry colname="col4" translate="no"> 3.6 </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VDACR </entry>
+              <entry colname="col2"> Reference voltage </entry>
+              <entry colname="col3" translate="no"> 1.13 </entry>
+              <entry colname="col4" translate="no"> 3.6 </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#task386/_bookmark125">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> C<sub>L</sub></entry>
+              <entry colname="col2"> Output load capacitance </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 100 </entry>
+              <entry colname="col5"> pF </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#A7B4645A-281C457-C511214A816525D-741555/_bookmark126">2</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> I<sub>L</sub></entry>
+              <entry colname="col2"> Output load current </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 1 </entry>
+              <entry colname="col5"> mA </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark126">The DAC reference can be selected
+ to be V<sub>DDA</sub> or V<sub>REF_OUT</sub>.</cmd>
+      </step>
+      <step>
+        <cmd>A small load capacitance (47 pF) can improve the bandwidth performance of the DAC.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

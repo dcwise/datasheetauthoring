@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB7B6452-85C4575-211F2154A871252-5D4155">
+  <title>Figure 12. Typical ENOB vs. ADC_CLK for 16-bit differential mode</title>
+  <shortdesc>14.00</shortdesc>
+  <conbody>
+    <p>13.75</p>
+    <p>13.50</p>
+    <p>13.25</p>
+    <p>13.00</p>
+    <p>ENOB</p>
+    <p>12.75</p>
+    <p>12.50</p>
+    <p>12.25</p>
+    <p>12.00</p>
+    <p>11.75</p>
+    <p>11.50</p>
+    <p>11.25</p>
+    <p>11.00</p>
+    <p>Typical ADC 16-bit Single-Ended ENOB vs ADC Clock 100Hz, 90% FS Sine Input</p>
+    <p>
+      <image href="../graphics/H5KV30P64M100SFA_topic76_image001.png" />1 2 3 4 5 6 7 8 9 10</p>
+    <p>ADC Clock Frequency
+ (MHz)</p>
+    <p>11 12</p>
+    <p>
+      <b>Figure 13.
+ Typical ENOB vs. ADC_CLK for 16-bit single-ended mode</b>
+    </p>
+  </conbody>
+</concept>

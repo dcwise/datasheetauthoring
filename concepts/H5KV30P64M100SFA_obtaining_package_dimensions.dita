@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AAC7B4A2-81C7112-1587145A781E572-58AF5F">
+  <title>Obtaining package dimensions</title>
+  <shortdesc>Package dimensions are
+ provided in package drawings.</shortdesc>
+  <conbody>
+    <p>To find
+ a package drawing, go to <xref href="http://www.freescale.com/" scope="external" format="html">nxp.com</xref> and
+ perform a keyword search for the drawing’s
+ document number:</p>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>If you want the drawing for this package</b>
+            </entry>
+            <entry colname="col2">
+              <b>Then use this document number</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 32-pin QFN </entry>
+            <entry colname="col2"> 98ARE10566D </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 48-pin LQFP </entry>
+            <entry colname="col2"> 98ASH00962A </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 64-pin LQFP </entry>
+            <entry colname="col2">
+              <xref href="http://fsls.co/doc/98ASS23234W" scope="external" format="html">98ASS23234W</xref>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="ABC7645A-281C45C-521215487551555-A4D635">
+  <title>Table 1. Voltage and current operating requirements</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="6" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col6">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VDD </entry>
+              <entry colname="col2"> Supply voltage </entry>
+              <entry colname="col3" translate="no"> 1.71 </entry>
+              <entry colname="col4" translate="no"> 3.6 </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VDDA </entry>
+              <entry colname="col2"> Analog supply voltage </entry>
+              <entry colname="col3" translate="no"> 1.71 </entry>
+              <entry colname="col4" translate="no"> 3.6 </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p>
+        <i>Table continues on the next page...</i>
+      </p>
+      <table>
+        <tgroup cols="6" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col6">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VDD – VDDA </entry>
+              <entry colname="col2"> V<sub>DD</sub>-to-V<sub>DDA</sub> differential voltage </entry>
+              <entry colname="col3" translate="no"> –0.1 </entry>
+              <entry colname="col4" translate="no"> 0.1 </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VSS – VSSA </entry>
+              <entry colname="col2"> V<sub>SS</sub>-to-V<sub>SSA</sub> differential voltage </entry>
+              <entry colname="col3" translate="no"> –0.1 </entry>
+              <entry colname="col4" translate="no"> 0.1 </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VBAT:SRPWR </entry>
+              <entry colname="col2"> Power Slew Rate </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 500 </entry>
+              <entry colname="col5"> V/ms </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#ABC7645A-281C45C-521215487551555-A4D635/_bookmark17">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VIH </entry>
+              <entry colname="col2">
+                <p>Input high voltage</p>
+                <ul>
+                  <li>2.7 V ≤ V<sub>DD</sub> ≤ 3.6 V</li>
+                  <li>1.7 V ≤ V<sub>DD</sub> ≤ 2.7 V</li>
+                </ul>
+              </entry>
+              <entry colname="col3">
+                <p>0.7 × V<sub>DD</sub></p>
+                <p>0.75 × V<sub>DD</sub></p>
+              </entry>
+              <entry colname="col4">
+                <p>—</p>
+                <p>—</p>
+              </entry>
+              <entry colname="col5"> V V </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VIL </entry>
+              <entry colname="col2">
+                <p>Input low voltage</p>
+                <ul>
+                  <li>2.7 V ≤ V<sub>DD</sub> ≤ 3.6 V</li>
+                  <li>1.7 V ≤ V<sub>DD</sub> ≤ 2.7 V</li>
+                </ul>
+              </entry>
+              <entry colname="col3">
+                <p>—</p>
+                <p>—</p>
+              </entry>
+              <entry colname="col4">
+                <p>0.35 × V<sub>DD</sub></p>
+                <p>0.3 × V<sub>DD</sub></p>
+              </entry>
+              <entry colname="col5"> V V </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VHYS </entry>
+              <entry colname="col2"> Input hysteresis </entry>
+              <entry colname="col3"> 0.06 × V<sub>DD</sub></entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> IICIO </entry>
+              <entry colname="col2">
+                <p>Analog and I/O pin DC injection current — single pin</p>
+                <ul>
+                  <li>V<sub>IN</sub> &lt; V<sub>SS</sub>-0.3V (Negative current injection)</li>
+                </ul>
+              </entry>
+              <entry colname="col3" translate="no">  -3 </entry>
+              <entry colname="col4">  — </entry>
+              <entry colname="col5">  mA </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#ABC7645A-281C45C-521215487551555-A4D635/_bookmark18">2</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> IICcont </entry>
+              <entry colname="col2">
+                <p>Contiguous pin DC injection current —regional limit, includes sum of negative injection currents or sum of positive injection currents of 16 contiguous pins</p>
+                <ul>
+                  <li>Negative current injection</li>
+                </ul>
+              </entry>
+              <entry colname="col3" translate="no">    -25 </entry>
+              <entry colname="col4">    — </entry>
+              <entry colname="col5">    mA </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VODPU </entry>
+              <entry colname="col2"> Open drain pullup voltage level </entry>
+              <entry colname="col3"> VDD </entry>
+              <entry colname="col4"> VDD </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#ABC7645A-281C45C-521215487551555-A4D635/_bookmark19">3</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VRAM </entry>
+              <entry colname="col2"> V<sub>DD</sub> voltage required to retain RAM </entry>
+              <entry colname="col3" translate="no"> 1.2 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> V </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark17">Applies to all voltages.
+ Slew rate starts at 0 V</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark18">All analog and I/O pins are internally clamped
+ to V<sub>SS</sub> through
+ ESD protection diodes.
+ If V<sub>IN</sub> is less than -0.3 V, a current
+ limiting resistor is required. The negative DC injection current limiting resistor is calculated as R=-0.3V/|I<sub>ICIO</sub>|. The actual resistor value should be an order of magnitude
+ higher to tolerate
+ transient voltages.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark19">Open drain outputs must be pulled to VDD.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

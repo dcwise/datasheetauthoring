@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7BC464A-1C57C21-154B1555D745552-CF3379">
+  <title>Table 15. MCG specifications</title>
+  <conbody>
+    <table>
+      <tgroup cols="8" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <colspec colname="col7" />
+        <colspec colname="col8" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry namest="col2" nameend="col3">
+              <b>Description</b>
+            </entry>
+            <entry colname="col4">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Typ.</b>
+            </entry>
+            <entry colname="col6">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col7">
+              <b>Unit</b>
+            </entry>
+            <entry colname="col8">
+              <b>Notes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> fints_ft </entry>
+            <entry namest="col2" nameend="col3"> Internal reference frequency (slow clock) — factory trimmed at nominal VDD and 25 °C </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> 32.768 </entry>
+            <entry colname="col6"> — </entry>
+            <entry colname="col7"> kHz </entry>
+            <entry colname="col8">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Δfints_t </entry>
+            <entry namest="col2" nameend="col3"> Total deviation of internal reference frequency (slow clock) over voltage and temperature </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> +0.5/-0.7 </entry>
+            <entry colname="col6" translate="no"> ± 2 </entry>
+            <entry colname="col7"> % </entry>
+            <entry colname="col8">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> fints_t </entry>
+            <entry namest="col2" nameend="col3"> Internal reference frequency (slow clock) — user trimmed </entry>
+            <entry colname="col4" translate="no"> 31.25 </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6" translate="no"> 39.0625 </entry>
+            <entry colname="col7"> kHz </entry>
+            <entry colname="col8">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Δfdco_res_t </entry>
+            <entry namest="col2" nameend="col3"> Resolution of trimmed average DCO output frequency at fixed voltage and temperature — using SCTRIM and SCFTRIM </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> ± 0.3 </entry>
+            <entry colname="col6" translate="no"> ± 0.6 </entry>
+            <entry colname="col7"> %fdco </entry>
+            <entry colname="col8" translate="no">
+              <xref href="../tasks/H5KV30P64M100SFA_table_15_mcg_specifications_continued.dita#A7BC7B46-4A5C45C-111154A87B16274-55A8A2/_bookmark75">1</xref>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Δfdco_t </entry>
+            <entry namest="col2" nameend="col3"> Total deviation of trimmed average DCO output frequency over voltage and temperature </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> +0.5/-0.7 </entry>
+            <entry colname="col6" translate="no"> ± 2 </entry>
+            <entry colname="col7"> %fdco </entry>
+            <entry colname="col8" translate="no">
+              <xref href="../tasks/H5KV30P64M100SFA_table_15_mcg_specifications_continued.dita#A7BC7B46-4A5C45C-111154A87B16274-55A8A2/_bookmark75">1</xref>, <xref href="../tasks/H5KV30P64M100SFA_table_15_mcg_specifications_continued.dita#A7BC7B46-4A5C45C-111154A87B16274-55A8A2/_bookmark76">2</xref></entry>
+          </row>
+          <row>
+            <entry colname="col1"> Δfdco_t </entry>
+            <entry namest="col2" nameend="col3"> Total deviation of trimmed average DCO output frequency over fixed voltage and temperature range of 0–70°C </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> ± 0.3 </entry>
+            <entry colname="col6" translate="no"> ± 1.5 </entry>
+            <entry colname="col7"> %fdco </entry>
+            <entry colname="col8" translate="no">
+              <xref href="../tasks/H5KV30P64M100SFA_table_15_mcg_specifications_continued.dita#A7BC7B46-4A5C45C-111154A87B16274-55A8A2/_bookmark75">1</xref>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> fintf_ft </entry>
+            <entry namest="col2" nameend="col3"> Internal reference frequency (fast clock) — factory trimmed at nominal VDD and 25°C </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> 4 </entry>
+            <entry colname="col6"> — </entry>
+            <entry colname="col7"> MHz </entry>
+            <entry colname="col8">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Δfintf_ft </entry>
+            <entry namest="col2" nameend="col3"> Frequency deviation of internal reference clock (fast clock) over temperature and voltage — factory trimmed at nominal VDD and 25 °C </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> +1/-2 </entry>
+            <entry colname="col6" translate="no"> ± 5 </entry>
+            <entry colname="col7"> %fintf_ft </entry>
+            <entry colname="col8">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> fintf_t </entry>
+            <entry namest="col2" nameend="col3"> Internal reference frequency (fast clock) — user trimmed at nominal VDD and 25 °C </entry>
+            <entry colname="col4" translate="no"> 3 </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6" translate="no"> 5 </entry>
+            <entry colname="col7"> MHz </entry>
+            <entry colname="col8">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> floc_low </entry>
+            <entry namest="col2" nameend="col3"> Loss of external clock minimum frequency — RANGE = 00 </entry>
+            <entry colname="col4"> (3/5) x fints_t </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6"> — </entry>
+            <entry colname="col7"> kHz </entry>
+            <entry colname="col8">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> floc_high </entry>
+            <entry namest="col2" nameend="col3"> Loss of external clock minimum frequency — RANGE = 01, 10, or 11 </entry>
+            <entry colname="col4">
+              <p>(16/5) x</p>
+              <p>fints_t</p>
+            </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6"> — </entry>
+            <entry colname="col7"> kHz </entry>
+            <entry colname="col8">
+            </entry>
+          </row>
+          <row>
+            <entry namest="col1" nameend="col8"> FLL </entry>
+          </row>
+          <row>
+            <entry colname="col1"> ffll_ref </entry>
+            <entry namest="col2" nameend="col3"> FLL reference frequency range </entry>
+            <entry colname="col4" translate="no"> 31.25 </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6" translate="no"> 39.0625 </entry>
+            <entry colname="col7"> kHz </entry>
+            <entry colname="col8">
+            </entry>
+          </row>
+          <row>
+            <entry morerows="3" colname="col1"> fdco </entry>
+            <entry morerows="3" colname="col2"> DCO output frequency range </entry>
+            <entry colname="col3">
+              <p>Low range (DRS=00)</p>
+              <p>640 × ffll_ref</p>
+            </entry>
+            <entry colname="col4" translate="no"> 20 </entry>
+            <entry colname="col5" translate="no"> 20.97 </entry>
+            <entry colname="col6" translate="no"> 25 </entry>
+            <entry colname="col7"> MHz </entry>
+            <entry morerows="3" colname="col8" translate="no">
+              <xref href="../tasks/H5KV30P64M100SFA_table_15_mcg_specifications_continued.dita#A7BC7B46-4A5C45C-111154A87B16274-55A8A2/_bookmark77">3</xref>, <xref href="#concept2142/_bookmark78">4</xref></entry>
+          </row>
+          <row>
+            <entry colname="col3">
+              <p>Mid range (DRS=01)</p>
+              <p>1280 × ffll_ref</p>
+            </entry>
+            <entry colname="col4" translate="no"> 40 </entry>
+            <entry colname="col5" translate="no"> 41.94 </entry>
+            <entry colname="col6" translate="no"> 50 </entry>
+            <entry colname="col7"> MHz </entry>
+          </row>
+          <row>
+            <entry colname="col3">
+              <p>Mid-high range (DRS=10)</p>
+              <p>1920 × ffll_ref</p>
+            </entry>
+            <entry colname="col4" translate="no"> 60 </entry>
+            <entry colname="col5" translate="no"> 62.91 </entry>
+            <entry colname="col6" translate="no"> 75 </entry>
+            <entry colname="col7"> MHz </entry>
+          </row>
+          <row>
+            <entry colname="col3">
+              <p>High range (DRS=11)</p>
+              <p>2560 × ffll_ref</p>
+            </entry>
+            <entry colname="col4" translate="no"> 80 </entry>
+            <entry colname="col5" translate="no"> 83.89 </entry>
+            <entry colname="col6" translate="no"> 100 </entry>
+            <entry colname="col7"> MHz </entry>
+          </row>
+          <row>
+            <entry morerows="2" colname="col1">
+              <p>fdco_t_DMX3</p>
+              <p translate="no">2</p>
+            </entry>
+            <entry morerows="2" colname="col2"> DCO output frequency </entry>
+            <entry colname="col3">
+              <p>Low range (DRS=00)</p>
+              <p>732 × ffll_ref</p>
+            </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> 23.99 </entry>
+            <entry colname="col6"> — </entry>
+            <entry colname="col7"> MHz </entry>
+            <entry morerows="2" colname="col8" translate="no">
+              <xref href="../tasks/H5KV30P64M100SFA_table_15_mcg_specifications_continued.dita#A7BC7B46-4A5C45C-111154A87B16274-55A8A2/_bookmark79">5</xref>, <xref href="../tasks/H5KV30P64M100SFA_table_15_mcg_specifications_continued.dita#A7BC7B46-4A5C45C-111154A87B16274-55A8A2/_bookmark80">6</xref></entry>
+          </row>
+          <row>
+            <entry colname="col3">
+              <p>Mid range (DRS=01)</p>
+              <p>1464 × ffll_ref</p>
+            </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> 47.97 </entry>
+            <entry colname="col6"> — </entry>
+            <entry colname="col7"> MHz </entry>
+          </row>
+          <row>
+            <entry colname="col3"> Mid-high range (DRS=10) </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> 71.99 </entry>
+            <entry colname="col6"> — </entry>
+            <entry colname="col7"> MHz </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <i>Table continues on the next page...</i>
+    </p>
+  </conbody>
+</concept>

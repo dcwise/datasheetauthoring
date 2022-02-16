@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A77B4645-A85C457-C2111F154A87155-557F12">
+  <title>Moisture handling ratings</title>
+  <conbody>
+    <table>
+      <tgroup cols="6" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Unit</b>
+            </entry>
+            <entry colname="col6">
+              <b>Notes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> MSL </entry>
+            <entry colname="col2"> Moisture sensitivity level </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 3 </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6" translate="no">
+              <xref href="#A77B4645-A85C457-C2111F154A87155-557F12/_bookmark6">1</xref>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p id="_bookmark6">1.
+ Determined according to IPC/JEDEC Standard J-STD-020, <i>Moisture/Reflow Sensitivity Classification for Nonhermetic Solid State Surface Mount Devices</i>.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AC7B4645-2815752-11F2154A7C1055D-741555">
+  <title>Table 7. EMC radiated emissions operating behaviors for 64 LQFP package</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="7" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Parame ter</b>
+              </entry>
+              <entry colname="col2">
+                <b>Conditions</b>
+              </entry>
+              <entry colname="col3">
+                <b>Clocks</b>
+              </entry>
+              <entry colname="col4">
+                <b>Frequency range</b>
+              </entry>
+              <entry colname="col5">
+                <b>Level (Typ.)</b>
+              </entry>
+              <entry colname="col6">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col7">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry morerows="2" colname="col1"> VEME </entry>
+              <entry morerows="2" colname="col2"> Device configuration, test conditions and EM testing per standard IEC </entry>
+              <entry morerows="2" colname="col3">
+                <p>FSYS = 100 MHz</p>
+                <p>FBUS = 50 MHz</p>
+              </entry>
+              <entry colname="col4"> 150 kHz–50 MHz </entry>
+              <entry colname="col5" translate="no"> 11 </entry>
+              <entry morerows="2" colname="col6"> dBuV </entry>
+              <entry morerows="2" colname="col7" translate="no">
+                <xref href="#AC7B4645-2815752-11F2154A7C1055D-741555/_bookmark45">1</xref>, <xref href="#AC7B4645-2815752-11F2154A7C1055D-741555/_bookmark46">2</xref>, <xref href="#AC7B4645-2815752-11F2154A7C1055D-741555/_bookmark47">3</xref></entry>
+            </row>
+            <row>
+              <entry colname="col4"> 50 MHz–150 MHz </entry>
+              <entry colname="col5" translate="no"> 12 </entry>
+            </row>
+            <row>
+              <entry morerows="1" colname="col4"> 150 MHz–500 MHz </entry>
+              <entry morerows="1" colname="col5" translate="no"> 11 </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2" translate="no"> 61967-2. </entry>
+              <entry colname="col3"> External crystal = 10 MHz </entry>
+              <entry colname="col6">
+              </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> Supply voltage: VDD = </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4"> 500 MHz–1000 MHz </entry>
+              <entry colname="col5" translate="no"> 8 </entry>
+              <entry colname="col6">
+              </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> 3.3 V </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4"> IEC level </entry>
+              <entry colname="col5"> N </entry>
+              <entry morerows="1" colname="col6">
+              </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AC7B4645-2815752-11F2154A7C1055D-741555/_bookmark48">4</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> Temp = 25°C </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark45">Measurements were made per IEC 61967-2 while the device was running
+ typical application code.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark46">Measurements were performed on the 64LQFP device, MKV30F128VLH10.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark47">The
+ reported emission level is the
+ value of the maximum measured
+ emission, rounded up to the
+ next whole number, from among the measured orientations in each frequency
+ range.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark48">IEC Level Maximums: N ≤ 12dBmV,
+ M ≤ 18dBmV, L ≤ 24dBmV, K ≤ 30dBmV,
+ I ≤ 36dBmV .</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

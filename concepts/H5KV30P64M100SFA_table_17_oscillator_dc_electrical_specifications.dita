@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB445A28-5457C52-111F15487B13D74-155C90">
+  <title>Table 17. Oscillator DC electrical specifications</title>
+  <conbody>
+    <table>
+      <tgroup cols="7" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <colspec colname="col7" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Typ.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col6">
+              <b>Unit</b>
+            </entry>
+            <entry colname="col7">
+              <b>Notes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> VDD </entry>
+            <entry colname="col2"> Supply voltage </entry>
+            <entry colname="col3" translate="no"> 1.71 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> 3.6 </entry>
+            <entry colname="col6"> V </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> IDDOSC </entry>
+            <entry colname="col2">
+              <p>Supply current — low-power mode (HGO=0)</p>
+              <ul>
+                <li>32 kHz</li>
+                <li>4 MHz</li>
+                <li>8 MHz (RANGE=01)</li>
+                <li>16 MHz</li>
+                <li>24 MHz</li>
+                <li>32 MHz</li>
+              </ul>
+            </entry>
+            <entry colname="col3">
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+            </entry>
+            <entry colname="col4" translate="no">
+              <p>500</p>
+              <p>200</p>
+              <p>300</p>
+              <p>950</p>
+              <p>1.2</p>
+              <p>1.5</p>
+            </entry>
+            <entry colname="col5">
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+            </entry>
+            <entry colname="col6">  nA μA μA μA mA mA </entry>
+            <entry colname="col7" translate="no">
+              <xref href="#concept1286/_bookmark85">1</xref>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> IDDOSC </entry>
+            <entry colname="col2">
+              <p>Supply current — high-gain mode (HGO=1)</p>
+              <ul>
+                <li>32 kHz</li>
+                <li>4 MHz</li>
+                <li>8 MHz (RANGE=01)</li>
+                <li>16 MHz</li>
+                <li>24 MHz</li>
+                <li>32 MHz</li>
+              </ul>
+            </entry>
+            <entry colname="col3">
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+            </entry>
+            <entry colname="col4" translate="no">
+              <p>25</p>
+              <p>400</p>
+              <p>500</p>
+              <p>2.5</p>
+              <p>3</p>
+              <p>4</p>
+            </entry>
+            <entry colname="col5">
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+              <p>—</p>
+            </entry>
+            <entry colname="col6">  μA μA μA mA mA mA </entry>
+            <entry colname="col7" translate="no">
+              <xref href="#concept1286/_bookmark85">1</xref>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> C<sub>x</sub></entry>
+            <entry colname="col2"> EXTAL load capacitance </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6">
+            </entry>
+            <entry colname="col7" translate="no">
+              <xref href="../tasks/H5KV30P64M100SFA_table_17_oscillator_dc_electrical_specifications_continued.dita#A7BC744A-5C57211-F25A1C55D415553-7BDEC3/_bookmark86">2</xref>, <xref href="#concept1286/_bookmark87">3</xref></entry>
+          </row>
+          <row>
+            <entry colname="col1"> C<sub>y</sub></entry>
+            <entry colname="col2"> XTAL load capacitance </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6">
+            </entry>
+            <entry colname="col7" translate="no">
+              <xref href="../tasks/H5KV30P64M100SFA_table_17_oscillator_dc_electrical_specifications_continued.dita#A7BC744A-5C57211-F25A1C55D415553-7BDEC3/_bookmark86">2</xref>, <xref href="#concept1286/_bookmark87">3</xref></entry>
+          </row>
+          <row>
+            <entry morerows="3" colname="col1"> R<sub>F</sub></entry>
+            <entry colname="col2"> Feedback resistor — low-frequency, low-power mode (HGO=0) </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6"> MΩ </entry>
+            <entry morerows="3" colname="col7" translate="no">
+              <xref href="../tasks/H5KV30P64M100SFA_table_17_oscillator_dc_electrical_specifications_continued.dita#A7BC744A-5C57211-F25A1C55D415553-7BDEC3/_bookmark86">2</xref>, <xref href="../tasks/H5KV30P64M100SFA_table_17_oscillator_dc_electrical_specifications_continued.dita#A7BC744A-5C57211-F25A1C55D415553-7BDEC3/_bookmark88">4</xref></entry>
+          </row>
+          <row>
+            <entry colname="col2"> Feedback resistor — low-frequency, high-gain mode (HGO=1) </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 10 </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6"> MΩ </entry>
+          </row>
+          <row>
+            <entry colname="col2"> Feedback resistor — high-frequency, low- power mode (HGO=0) </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6"> MΩ </entry>
+          </row>
+          <row>
+            <entry colname="col2"> Feedback resistor — high-frequency, high-gain mode (HGO=1) </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 1 </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6"> MΩ </entry>
+          </row>
+          <row>
+            <entry morerows="3" colname="col1"> R<sub>S</sub></entry>
+            <entry colname="col2"> Series resistor — low-frequency, low-power mode (HGO=0) </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6"> kΩ </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col2"> Series resistor — low-frequency, high-gain mode (HGO=1) </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 200 </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6"> kΩ </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col2"> Series resistor — high-frequency, low-power mode (HGO=0) </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6"> kΩ </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col2"> Series resistor — high-frequency, high-gain mode (HGO=1) </entry>
+            <entry colname="col3">    — </entry>
+            <entry colname="col4" translate="no">    0 </entry>
+            <entry colname="col5">    — </entry>
+            <entry colname="col6">    kΩ </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <i>Table continues on the next page...</i>
+    </p>
+  </conbody>
+</concept>

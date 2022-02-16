@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AAB4251C-455111A-8155A85F4D3AA9A-4FD6E7">
+  <title>Fields</title>
+  <shortdesc>This table lists the possible
+ values for each field in the part number (not all combinations are valid):</shortdesc>
+  <conbody>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Field</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Values</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Q </entry>
+            <entry colname="col2"> Qualification status </entry>
+            <entry colname="col3">
+              <ul>
+                <li>M = Fully qualified, general market flow</li>
+                <li>P = Prequalification</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> KV## </entry>
+            <entry colname="col2"> Kinetis V Series </entry>
+            <entry colname="col3">
+              <ul>
+                <li>KV3x: Cortex-M4 based MCU</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> A </entry>
+            <entry colname="col2"> Key attribute </entry>
+            <entry colname="col3">
+              <ul>
+                <li>D = Cortex-M4 w/ DSP</li>
+                <li>F = Cortex-M4 w/ DSP and FPU</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> FFF </entry>
+            <entry colname="col2"> Program flash memory size </entry>
+            <entry colname="col3">
+              <ul>
+                <li>64 = 64 KB</li>
+                <li>128 = 128 KB</li>
+                <li>256 = 256 KB</li>
+                <li>512 = 512 KB</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> R </entry>
+            <entry colname="col2"> Silicon revision </entry>
+            <entry colname="col3">
+              <ul>
+                <li>(Blank) = Main</li>
+                <li>A = Revision after main</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> T </entry>
+            <entry colname="col2"> Temperature range (°C) </entry>
+            <entry colname="col3">
+              <ul>
+                <li>V = –40 to 105</li>
+                <li>C = –40 to 85</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> PP </entry>
+            <entry colname="col2"> Package identifier </entry>
+            <entry colname="col3">
+              <ul>
+                <li>FM = 32 QFN (5 mm x 5 mm)</li>
+                <li>LF = 48 LQFP (7 mm x 7 mm)</li>
+                <li>LH = 64 LQFP (10 mm x 10 mm)</li>
+                <li>LL = 100 LQFP (14 mm x 14 mm)</li>
+                <li>MC = 121 XFBGA (8 mm x 8 mm)</li>
+                <li>DC = 121 XFBGA (8 mm x 8 mm x 0.5 mm)</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> CC </entry>
+            <entry colname="col2"> Maximum CPU frequency (MHz) </entry>
+            <entry colname="col3">
+              <ul>
+                <li>10 = 100 MHz</li>
+                <li>12 = 120 MHz</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> S </entry>
+            <entry colname="col2"> Software type </entry>
+            <entry colname="col3">
+              <ul>
+                <li>(Blank) = Not software enabled</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> N </entry>
+            <entry colname="col2"> Packaging type </entry>
+            <entry colname="col3">
+              <ul>
+                <li>R = Tape and reel</li>
+                <li>(Blank) = Trays</li>
+              </ul>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

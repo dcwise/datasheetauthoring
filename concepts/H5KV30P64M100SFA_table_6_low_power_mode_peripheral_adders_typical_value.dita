@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="ABCB65A8-1C5C521-15475415522C244-364B58">
+  <title>Table 6. Low power mode peripheral adders—typical value</title>
+  <conbody>
+    <table>
+      <tgroup cols="9" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <colspec colname="col7" />
+        <colspec colname="col8" />
+        <colspec colname="col9" />
+        <tbody>
+          <row>
+            <entry morerows="1" colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry morerows="1" colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry namest="col3" nameend="col8">
+              <b>Temperature (°C)</b>
+            </entry>
+            <entry morerows="1" colname="col9">
+              <b>Unit</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col3" translate="no">
+              <b>-40</b>
+            </entry>
+            <entry colname="col4" translate="no">
+              <b>25</b>
+            </entry>
+            <entry colname="col5" translate="no">
+              <b>50</b>
+            </entry>
+            <entry colname="col6" translate="no">
+              <b>70</b>
+            </entry>
+            <entry colname="col7" translate="no">
+              <b>85</b>
+            </entry>
+            <entry colname="col8" translate="no">
+              <b>105</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> IIREFSTEN4MHz </entry>
+            <entry colname="col2"> 4 MHz internal reference clock (IRC) adder. Measured by entering STOP or VLPS mode with 4 MHz IRC enabled. </entry>
+            <entry colname="col3" translate="no"> 56 </entry>
+            <entry colname="col4" translate="no"> 56 </entry>
+            <entry colname="col5" translate="no"> 56 </entry>
+            <entry colname="col6" translate="no"> 56 </entry>
+            <entry colname="col7" translate="no"> 56 </entry>
+            <entry colname="col8" translate="no"> 56 </entry>
+            <entry colname="col9"> µA </entry>
+          </row>
+          <row>
+            <entry colname="col1"> IIREFSTEN32KHz </entry>
+            <entry colname="col2"> 32 kHz internal reference clock (IRC) adder. Measured by entering STOP mode with the 32 kHz IRC enabled. </entry>
+            <entry colname="col3" translate="no"> 52 </entry>
+            <entry colname="col4" translate="no"> 52 </entry>
+            <entry colname="col5" translate="no"> 52 </entry>
+            <entry colname="col6" translate="no"> 52 </entry>
+            <entry colname="col7" translate="no"> 52 </entry>
+            <entry colname="col8" translate="no"> 52 </entry>
+            <entry colname="col9"> µA </entry>
+          </row>
+          <row>
+            <entry colname="col1"> IEREFSTEN4MHz </entry>
+            <entry colname="col2"> External 4 MHz crystal clock adder. Measured by entering STOP or VLPS mode with the crystal enabled. </entry>
+            <entry colname="col3" translate="no"> 206 </entry>
+            <entry colname="col4" translate="no"> 228 </entry>
+            <entry colname="col5" translate="no"> 237 </entry>
+            <entry colname="col6" translate="no"> 245 </entry>
+            <entry colname="col7" translate="no"> 251 </entry>
+            <entry colname="col8" translate="no"> 258 </entry>
+            <entry colname="col9"> uA </entry>
+          </row>
+          <row>
+            <entry colname="col1"> IEREFSTEN32KHz </entry>
+            <entry colname="col2"> External 32 kHz crystal clock adder by means of the OSC0_CR[EREFSTEN and EREFSTEN] bits. Measured by entering all modes with the crystal enabled. </entry>
+            <entry colname="col3">
+            </entry>
+            <entry colname="col4">
+            </entry>
+            <entry colname="col5">
+            </entry>
+            <entry colname="col6">
+            </entry>
+            <entry colname="col7">
+            </entry>
+            <entry colname="col8">
+            </entry>
+            <entry colname="col9">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2"> VLLS1 </entry>
+            <entry colname="col3" translate="no"> 440 </entry>
+            <entry colname="col4" translate="no"> 490 </entry>
+            <entry colname="col5" translate="no"> 540 </entry>
+            <entry colname="col6" translate="no"> 560 </entry>
+            <entry colname="col7" translate="no"> 570 </entry>
+            <entry colname="col8" translate="no"> 580 </entry>
+            <entry colname="col9"> nA </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2"> VLLS3 </entry>
+            <entry colname="col3" translate="no"> 440 </entry>
+            <entry colname="col4" translate="no"> 490 </entry>
+            <entry colname="col5" translate="no"> 540 </entry>
+            <entry colname="col6" translate="no"> 560 </entry>
+            <entry colname="col7" translate="no"> 570 </entry>
+            <entry colname="col8" translate="no"> 580 </entry>
+            <entry colname="col9">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2"> LLS </entry>
+            <entry colname="col3" translate="no"> 490 </entry>
+            <entry colname="col4" translate="no"> 490 </entry>
+            <entry colname="col5" translate="no"> 540 </entry>
+            <entry colname="col6" translate="no"> 560 </entry>
+            <entry colname="col7" translate="no"> 570 </entry>
+            <entry colname="col8" translate="no"> 680 </entry>
+            <entry colname="col9">
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <b>Table 6. Low power mode peripheral adders—typical
+ value (continued)</b>
+    </p>
+    <table>
+      <tgroup cols="9" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <colspec colname="col7" />
+        <colspec colname="col8" />
+        <colspec colname="col9" />
+        <tbody>
+          <row>
+            <entry morerows="1" colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry morerows="1" colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry namest="col3" nameend="col8">
+              <b>Temperature (°C)</b>
+            </entry>
+            <entry morerows="1" colname="col9">
+              <b>Unit</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col3" translate="no">
+              <b>-40</b>
+            </entry>
+            <entry colname="col4" translate="no">
+              <b>25</b>
+            </entry>
+            <entry colname="col5" translate="no">
+              <b>50</b>
+            </entry>
+            <entry colname="col6" translate="no">
+              <b>70</b>
+            </entry>
+            <entry colname="col7" translate="no">
+              <b>85</b>
+            </entry>
+            <entry colname="col8" translate="no">
+              <b>105</b>
+            </entry>
+          </row>
+          <row>
+            <entry morerows="1" colname="col1">
+            </entry>
+            <entry colname="col2"> VLPS </entry>
+            <entry colname="col3" translate="no"> 510 </entry>
+            <entry colname="col4" translate="no"> 560 </entry>
+            <entry colname="col5" translate="no"> 560 </entry>
+            <entry colname="col6" translate="no"> 560 </entry>
+            <entry colname="col7" translate="no"> 610 </entry>
+            <entry colname="col8" translate="no"> 680 </entry>
+            <entry morerows="1" colname="col9">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col2"> STOP </entry>
+            <entry colname="col3" translate="no"> 510 </entry>
+            <entry colname="col4" translate="no"> 560 </entry>
+            <entry colname="col5" translate="no"> 560 </entry>
+            <entry colname="col6" translate="no"> 560 </entry>
+            <entry colname="col7" translate="no"> 610 </entry>
+            <entry colname="col8" translate="no"> 680 </entry>
+          </row>
+          <row>
+            <entry colname="col1"> I48MIRC </entry>
+            <entry colname="col2"> 48 Mhz internal reference clock </entry>
+            <entry colname="col3" translate="no"> 350 </entry>
+            <entry colname="col4" translate="no"> 350 </entry>
+            <entry colname="col5" translate="no"> 350 </entry>
+            <entry colname="col6" translate="no"> 350 </entry>
+            <entry colname="col7" translate="no"> 350 </entry>
+            <entry colname="col8" translate="no"> 350 </entry>
+            <entry colname="col9"> µA </entry>
+          </row>
+          <row>
+            <entry colname="col1"> ICMP </entry>
+            <entry colname="col2">
+              <p>CMP peripheral adder measured by placing the device in VLLS1 mode with CMP enabled using the 6-bit DAC and a single external input for compare.</p>
+              <p>Includes 6-bit DAC power consumption.</p>
+            </entry>
+            <entry colname="col3" translate="no"> 22 </entry>
+            <entry colname="col4" translate="no"> 22 </entry>
+            <entry colname="col5" translate="no"> 22 </entry>
+            <entry colname="col6" translate="no"> 22 </entry>
+            <entry colname="col7" translate="no"> 22 </entry>
+            <entry colname="col8" translate="no"> 22 </entry>
+            <entry colname="col9"> µA </entry>
+          </row>
+          <row>
+            <entry colname="col1"> IUART </entry>
+            <entry colname="col2"> UART peripheral adder measured by placing the device in STOP or VLPS mode with selected clock source waiting for RX data at 115200 baud rate. Includes selected clock source power consumption. </entry>
+            <entry colname="col3">
+            </entry>
+            <entry colname="col4">
+            </entry>
+            <entry colname="col5">
+            </entry>
+            <entry colname="col6">
+            </entry>
+            <entry colname="col7">
+            </entry>
+            <entry colname="col8">
+            </entry>
+            <entry colname="col9">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2"> MCGIRCLK (4 MHz internal reference clock) </entry>
+            <entry colname="col3" translate="no"> 66 </entry>
+            <entry colname="col4" translate="no"> 66 </entry>
+            <entry colname="col5" translate="no"> 66 </entry>
+            <entry colname="col6" translate="no"> 66 </entry>
+            <entry colname="col7" translate="no"> 66 </entry>
+            <entry colname="col8" translate="no"> 66 </entry>
+            <entry colname="col9"> µA </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2"> &gt;OSCERCLK (4 MHz external crystal) </entry>
+            <entry colname="col3" translate="no"> 214 </entry>
+            <entry colname="col4" translate="no"> 237 </entry>
+            <entry colname="col5" translate="no"> 246 </entry>
+            <entry colname="col6" translate="no"> 254 </entry>
+            <entry colname="col7" translate="no"> 260 </entry>
+            <entry colname="col8" translate="no"> 268 </entry>
+            <entry colname="col9">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> IBG </entry>
+            <entry colname="col2"> Bandgap adder when BGEN bit is set and device is placed in VLPx, LLS, or VLLSx mode. </entry>
+            <entry colname="col3" translate="no"> 45 </entry>
+            <entry colname="col4" translate="no"> 45 </entry>
+            <entry colname="col5" translate="no"> 45 </entry>
+            <entry colname="col6" translate="no"> 45 </entry>
+            <entry colname="col7" translate="no"> 45 </entry>
+            <entry colname="col8" translate="no"> 45 </entry>
+            <entry colname="col9"> µA </entry>
+          </row>
+          <row>
+            <entry colname="col1"> IADC </entry>
+            <entry colname="col2"> ADC peripheral adder combining the measured values at V<sub>DD</sub> and V<sub>DDA</sub> by placing the device in STOP or VLPS mode. ADC is configured for low power mode using the internal clock and continuous conversions. </entry>
+            <entry colname="col3" translate="no"> 42 </entry>
+            <entry colname="col4" translate="no"> 42 </entry>
+            <entry colname="col5" translate="no"> 42 </entry>
+            <entry colname="col6" translate="no"> 42 </entry>
+            <entry colname="col7" translate="no"> 42 </entry>
+            <entry colname="col8" translate="no"> 42 </entry>
+            <entry colname="col9"> µA </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="ABC74645-A2851C4-5C11487055D7153-D524CC">
+  <title>Table 16. IRC48M specifications</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="7" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Typ.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col6">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col7">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VDD </entry>
+              <entry colname="col2"> Supply voltage </entry>
+              <entry colname="col3" translate="no"> 1.71 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 3.6 </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> IDD48M </entry>
+              <entry colname="col2"> Supply current </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 400 </entry>
+              <entry colname="col5" translate="no"> 500 </entry>
+              <entry colname="col6"> μA </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> firc48m </entry>
+              <entry colname="col2"> Internal reference frequency </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 48 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> MHz </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Δfirc48m_hv </entry>
+              <entry colname="col2"> Total deviation of IRC48M frequency at high voltage (VDD=1.89V-3.6V) over full temperature </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> ± 0.5 </entry>
+              <entry colname="col5" translate="no"> ± 1.5 </entry>
+              <entry colname="col6"> %firc48m </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Δfirc48m_hv </entry>
+              <entry colname="col2"> Total deviation of IRC48M frequency at high voltage (VDD=1.89V-3.6V) over -40°C to 85°C </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> ± 0.5 </entry>
+              <entry colname="col5" translate="no"> ± 1.0 </entry>
+              <entry colname="col6"> %firc48m </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Δfirc48m_lv </entry>
+              <entry colname="col2"> Total deviation of IRC48M frequency at low voltage (VDD=1.71V-1.89V) over full temperature </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> ± 0.5 </entry>
+              <entry colname="col5" translate="no"> ± 2.0 </entry>
+              <entry colname="col6"> %firc48m </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Jcyc_irc48m </entry>
+              <entry colname="col2"> Period Jitter (RMS) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 35 </entry>
+              <entry colname="col5" translate="no"> 150 </entry>
+              <entry colname="col6"> ps </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tirc48mst </entry>
+              <entry colname="col2"> Startup time </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 2 </entry>
+              <entry colname="col5" translate="no"> 3 </entry>
+              <entry colname="col6"> μs </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#ABC74645-A2851C4-5C11487055D7153-D524CC/_bookmark83">1</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark83">IRC48M
+ startup time is defined as the time between clock enablement and clock
+ availability for system use. Enable the clock by one of the following
+ settings:</cmd>
+        <info>
+          <ul>
+            <li>MCG operating
+ in an external clocking mode and MCG_C7[OSCSEL]=10 or MCG_C5[PLLCLKEN0]=1, or</li>
+            <li>SIM_SOPT2[PLLFLLSEL]=11</li>
+          </ul>
+        </info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

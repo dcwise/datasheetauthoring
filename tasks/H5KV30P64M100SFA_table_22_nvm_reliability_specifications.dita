@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7C7B464-5A87C52-111F215A8C52741-5C3986">
+  <title>Table 22. NVM reliability specifications</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="7" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Typ.</b>
+                <xref href="#A7C7B464-5A87C52-111F215A8C52741-5C3986/_bookmark99">
+                  <b>1</b>
+                </xref>
+              </entry>
+              <entry colname="col5">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col6">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col7">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry namest="col1" nameend="col7"> Program Flash </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tnvmretp10k </entry>
+              <entry colname="col2"> Data retention after up to 10 K cycles </entry>
+              <entry colname="col3" translate="no"> 5 </entry>
+              <entry colname="col4" translate="no"> 50 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> years </entry>
+              <entry colname="col7"> — </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tnvmretp1k </entry>
+              <entry colname="col2"> Data retention after up to 1 K cycles </entry>
+              <entry colname="col3" translate="no"> 20 </entry>
+              <entry colname="col4" translate="no"> 100 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> years </entry>
+              <entry colname="col7"> — </entry>
+            </row>
+            <row>
+              <entry colname="col1"> nnvmcycp </entry>
+              <entry colname="col2"> Cycling endurance </entry>
+              <entry colname="col3"> 10 K </entry>
+              <entry colname="col4"> 50 K </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> cycles </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#A7C7B464-5A87C52-111F215A8C52741-5C3986/_bookmark100">2</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark99">Typical data retention values are based on measured
+ response accelerated at high temperature and derated to a constant 25 °C use profile. Engineering Bulletin EB618 does not apply to this
+ technology. Typical endurance defined
+ in Engineering Bulletin
+ EB619.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark100">Cycling endurance represents
+ number of program/erase cycles at –40 °C ≤ T<sub>j</sub> ≤ 125 °C.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

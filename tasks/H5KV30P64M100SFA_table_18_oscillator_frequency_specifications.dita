@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7CB44A8-145C124-7452415D8DC1BB9-CC26F2">
+  <title>Table 18. Oscillator frequency specifications</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="7" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Typ.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col6">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col7">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> fosc_lo </entry>
+              <entry colname="col2"> Oscillator crystal or resonator frequency — low- frequency mode (MCG_C2[RANGE]=00) </entry>
+              <entry colname="col3" translate="no"> 32 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 40 </entry>
+              <entry colname="col6"> kHz </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> fosc_hi_1 </entry>
+              <entry colname="col2"> Oscillator crystal or resonator frequency — high- frequency mode (low range) (MCG_C2[RANGE]=01) </entry>
+              <entry colname="col3" translate="no"> 3 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 8 </entry>
+              <entry colname="col6"> MHz </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> fosc_hi_2 </entry>
+              <entry colname="col2"> Oscillator crystal or resonator frequency — high frequency mode (high range) (MCG_C2[RANGE]=1x) </entry>
+              <entry colname="col3" translate="no"> 8 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 32 </entry>
+              <entry colname="col6"> MHz </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> fec_extal </entry>
+              <entry colname="col2"> Input clock frequency (external clock mode) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 50 </entry>
+              <entry colname="col6"> MHz </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#A7CB44A8-145C124-7452415D8DC1BB9-CC26F2/_bookmark90">1</xref>, <xref href="#A7CB44A8-145C124-7452415D8DC1BB9-CC26F2/_bookmark91">2</xref></entry>
+            </row>
+            <row>
+              <entry colname="col1"> tdc_extal </entry>
+              <entry colname="col2"> Input clock duty cycle (external clock mode) </entry>
+              <entry colname="col3" translate="no"> 40 </entry>
+              <entry colname="col4" translate="no"> 50 </entry>
+              <entry colname="col5" translate="no"> 60 </entry>
+              <entry colname="col6"> % </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry morerows="3" colname="col1"> tcst </entry>
+              <entry colname="col2"> Crystal startup time — 32 kHz low-frequency, low-power mode (HGO=0) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 750 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> ms </entry>
+              <entry morerows="3" colname="col7" translate="no">
+                <xref href="#A7CB44A8-145C124-7452415D8DC1BB9-CC26F2/_bookmark92">3</xref>, <xref href="#A7CB44A8-145C124-7452415D8DC1BB9-CC26F2/_bookmark93">4</xref></entry>
+            </row>
+            <row>
+              <entry colname="col2"> Crystal startup time — 32 kHz low-frequency, high-gain mode (HGO=1) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 250 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> ms </entry>
+            </row>
+            <row>
+              <entry colname="col2"> Crystal startup time — 8 MHz high-frequency (MCG_C2[RANGE]=01), low-power mode (HGO=0) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 0.6 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> ms </entry>
+            </row>
+            <row>
+              <entry colname="col2"> Crystal startup time — 8 MHz high-frequency (MCG_C2[RANGE]=01), high-gain mode (HGO=1) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 1 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> ms </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark90">Other frequency limits may apply when external
+ clock is being used as a reference
+ for the FLL</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark91">When
+ transitioning from FEI or FBI to FBE mode, restrict
+ the frequency of the input clock so that, when it is divided by FRDIV, it remains within the limits of the DCO input clock frequency.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark92">Proper PC board layout procedures must be followed
+ to achieve specifications.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark93">Crystal
+ startup time is defined as the time
+ between the oscillator being enabled and the
+ OSCINIT bit in the MCG_S register being set.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

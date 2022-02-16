@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB6528C5-211F215-4A71525D7415559-4422DF">
+  <title>Table 3. Voltage and current operating behaviors</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="7" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Typ.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col6">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col7">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VOH </entry>
+              <entry colname="col2"> Output high voltage — Normal drive pad except RESET_B </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6">
+              </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> 2.7 V ≤ V<sub>DD</sub> ≤ 3.6 V, I<sub>OH</sub> = -5 mA </entry>
+              <entry colname="col3"> V<sub>DD</sub> – 0.5 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AB6528C5-211F215-4A71525D7415559-4422DF/_bookmark23">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> 1.71 V ≤ V<sub>DD</sub> ≤ 2.7 V, I<sub>OH</sub> = -2.5 mA </entry>
+              <entry colname="col3"> V<sub>DD</sub> – 0.5 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VOH </entry>
+              <entry colname="col2"> Output high voltage — High drive pad except RESET_B </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6">
+              </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> 2.7 V ≤ V<sub>DD</sub> ≤ 3.6 V, I<sub>OH</sub> = -20 mA </entry>
+              <entry colname="col3"> V<sub>DD</sub> – 0.5 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AB6528C5-211F215-4A71525D7415559-4422DF/_bookmark23">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> 1.71 V ≤ V<sub>DD</sub> ≤ 2.7 V, I<sub>OH</sub> = -10 mA </entry>
+              <entry colname="col3"> V<sub>DD</sub> – 0.5 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> IOHT </entry>
+              <entry colname="col2"> Output high current total for all ports </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 100 </entry>
+              <entry colname="col6"> mA </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VOL </entry>
+              <entry colname="col2"> Output low voltage — Normal drive pad except RESET_B </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6">
+              </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> 2.7 V ≤ V<sub>DD</sub> ≤ 3.6 V, I<sub>OL</sub> = 5 mA </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 0.5 </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AB6528C5-211F215-4A71525D7415559-4422DF/_bookmark23">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> 1.71 V ≤ V<sub>DD</sub> ≤ 2.7 V, I<sub>OL</sub> = 2.5 mA </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 0.5 </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VOL </entry>
+              <entry colname="col2"> Output low voltage — High drive pad except RESET_B </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6">
+              </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> 2.7 V ≤ V<sub>DD</sub> ≤ 3.6 V, I<sub>OL</sub> = 20 mA </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 0.5 </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AB6528C5-211F215-4A71525D7415559-4422DF/_bookmark23">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> 1.71 V ≤ V<sub>DD</sub> ≤ 2.7 V, I<sub>OL</sub> = 10 mA </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 0.5 </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VOL </entry>
+              <entry colname="col2"> Output low voltage — RESET_B </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6">
+              </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p>
+        <i>Table continues on the next page...</i>
+      </p>
+      <table>
+        <tgroup cols="7" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Typ.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col6">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col7">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+                <p>2.7 V ≤ V<sub>DD</sub> ≤ 3.6 V, I<sub>OL</sub> = 3 mA</p>
+                <p>1.71 V ≤ V<sub>DD</sub> ≤ 2.7 V, I<sub>OL</sub> = 1.5 mA</p>
+              </entry>
+              <entry colname="col3">
+                <p>—</p>
+                <p>—</p>
+              </entry>
+              <entry colname="col4">
+                <p>—</p>
+                <p>—</p>
+              </entry>
+              <entry colname="col5" translate="no">
+                <p>0.5</p>
+                <p>0.5</p>
+              </entry>
+              <entry colname="col6">
+                <p>V</p>
+                <p>V</p>
+              </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> IOLT </entry>
+              <entry colname="col2"> Output low current total for all ports </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 100 </entry>
+              <entry colname="col6"> mA </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> IIN </entry>
+              <entry colname="col2">
+                <p>Input leakage current (per pin) for full temperature range</p>
+                <p>All pins other than high drive port pins High drive port pins</p>
+              </entry>
+              <entry colname="col3">
+                <p>—</p>
+                <p>—</p>
+              </entry>
+              <entry colname="col4" translate="no">
+                <p>0.002</p>
+                <p>0.004</p>
+              </entry>
+              <entry colname="col5" translate="no">
+                <p>0.5</p>
+                <p>0.5</p>
+              </entry>
+              <entry colname="col6">   μA μA </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AB6528C5-211F215-4A71525D7415559-4422DF/_bookmark23">1</xref>, <xref href="#AB6528C5-211F215-4A71525D7415559-4422DF/_bookmark24">2</xref></entry>
+            </row>
+            <row>
+              <entry colname="col1"> IIN </entry>
+              <entry colname="col2"> Input leakage current (total all pins) for full temperature range </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 1.0 </entry>
+              <entry colname="col6"> μA </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AB6528C5-211F215-4A71525D7415559-4422DF/_bookmark24">2</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> RPU </entry>
+              <entry colname="col2"> Internal pullup resistors </entry>
+              <entry colname="col3" translate="no"> 20 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 50 </entry>
+              <entry colname="col6"> kΩ </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#task1994/_bookmark25">3</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> RPD </entry>
+              <entry colname="col2"> Internal pulldown resistors </entry>
+              <entry colname="col3" translate="no"> 20 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 50 </entry>
+              <entry colname="col6"> kΩ </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AB6528C5-211F215-4A71525D7415559-4422DF/_bookmark26">4</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark23">PTB0,
+ PTB1, PTC3, PTC4, PTD4, PTD5, PTD6,
+ and PTD7 I/O have both high
+ drive and normal drive capability selected by the associated PTx_PCRn[DSE] control bit. All other GPIOs are normal drive only.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark24">Measured at VDD=3.6V</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark26">Measured at V<sub>DD</sub> supply voltage = V<sub>DD</sub> min and Vinput = V<sub>SS</sub></cmd>
+      </step>
+      <step>
+        <cmd>Measured at V<sub>DD</sub> supply voltage = V<sub>DD</sub> min and Vinput = V<sub>DD</sub></cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

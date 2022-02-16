@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7BB4528-5C47211-14815D155B14F33-4F7F5E">
+  <title>Table 20. Flash command timing specifications</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="7" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Typ.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col6">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col7">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> trd1sec2k </entry>
+              <entry colname="col2"> Read 1s Section execution time (flash sector) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 60 </entry>
+              <entry colname="col6"> μs </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#A7BB4528-5C47211-14815D155B14F33-4F7F5E/_bookmark97">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tpgmchk </entry>
+              <entry colname="col2"> Program Check execution time </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 45 </entry>
+              <entry colname="col6"> μs </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#A7BB4528-5C47211-14815D155B14F33-4F7F5E/_bookmark97">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> trdrsrc </entry>
+              <entry colname="col2"> Read Resource execution time </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 30 </entry>
+              <entry colname="col6"> μs </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#A7BB4528-5C47211-14815D155B14F33-4F7F5E/_bookmark97">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tpgm4 </entry>
+              <entry colname="col2"> Program Longword execution time </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 65 </entry>
+              <entry colname="col5" translate="no"> 145 </entry>
+              <entry colname="col6"> μs </entry>
+              <entry colname="col7"> — </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tersscr </entry>
+              <entry colname="col2"> Erase Flash Sector execution time </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 14 </entry>
+              <entry colname="col5" translate="no"> 114 </entry>
+              <entry colname="col6"> ms </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#A7BB4528-5C47211-14815D155B14F33-4F7F5E/_bookmark98">2</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> trd1all </entry>
+              <entry colname="col2"> Read 1s All Blocks execution time </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 0.9 </entry>
+              <entry colname="col6"> ms </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#A7BB4528-5C47211-14815D155B14F33-4F7F5E/_bookmark97">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> trdonce </entry>
+              <entry colname="col2"> Read Once execution time </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 30 </entry>
+              <entry colname="col6"> μs </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#A7BB4528-5C47211-14815D155B14F33-4F7F5E/_bookmark97">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tpgmonce </entry>
+              <entry colname="col2"> Program Once execution time </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 100 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> μs </entry>
+              <entry colname="col7"> — </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tersall </entry>
+              <entry colname="col2"> Erase All Blocks execution time </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 140 </entry>
+              <entry colname="col5" translate="no"> 1150 </entry>
+              <entry colname="col6"> ms </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#A7BB4528-5C47211-14815D155B14F33-4F7F5E/_bookmark98">2</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tvfykey </entry>
+              <entry colname="col2"> Verify Backdoor Access Key execution time </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 30 </entry>
+              <entry colname="col6"> μs </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#A7BB4528-5C47211-14815D155B14F33-4F7F5E/_bookmark97">1</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark97">Assumes 25 MHz flash clock frequency.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark98">Maximum times for erase parameters based on expectations at cycling end-of-life.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

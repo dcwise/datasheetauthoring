@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="ABC74485-1CC5111-F14A76D55D712BC-9D0251">
+  <title>Table 30. VREF limited-range operating requirements</title>
+  <conbody>
+    <table>
+      <tgroup cols="6" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Unit</b>
+            </entry>
+            <entry colname="col6">
+              <b>Notes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> T<sub>A</sub></entry>
+            <entry colname="col2"> Temperature </entry>
+            <entry colname="col3" translate="no"> 0 </entry>
+            <entry colname="col4" translate="no"> 70 </entry>
+            <entry colname="col5"> °C </entry>
+            <entry colname="col6">
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <b>Table 31. VREF
+ limited-range operating behaviors</b>
+    </p>
+    <table>
+      <tgroup cols="6" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Unit</b>
+            </entry>
+            <entry colname="col6">
+              <b>Notes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Vtdrift </entry>
+            <entry colname="col2"> Temperature drift (V<sub>max</sub> -V<sub>min</sub> across the limited temperature range) </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 10 </entry>
+            <entry colname="col5"> mV </entry>
+            <entry colname="col6">
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

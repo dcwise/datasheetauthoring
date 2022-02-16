@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B7B65A-81457C5-1F215F515A4DEA7-1F1DC6">
+  <title>Table 4. Power mode transition operating behaviors</title>
+  <conbody>
+    <table>
+      <tgroup cols="7" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <colspec colname="col7" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Typ.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col6">
+              <b>Unit</b>
+            </entry>
+            <entry colname="col7">
+              <b>Notes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> tPOR </entry>
+            <entry colname="col2"> After a POR event, amount of time from the point V<sub>DD</sub> reaches 1.71 V to execution of the first instruction across the operating temperature range of the chip. </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> 300 </entry>
+            <entry colname="col6"> μs </entry>
+            <entry colname="col7" translate="no">
+              <xref href="#A7B7B65A-81457C5-1F215F515A4DEA7-1F1DC6/_bookmark28">1</xref>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+              <ul>
+                <li>VLLS0 → RUN</li>
+              </ul>
+            </entry>
+            <entry colname="col3">  — </entry>
+            <entry colname="col4">  — </entry>
+            <entry colname="col5" translate="no">  135 </entry>
+            <entry colname="col6">  μs </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+              <ul>
+                <li>VLLS1 → RUN</li>
+              </ul>
+            </entry>
+            <entry colname="col3">  — </entry>
+            <entry colname="col4">  — </entry>
+            <entry colname="col5" translate="no">  135 </entry>
+            <entry colname="col6">  μs </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+              <ul>
+                <li>VLLS2 → RUN</li>
+              </ul>
+            </entry>
+            <entry colname="col3">  — </entry>
+            <entry colname="col4">  — </entry>
+            <entry colname="col5" translate="no">  75 </entry>
+            <entry colname="col6">  μs </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <b>Table
+ 4. Power mode transition operating
+ behaviors (continued)</b>
+    </p>
+    <table>
+      <tgroup cols="7" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <colspec colname="col7" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Typ.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col6">
+              <b>Unit</b>
+            </entry>
+            <entry colname="col7">
+              <b>Notes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+              <ul>
+                <li>VLLS3 → RUN</li>
+              </ul>
+            </entry>
+            <entry colname="col3">  — </entry>
+            <entry colname="col4">  — </entry>
+            <entry colname="col5" translate="no">  75 </entry>
+            <entry colname="col6">  μs </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+              <ul>
+                <li>VLPS → RUN</li>
+              </ul>
+            </entry>
+            <entry colname="col3">  — </entry>
+            <entry colname="col4">  — </entry>
+            <entry colname="col5" translate="no">  5.7 </entry>
+            <entry colname="col6">  μs </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+              <ul>
+                <li>STOP → RUN</li>
+              </ul>
+            </entry>
+            <entry colname="col3">  — </entry>
+            <entry colname="col4">  — </entry>
+            <entry colname="col5" translate="no">  5.7 </entry>
+            <entry colname="col6">  μs </entry>
+            <entry colname="col7">
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p id="_bookmark28">1. Normal boot (FTFA_OPT[LPBOOT]=1)</p>
+  </conbody>
+</concept>

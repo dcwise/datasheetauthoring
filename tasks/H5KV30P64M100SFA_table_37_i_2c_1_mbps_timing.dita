@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7BC7B46-4A2851C-5C5111771C25741-5554C9">
+  <title>Table 37. I 2C 1 Mbps timing</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="5" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Characteristic</b>
+              </entry>
+              <entry colname="col2">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col3">
+                <b>Minimum</b>
+              </entry>
+              <entry colname="col4">
+                <b>Maximum</b>
+              </entry>
+              <entry colname="col5">
+                <b>Unit</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> SCL Clock Frequency </entry>
+              <entry colname="col2"> fSCL </entry>
+              <entry colname="col3" translate="no"> 0 </entry>
+              <entry colname="col4" translate="no"> 1<xref href="#A7BC7B46-4A2851C-5C5111771C25741-5554C9/_bookmark156">1</xref></entry>
+              <entry colname="col5"> MHz </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Hold time (repeated) START condition. After this period, the first clock pulse is generated. </entry>
+              <entry colname="col2"> t<sub>HD</sub>; STA </entry>
+              <entry colname="col3" translate="no"> 0.26 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> µs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> LOW period of the SCL clock </entry>
+              <entry colname="col2"> tLOW </entry>
+              <entry colname="col3" translate="no"> 0.5 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> µs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> HIGH period of the SCL clock </entry>
+              <entry colname="col2"> tHIGH </entry>
+              <entry colname="col3" translate="no"> 0.26 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> µs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Set-up time for a repeated START condition </entry>
+              <entry colname="col2"> t<sub>SU</sub>; STA </entry>
+              <entry colname="col3" translate="no"> 0.26 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> µs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Data hold time for I<sub>2</sub>C bus devices </entry>
+              <entry colname="col2"> t<sub>HD</sub>; DAT </entry>
+              <entry colname="col3" translate="no"> 0 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> µs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Data set-up time </entry>
+              <entry colname="col2"> t<sub>SU</sub>; DAT </entry>
+              <entry colname="col3" translate="no"> 50 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> ns </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Rise time of SDA and SCL signals </entry>
+              <entry colname="col2"> t<sub>r</sub></entry>
+              <entry colname="col3">
+                <p translate="no">, <xref href="#A7BC7B46-4A2851C-5C5111771C25741-5554C9/_bookmark157">2</xref></p>
+                <p>20 +0.1C<sub>b</sub></p>
+              </entry>
+              <entry colname="col4" translate="no"> 120 </entry>
+              <entry colname="col5"> ns </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Fall time of SDA and SCL signals </entry>
+              <entry colname="col2"> t<sub>f</sub></entry>
+              <entry colname="col3">
+                <p translate="no">
+                  <xref href="#A7BC7B46-4A2851C-5C5111771C25741-5554C9/_bookmark157">2</xref>
+                </p>
+                <p>20 +0.1C<sub>b</sub></p>
+              </entry>
+              <entry colname="col4" translate="no"> 120 </entry>
+              <entry colname="col5"> ns </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Set-up time for STOP condition </entry>
+              <entry colname="col2"> t<sub>SU</sub>; STO </entry>
+              <entry colname="col3" translate="no"> 0.26 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> µs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Bus free time between STOP and START condition </entry>
+              <entry colname="col2"> tBUF </entry>
+              <entry colname="col3" translate="no"> 0.5 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> µs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Pulse width of spikes that must be suppressed by the input filter </entry>
+              <entry colname="col2"> tSP </entry>
+              <entry colname="col3" translate="no"> 0 </entry>
+              <entry colname="col4" translate="no"> 50 </entry>
+              <entry colname="col5"> ns </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark156">The
+ maximum SCL clock frequency of 1 Mbps can support
+ maximum bus loading when using the High drive pins
+ across the full voltage range.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark157">C<sub>b</sub> = total capacitance of the one bus line in pF.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image001.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image002.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image003.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image004.png" /><image href="../graphics/H5KV30P64M100SFA_topic98_image003.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image005.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image006.png" /><image href="../graphics/H5KV30P64M100SFA_topic98_image001.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image002.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image003.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image004.png" /><image href="../graphics/H5KV30P64M100SFA_topic98_image007.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image003.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image002.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image008.png" /></p>
+      <p>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image009.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image009.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image009.png" /><image href="../graphics/H5KV30P64M100SFA_topic98_image010.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image011.png" /></p>
+      <p>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image012.png" />SDA</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>tf</p>
+      <p>SCL</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+        </fig>
+      </p>
+      <p>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image014.png" />
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />S</p>
+      <p>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image015.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" /></p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/H5KV30P64M100SFA_topic98_image016.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>tLOW</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/H5KV30P64M100SFA_topic98_image016.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>HD; STA</p>
+      <p>
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image017.png" />
+        </fig>
+      </p>
+      <p>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image018.png" />
+      </p>
+      <p>tr</p>
+      <p>tHD; DAT</p>
+      <p>
+        <table>
+          <tgroup cols="3" colsep="1" rowsep="1">
+            <colspec colname="col2" align="left" />
+            <colspec colname="col4" align="left" />
+            <colspec colname="col6" align="left" />
+            <tbody>
+              <row>
+                <entry align="left" colname="col2">
+                  <fig>
+                    <image href="../graphics/H5KV30P64M100SFA_topic98_image002.png" />
+                  </fig>
+                </entry>
+                <entry align="left" colname="col4">
+                  <image href="../graphics/H5KV30P64M100SFA_topic98_image019.png" />
+                </entry>
+                <entry align="left" colname="col6">
+                  <fig>
+                    <image href="../graphics/H5KV30P64M100SFA_topic98_image020.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>tSU;
+ DAT tf</p>
+      <p>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image021.png" />
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image014.png" />
+      </p>
+      <p>
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image021.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image022.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="9" colsep="1" rowsep="1">
+            <colspec colname="col2" align="left" />
+            <colspec colname="col3" align="left" />
+            <colspec colname="col4" align="left" />
+            <colspec colname="col5" align="left" />
+            <colspec colname="col6" align="left" />
+            <colspec colname="col8" align="left" />
+            <colspec colname="col10" align="left" />
+            <colspec colname="col12" align="left" />
+            <colspec colname="col14" align="left" />
+            <tbody>
+              <row>
+                <entry namest="col2" nameend="col5" />
+                <entry morerows="3" align="left" colname="col6">
+                  <image href="../graphics/H5KV30P64M100SFA_topic98_image016.png" />
+                </entry>
+                <entry morerows="1" align="left" colname="col8">
+                  <fig>
+                    <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+                  </fig>
+                </entry>
+                <entry morerows="3" align="left" colname="col10">
+                  <image href="../graphics/H5KV30P64M100SFA_topic98_image016.png" />
+                </entry>
+                <entry morerows="1" align="left" colname="col12">
+                  <fig>
+                    <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+                  </fig>
+                </entry>
+                <entry morerows="3" align="left" colname="col14">
+                  <image href="../graphics/H5KV30P64M100SFA_topic98_image017.png" />
+                </entry>
+              </row>
+              <row>
+                <entry morerows="1" align="left" colname="col2">
+                  <fig>
+                    <image href="../graphics/H5KV30P64M100SFA_topic98_image010.png" />
+                  </fig>
+                </entry>
+                <entry colname="col3" />
+                <entry morerows="1" align="left" colname="col4">
+                  <image href="../graphics/H5KV30P64M100SFA_topic98_image023.png" />
+                </entry>
+                <entry colname="col5" />
+              </row>
+              <row>
+                <entry colname="col3" />
+                <entry colname="col5" />
+                <entry colname="col8" />
+                <entry colname="col12" />
+              </row>
+              <row>
+                <entry colname="col2" />
+                <entry colname="col3" />
+                <entry colname="col4" />
+                <entry colname="col5" />
+                <entry colname="col8" />
+                <entry colname="col12" />
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image017.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image016.png" />
+      </p>
+      <p>
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image024.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image021.png" />
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image025.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image026.png" />
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image027.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image014.png" />
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image028.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image029.png" />
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image014.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image016.png" />
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image030.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image031.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />tHIGH</p>
+      <p>
+        <fig>
+          <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" />
+        </fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" /><image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" /> <image href="../graphics/H5KV30P64M100SFA_topic98_image013.png" /></p>
+      <p>
+        <b>Figure 22.
+ Timing definition for devices on the I2C bus</b>
+      </p>
+    </result>
+  </taskbody>
+</task>

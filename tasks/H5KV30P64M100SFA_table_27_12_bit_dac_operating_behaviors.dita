@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AC445A25-147C212-548612D74155B41-6EDDD0">
+  <title>Table 27. 12-bit DAC operating behaviors</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="7" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Typ.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col6">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col7">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <p>IDDA_DACL</p>
+                <p>P</p>
+              </entry>
+              <entry colname="col2"> Supply current — low-power mode </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 330 </entry>
+              <entry colname="col6"> μA </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <p>IDDA_DACH</p>
+                <p>P</p>
+              </entry>
+              <entry colname="col2"> Supply current — high-speed mode </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 1200 </entry>
+              <entry colname="col6"> μA </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tDACLP </entry>
+              <entry colname="col2"> Full-scale settling time (0x080 to 0xF7F) — low-power mode </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 100 </entry>
+              <entry colname="col5" translate="no"> 200 </entry>
+              <entry colname="col6"> μs </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AC445A25-147C212-548612D74155B41-6EDDD0/_bookmark127">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tDACHP </entry>
+              <entry colname="col2"> Full-scale settling time (0x080 to 0xF7F) — high-power mode </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 15 </entry>
+              <entry colname="col5" translate="no"> 30 </entry>
+              <entry colname="col6"> μs </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AC445A25-147C212-548612D74155B41-6EDDD0/_bookmark127">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tCCDACLP </entry>
+              <entry colname="col2"> Code-to-code settling time (0xBF8 to 0xC08) — low-power mode and high-speed mode </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 0.7 </entry>
+              <entry colname="col5" translate="no"> 1 </entry>
+              <entry colname="col6"> μs </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AC445A25-147C212-548612D74155B41-6EDDD0/_bookmark127">1</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Vdacoutl </entry>
+              <entry colname="col2"> DAC output voltage range low — high- speed mode, no load, DAC set to 0x000 </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 100 </entry>
+              <entry colname="col6"> mV </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Vdacouth </entry>
+              <entry colname="col2"> DAC output voltage range high — high- speed mode, no load, DAC set to 0xFFF </entry>
+              <entry colname="col3">
+                <p>VDACR</p>
+                <p translate="no">−100</p>
+              </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> VDACR </entry>
+              <entry colname="col6"> mV </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> INL </entry>
+              <entry colname="col2"> Integral non-linearity error — high speed mode </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> ±8 </entry>
+              <entry colname="col6"> LSB </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#task2043/_bookmark128">2</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DNL </entry>
+              <entry colname="col2"> Differential non-linearity error — V<sub>DACR</sub> &gt; 2 V </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> ±1 </entry>
+              <entry colname="col6"> LSB </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AC445A25-147C212-548612D74155B41-6EDDD0/_bookmark129">3</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> DNL </entry>
+              <entry colname="col2"> Differential non-linearity error — V<sub>DACR</sub> = VREF_OUT </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> ±1 </entry>
+              <entry colname="col6"> LSB </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AC445A25-147C212-548612D74155B41-6EDDD0/_bookmark130">4</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VOFFSET </entry>
+              <entry colname="col2"> Offset error </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> ±0.4 </entry>
+              <entry colname="col5" translate="no"> ±0.8 </entry>
+              <entry colname="col6"> %FSR </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AC445A25-147C212-548612D74155B41-6EDDD0/_bookmark131">5</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> E<sub>G</sub></entry>
+              <entry colname="col2"> Gain error </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> ±0.1 </entry>
+              <entry colname="col5" translate="no"> ±0.6 </entry>
+              <entry colname="col6"> %FSR </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AC445A25-147C212-548612D74155B41-6EDDD0/_bookmark131">5</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> PSRR </entry>
+              <entry colname="col2"> Power supply rejection ratio, V<sub>DDA</sub> ≥ 2.4 V </entry>
+              <entry colname="col3" translate="no"> 60 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 90 </entry>
+              <entry colname="col6"> dB </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> TCO </entry>
+              <entry colname="col2"> Temperature coefficient offset voltage </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 3.7 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> μV/C </entry>
+              <entry colname="col7" translate="no">
+                <xref href="#AC445A25-147C212-548612D74155B41-6EDDD0/_bookmark132">6</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> TGE </entry>
+              <entry colname="col2"> Temperature coefficient gain error </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 0.000421 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> %FSR/C </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Rop </entry>
+              <entry colname="col2"> Output resistance (load = 3 kΩ) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 250 </entry>
+              <entry colname="col6"> Ω </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> SR </entry>
+              <entry colname="col2">
+                <p>Slew rate -80h→ F7Fh→ 80h</p>
+                <ul>
+                  <li>High power (SP<sub>HP</sub>)</li>
+                  <li>Low power (SP<sub>LP</sub>)</li>
+                </ul>
+              </entry>
+              <entry colname="col3" translate="no">
+                <p>1.2</p>
+                <p>0.05</p>
+              </entry>
+              <entry colname="col4" translate="no">
+                <p>1.7</p>
+                <p>0.12</p>
+              </entry>
+              <entry colname="col5">
+                <p>—</p>
+                <p>—</p>
+              </entry>
+              <entry colname="col6"> V/μs </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> BW </entry>
+              <entry colname="col2">
+                <p>3dB bandwidth</p>
+                <ul>
+                  <li>High power (SP<sub>HP</sub>)</li>
+                  <li>Low power (SP<sub>LP</sub>)</li>
+                </ul>
+              </entry>
+              <entry colname="col3" translate="no">
+                <p>550</p>
+                <p>40</p>
+              </entry>
+              <entry colname="col4">
+                <p>—</p>
+                <p>—</p>
+              </entry>
+              <entry colname="col5">
+                <p>—</p>
+                <p>—</p>
+              </entry>
+              <entry colname="col6"> kHz </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark127">Settling within ±1
+ LSB</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark129">The INL is measured
+ for 0 + 100 mV to V<sub>DACR</sub> −100 mV</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark130">The DNL is measured for 0 + 100 mV to V<sub>DACR</sub> −100 mV</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark131">The DNL is measured for 0 + 100 mV to V<sub>DACR</sub> −100 mV with V<sub>DDA</sub> &gt; 2.4 V</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark132">Calculated by a best fit curve from V<sub>SS</sub> + 100 mV to V<sub>DACR</sub> − 100 mV</cmd>
+      </step>
+      <step>
+        <cmd>V<sub>DDA</sub> = 3.0 V, reference select set for V<sub>DDA</sub> (DACx_CO:DACRFS = 1), high power mode (DACx_C0:LPEN = 0), DAC set to 0x800, temperature range is across the full range of the device</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>DAC12 INL (LSB)</p>
+    </result>
+  </taskbody>
+</task>

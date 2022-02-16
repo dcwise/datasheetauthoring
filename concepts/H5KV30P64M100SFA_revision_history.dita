@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AC46485C-57C521F-2187F65AE5553D3-18EEC5">
+  <title>Revision History</title>
+  <shortdesc>The following table provides
+ a revision history for this document.</shortdesc>
+  <conbody>
+    <p>Table 39. Revision History</p>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Rev. No.</b>
+            </entry>
+            <entry colname="col2">
+              <b>Date</b>
+            </entry>
+            <entry colname="col3">
+              <b>Substantial Changes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 6 </entry>
+            <entry colname="col2" translate="no"> 03/2021 </entry>
+            <entry colname="col3">
+              <ul>
+                <li>Updated ARM to Arm as per Arm branding guidelines</li>
+                <li>Updated Part Number Marking of MKV30F128VLF10 from M30J6V to M30J7V in Ordering Information table</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 5 </entry>
+            <entry colname="col2" translate="no"> 06/2020 </entry>
+            <entry colname="col3">
+              <ul>
+                <li>Added Device Revision Number Table</li>
+                <li>Updated <xref href="H5KV30P64M100SFA_voltage_and_current_operating_ratings.dita">Voltage and current operating ratings</xref></li>
+              </ul>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <i>Table continues on the next page...</i>
+    </p>
+    <p>
+      <b>Revision History</b>
+    </p>
+    <p>Table 39. Revision History (continued)</p>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Rev. No.</b>
+            </entry>
+            <entry colname="col2">
+              <b>Date</b>
+            </entry>
+            <entry colname="col3">
+              <b>Substantial Changes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3">
+              <ul>
+                <li>Added VBAT:SR<sub>PWR</sub> in <xref href="H5KV30P64M100SFA_voltage_and_current_operating_requirements.dita">Voltage and current operating requirements</xref></li>
+                <li>Updated Ordering information table in Front Matter by adding Part number marking and packages column</li>
+                <li>Added generic Package Markings section</li>
+                <li>Updated footnote attached to Reference Voltage in <xref href="H5KV30P64M100SFA_12_bit_dac_operating_requirements.dita">12-bit DAC operating</xref><xref href="H5KV30P64M100SFA_12_bit_dac_operating_requirements.dita">requirements</xref></li>
+                <li>Removed references to KMS content</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 4 </entry>
+            <entry colname="col2" translate="no"> 08/2016 </entry>
+            <entry colname="col3">
+              <ul>
+                <li>In "Power consumption operating behaviors" table, added "Low power mode peripheral adders—typical value" table</li>
+                <li>In "Thermal operating requirements" table, in footnote, corrected "T<sub>J</sub> = T<sub>A</sub> + Θ<sub>JA</sub>" to "T<sub>J</sub> = T<sub>A</sub> + R<sub>ΘJA"</sub>"</li>
+                <li>In "Slave mode DSPI timing (limited voltage range)" table, added footnote regarding maximum frequency of operation</li>
+                <li>Added new section, "Recommended connections for unused analog and digital pins"</li>
+                <li>Updated "NVM program/erase timing specifications" table; updated values for t<sub>hversall</sub> (Erase All high-voltage time)</li>
+                <li>Added Terminology and Guidelines section</li>
+                <li>Updated Thermal Attributes value for 48LQFP</li>
+                <li>Added Device Revision Number table in front matter</li>
+                <li>Added KMS related information in front matter</li>
+                <li>Added Kinetis Motor Suite section</li>
+                <li>Added "S" in Format and Part Identification table</li>
+                <li>Updated the Part Number Example</li>
+                <li>Deleted Package Your Way footnote attached to 48 LQFP</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 3 </entry>
+            <entry colname="col2" translate="no"> 4/2015 </entry>
+            <entry colname="col3">
+              <ul>
+                <li>Throughout: Modified notes related to 48-pin LQFP to say, "The 48-pin LQFP package for this product is not yet available; however, it is included in a Package Your Way program for Kinetis MCUs. Please visit <xref href="http://www.Freescale.com/KPYW" scope="external" format="html">www.Freescale.com/KPYW </xref>for more details."</li>
+                <li>On page 1:<ul><li>Under "Clocks," corrected second and third bullets—moved "with FLL" from "internal oscillators" to "multipurpose clock generator" bullet</li><li>Under "Communication interfaces," updated I2C bullet to indicate support for up<p>to 1 Mbps operation</p></li><li>Under "Operating characteristics," specified that voltage range includes flash writes</li></ul></li>
+                <li>In "Voltage and current operating requirements" table:<ul><li>Removed content related to positive injection</li><li>Updated footnote 1 to say that all analog and I/O pins are internally clamped to V<sub>SS</sub> only (not V<sub>SS</sub> and V<sub>DD</sub>)through ESD protection diodes.</li></ul></li>
+                <li>In "Power mode transition operating behaviors" table, removed rows for LLS2 and LLS3</li>
+                <li>In "Power consumption operating behaviors" table:<ul><li>Provided additional temperature data</li><li>Added Max IDD values based on characterization results equivalent to mean + 3 sigma</li><li>Removed rows for LLS2 and LLS3</li></ul></li>
+                <li>Updated "EMC radiated emissions operating behaviors" table</li>
+                <li>In "Thermal operating requirements" table, added the following footnote for ambient temperature: "Maximum T<sub>A</sub> can be exceeded only if the user ensures that T<sub>J</sub> does not exceed maximum T<sub>J</sub>. The simplest method to determine T<sub>J</sub> is: T<sub>J</sub> = T<sub>A</sub> + Θ<sub>JA</sub> x chip power dissipation"</li>
+                <li>Updated "IRC48M Specifications":</li>
+              </ul>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <i>Table continues on the next page...</i>
+    </p>
+    <p>Table 39. Revision History (continued)</p>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Rev. No.</b>
+            </entry>
+            <entry colname="col2">
+              <b>Date</b>
+            </entry>
+            <entry colname="col3">
+              <b>Substantial Changes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3">
+              <ul>
+                <li>Updated maximum values for Δ<sub>firc48m_lv</sub> and Δ<sub>firc48m_hv</sub> (full temperature)</li>
+                <li>Added specifications for Δ<sub>firc48m_hv</sub> (-40°C to 85°C)</li>
+                <li>In "I2C timing" table,<ul><li>Added the following footnote on maximum Fast mode value for SCL Clock Frequency: "The maximum SCL Clock Frequency in Fast mode with maximum bus loading can only be achieved when using the High drive pins across the full voltage range and when using the Normal drive pins and VDD ≥ 2.7 V."</li><li>Updated minimum Fast mode value for LOW period of the SCL clock to 1.25 µ</li></ul></li>
+                <li>Added "I2C 1 Mbps timing" table</li>
+                <li>Removed Section 6, "Ordering parts."</li>
+                <li>Added "48-pin LQFP part marking" section</li>
+                <li>Added "32-pin QFN part marking" section</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 2 </entry>
+            <entry colname="col2" translate="no"> 8/2014 </entry>
+            <entry colname="col3">
+              <ul>
+                <li>On p. 1, under "Memories and memory interfaces," added bullet, "Preprogrammed Kinetis flashloader for one-time, in-system factory programming"</li>
+                <li>On p. 1, added parenthetical element to the following bullet under "Analog modules":<i>Accurate internal voltage reference (not available for 32-pin QFN package)</i></li>
+                <li>In "Voltage and current operating ratings" section, updated digital supply current maximum value</li>
+                <li>In "Voltage and current operating behaviors" section, updated input leakage information</li>
+                <li>In "Power consumption operating behaviors table":<ul><li>Updated existing typical and maximum power measurements</li><li>Added new typical power measurements for the following:<ul><li>IDD_HSRUN (High Speed Run mode, all peripheral clocks disabled, current executing CoreMark code)</li><li>IDD_HSRUN (High Speed Run mode, all peripheral clocks disabled, current executing while(1) loop)</li><li>IDD_RUN (Run mode current in Compute operation, all peripheral clocks disabled, executing CoreMark code)</li><li>IDD_RUN (Run mode current in Compute operation, all peripheral clocks disabled, executing while(1) loop)</li><li>IDD_VLPR (Very Low Power mode current in Compute operation, all peripheral clocks disabled, executing CoreMark code)</li><li>IDD_VLPR (Very Low Power Run mode current in Compute operation, all peripheral clocks disabled, executing while(1) loop)</li></ul></li></ul></li>
+                <li>Updated section, "EMC radiated emissions operating behaviors for 64 LQFP package"</li>
+                <li>In "Thermal attributes" section, added 64-pin LQFP and 32-pin QFN package values</li>
+                <li>Updated "MCG specifications" table</li>
+                <li>Updated "VREF full-range operating behaviors" table</li>
+                <li>In the "Part identification" section, added "Format" and "Fields" subsections</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 1 </entry>
+            <entry colname="col2" translate="no"> 3/2014 </entry>
+            <entry colname="col3"> Initial public release </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <b>
+        <i>How To Reach Us </i>Home Page: </b>
+      <xref href="http://www.nxp.com/" scope="external" format="html">nxp.com</xref>
+    </p>
+    <p>
+      <b>Web Support: </b>
+      <xref href="http://www.nxp.com/support" scope="external" format="html">nxp.com/support</xref>
+    </p>
+    <p>
+      <b>Limited warranty and liability </b>— Information in this document is believed to be accurate
+ and reliable. However, NXP
+ Semiconductors does not give any representations or warranties, expressed or
+ implied, as to the accuracy or completeness of such information and shall have no liability
+ for the consequences of use of such information. NXP</p>
+    <p>Semiconductors
+ takes no responsibility for the content
+ in this document if provided
+ by an information source outside
+ of NXP Semiconductors. In no event shall NXP Semiconductors be liable for any indirect,
+ incidental, punitive, special
+ or consequential damages (including
+ - without limitation - lost profits, lost savings,
+ business interruption, costs related to
+ the removal or replacement of any products or rework charges) whether or not
+ such damages are based on tort (including negligence), warranty, breach of contract or any other legal theory.</p>
+    <p>Notwithstanding any damages that customer might incur for any reason
+ whatsoever, NXP Semiconductors’ aggregate and
+ cumulative liability towards customer for the products described herein shall
+ be limited in accordance with the Terms and conditions of commercial sale of NXP Semiconductors.</p>
+    <p>
+      <b>Right to
+ make changes </b>- NXP Semiconductors
+ reserves the right to make changes to information published in this document,
+ including without limitation specifications and product descriptions, at
+ any time and without notice. This document supersedes and replaces all information supplied
+ prior to the publication hereof.</p>
+    <p>
+      <b>Security </b>— Customer understands that all NXP products may be subject
+ to unidentified or documented vulnerabilities. Customer is responsible for the design and operation of its
+ applications and products throughout their lifecycles to reduce the effect of these vulnerabilities on customer’s
+ applications and products. Customer’s responsibility also extends
+ to other open and/or proprietary technologies supported by NXP products
+ for use in customer’s applications. NXP accepts no liability for any vulnerability. Customer should regularly check security updates
+ from NXP and follow up appropriately.</p>
+    <p>Customer shall select products with security
+ features that best meet rules, regulations, and standards of the intended
+ application and make the ultimate design decisions regarding its
+ products and is solely responsible for compliance with all legal, regulatory, and security related requirements concerning its products,
+ regardless of any information or support that may be provided by NXP. NXP has a Product Security Incident Response Team (PSIRT) (reachable</p>
+    <p>at PSIRT@nxp.com) that manages the investigation, reporting, and solution release
+ to security vulnerabilities of NXP products.</p>
+    <p>
+      <b>Suitability for use </b>— NXP Semiconductors products are not
+ designed, authorized or
+ warranted to be suitable for use
+ in life support, life-critical or safety-critical systems or equipment,
+ nor in applications where failure or malfunction of an NXP Semiconductors
+ product can reasonably be expected to result in personal injury, death or
+ severe property or environmental damage. NXP Semiconductors and its suppliers accept no liability for inclusion and/or
+ use of</p>
+    <p>NXP Semiconductors
+ products in such equipment or applications and therefore such inclusion and/or
+ use is at the customer’s
+ own risk.</p>
+    <p>
+      <b>Non-automotive qualified products
+ </b>— Unless this data sheet expressly
+ states that this specific NXP Semiconductors product is automotive
+ qualified, the product is not suitable for automotive use. It is neither qualified
+ nor tested in accordance with automotive testing
+ or application requirements. NXP Semiconductors accepts
+ no liability for inclusion and/or
+ use of non-automotive qualified products
+ in automotive equipment or applications.</p>
+    <p>In
+ the event that customer uses the product for design-in and use in automotive
+ applications to automotive specifications
+ and standards, customer (a) shall use the product without NXP Semiconductors’
+ warranty of the product for such
+ automotive applications, use and specifications, and (b) whenever customer uses
+ the product for automotive
+ applications beyond NXP Semiconductors’ specifications such use shall be solely
+ at customer’s own risk, and (c)
+ customer fully indemnifies NXP Semiconductors for any liability, damages or
+ failed product claims resulting from
+ customer design and use of the product for automotive applications beyond NXP
+ Semiconductors’ standard warranty and NXP Semiconductors’ product specifications.</p>
+    <p>
+      <b>Applications </b>— Applications that are described herein for any of these
+ products are for illustrative purposes only.
+ NXP Semiconductors makes no representation or warranty that such applications will be suitable
+ for the specified use without further testing
+ or modification.</p>
+    <p>Customers are responsible for the design
+ and operation of their applications and products using NXP Semiconductors products, and NXP Semiconductors accepts
+ no liability for any assistance with applications or customer product</p>
+    <p>
+      <i>Table continues
+ on the next page...</i>
+    </p>
+    <p>design. It is customer’s
+ sole responsibility to determine whether the NXP Semiconductors product is
+ suitable and fit for the customer’s
+ applications and products planned, as well as for the planned application and
+ use of customer’s third party customer(s). Customers should
+ provide appropriate design
+ and operating safeguards to minimize the risks associated with their applications and products.</p>
+    <p>NXP Semiconductors does not accept any liability related
+ to any default, damage, costs or problem
+ which is based
+ on any weakness
+ or default in the customer’s applications or products, or the application or use by customer’s third party customer(s). Customer is responsible for doing all necessary testing
+ for the customer’s applications and products using NXP Semiconductors products in order to avoid a default
+ of the applications and the products or of the application or use by customer’s third party customer(s). NXP does not accept any liability in this respect.</p>
+    <p>
+      <b>Limiting values </b>— Stress above one or more limiting
+ values (as defined in the Absolute Maximum Ratings System of IEC 60134) will cause permanent damage to the device. Limiting
+ values are stress
+ ratings only and (proper) operation of the device
+ at these or any other
+ conditions above those
+ given in the Recommended operating conditions section (if present)
+ or the Characteristics sections of this document
+ is not warranted. Constant or repeated exposure
+ to limiting values
+ will permanently and irreversibly affect
+ the quality and reliability of the device.</p>
+    <p>
+      <b>Terms and conditions of commerical sale </b>— NXP Semiconductors products are sold subject to the
+ general terms and conditions of commercial sale, as published
+ at <xref href="http://www.nxp.com/profile/terms" scope="external" format="html">http://www.nxp.com/profile/terms, </xref>unless otherwise agreed in a valid written individual agreement. In case an individual agreement is concluded only the terms and conditions of the respective agreement shall apply. NXP
+ Semiconductors hereby expressly objects to applying the customer’s general terms
+ and conditions with regard to the purchase
+ of NXP Semiconductors products by customer.</p>
+    <p>
+      <b>Hazardous voltage </b>— Although basic supply voltages of
+ the product may be much lower, circuit voltages up to 60 V may appear when operating this product, depending on settings and application. Customers incorporating or otherwise
+ using these products
+ in applications where such high voltages may appear during operation, assembly,
+ test etc. of such application, do so at their own risk. Customers agree to fully
+ indemnify NXP Semiconductors for any damages
+ resulting from or in connection with such high voltages. Furthermore, customers are drawn
+ to safety standards (IEC 950, EN 60 950, CENELEC, ISO, etc.) and other (legal)
+ requirements applying to such high voltages.</p>
+    <p>
+      <b>Export control </b>— This document
+ as well as the item(s)
+ described herein may be subject
+ to export control
+ regulations. Export might require a prior authorization from competent authorities.</p>
+    <p>NXP, the NXP logo, NXP SECURE CONNECTIONS FOR A SMARTER WORLD,
+ COOLFLUX,EMBRACE, GREENCHIP, HITAG, ICODE, JCOP, LIFE, VIBES, MIFARE,
+ MIFARE CLASSIC, MIFARE DESFire, MIFARE PLUS, MIFARE FLEX, MANTIS, MIFARE ULTRALIGHT, MIFARE4MOBILE, MIGLO, NTAG, ROADLINK, SMARTLX,</p>
+    <p>SMARTMX, STARPLUG, TOPFET,
+ TRENCHMOS, UCODE, Freescale, the Freescale logo, AltiVec, CodeWarrior, ColdFire, ColdFire+,
+ the Energy Efficient Solutions logo, Kinetis, Layerscape, MagniV, mobileGT,
+ PEG, PowerQUICC, Processor Expert, QorIQ, QorIQ Qonverge, SafeAssure, the SafeAssure logo, StarCore, Symphony,
+ VortiQa, Vybrid, Airfast,
+ BeeKit, BeeStack, CoreNet,
+ Flexis, MXC, Platform
+ in a Package, QUICC Engine,
+ Tower, TurboLink,</p>
+    <p>EdgeScale, EdgeLock, eIQ, and Immersive3D are trademarks of NXP B.V. All other product or service names are the property of their respective owners. AMBA, Arm, Arm7, Arm7TDMI,
+ Arm9, Arm11, Artisan,
+ big.LITTLE,</p>
+    <p>Cordio, CoreLink,
+ CoreSight, Cortex, DesignStart, DynamIQ, Jazelle, Keil, Mali, Mbed, Mbed Enabled,
+ NEON, POP, RealView,
+ SecurCore, Socrates, Thumb, TrustZone, ULINK, ULINK2, ULINK-ME,
+ ULINK-PLUS, ULINKpro, µVision,
+ Versatile are trademarks or registered trademarks of Arm Limited
+ (or its subsidiaries) in the US and/or elsewhere. The related
+ technology may be protected by any or all of patents, copyrights, designs and trade secrets. All rights reserved.
+ Oracle and Java are registered trademarks of Oracle
+ and/or its affiliates. M, M Mobileye
+ and other Mobileye
+ trademarks or logos appearing
+ herein are trademarks of Mobileye Vision Technologies Ltd. in the United
+ States, the EU and/or other jurisdictions.</p>
+    <p>
+      <b>© NXP B.V. </b>2014-2021<b>. All rights reserved.</b></p>
+    <p>For more information, please visit: <xref href="http://www.nxp.com/" scope="external" format="html">http://www.nxp.com</xref></p>
+    <p>For sales office addresses, please send an email to: salesaddresses@nxp.com</p>
+    <p>
+      <fig>
+        <image href="../graphics/H5KV30P64M100SFA_topic120_image001.png" />
+      </fig>
+      <b>Date of
+ release: March, 2021 Document
+ identifier: KV30P64M100SFA</b>
+    </p>
+  </conbody>
+</concept>

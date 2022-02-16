@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7C7B4A2-1CC511F-215A855D45C1142-53BE4C">
+  <title>Table 11. Thermal operating requirements</title>
+  <conbody>
+    <table>
+      <tgroup cols="6" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Unit</b>
+            </entry>
+            <entry colname="col6">
+              <b>Notes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> T<sub>J</sub></entry>
+            <entry colname="col2"> Die junction temperature </entry>
+            <entry colname="col3" translate="no"> –40 </entry>
+            <entry colname="col4" translate="no"> 125 </entry>
+            <entry colname="col5"> °C </entry>
+            <entry colname="col6">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> T<sub>A</sub></entry>
+            <entry colname="col2"> Ambient temperature </entry>
+            <entry colname="col3" translate="no"> –40 </entry>
+            <entry colname="col4" translate="no"> 105 </entry>
+            <entry colname="col5"> °C </entry>
+            <entry colname="col6" translate="no">
+              <xref href="#A7C7B4A2-1CC511F-215A855D45C1142-53BE4C/_bookmark62">1</xref>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p id="_bookmark62">1. Maximum T<sub>A</sub> can be exceeded
+ only if the user ensures that T<sub>J</sub> does not exceed maximum T<sub>J</sub>. The simplest method to determine T<sub>J</sub> is: T<sub>J</sub> = T<sub>A</sub> + R<sub>ΘJA</sub> × chip power dissipation.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="ABCA28C4-2112A87-354555AD543F1A9-C2345B">
+  <title>Inter-Integrated Circuit Interface (I2C) timing</title>
+  <shortdesc>Table 36. I 2C timing</shortdesc>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="7" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <tbody>
+            <row>
+              <entry morerows="1" colname="col1">
+                <b>Characteristic</b>
+              </entry>
+              <entry morerows="1" colname="col2">
+                <b>Symbol</b>
+              </entry>
+              <entry namest="col3" nameend="col4">
+                <b>Standard Mode</b>
+              </entry>
+              <entry namest="col5" nameend="col6">
+                <b>Fast Mode</b>
+              </entry>
+              <entry morerows="1" colname="col7">
+                <b>Unit</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col3">
+                <b>Minimum</b>
+              </entry>
+              <entry colname="col4">
+                <b>Maximum</b>
+              </entry>
+              <entry colname="col5">
+                <b>Minimum</b>
+              </entry>
+              <entry colname="col6">
+                <b>Maximum</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> SCL Clock Frequency </entry>
+              <entry colname="col2"> fSCL </entry>
+              <entry colname="col3" translate="no"> 0 </entry>
+              <entry colname="col4" translate="no"> 100 </entry>
+              <entry colname="col5" translate="no"> 0 </entry>
+              <entry colname="col6" translate="no"> 400<xref href="#ABCA28C4-2112A87-354555AD543F1A9-C2345B/_bookmark149">1</xref></entry>
+              <entry colname="col7"> kHz </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Hold time (repeated) START condition. After this period, the first clock pulse is generated. </entry>
+              <entry colname="col2"> t<sub>HD</sub>; STA </entry>
+              <entry colname="col3" translate="no"> 4 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 0.6 </entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7"> µs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> LOW period of the SCL clock </entry>
+              <entry colname="col2"> tLOW </entry>
+              <entry colname="col3" translate="no"> 4.7 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 1.25 </entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7"> µs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> HIGH period of the SCL clock </entry>
+              <entry colname="col2"> tHIGH </entry>
+              <entry colname="col3" translate="no"> 4 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 0.6 </entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7"> µs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Set-up time for a repeated START condition </entry>
+              <entry colname="col2"> t<sub>SU</sub>; STA </entry>
+              <entry colname="col3" translate="no"> 4.7 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 0.6 </entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7"> µs </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p>
+        <i>Table continues on the next page...</i>
+      </p>
+      <p>Table 36. I 2C timing (continued)</p>
+      <table>
+        <tgroup cols="7" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <tbody>
+            <row>
+              <entry morerows="1" colname="col1">
+                <b>Characteristic</b>
+              </entry>
+              <entry morerows="1" colname="col2">
+                <b>Symbol</b>
+              </entry>
+              <entry namest="col3" nameend="col4">
+                <b>Standard Mode</b>
+              </entry>
+              <entry namest="col5" nameend="col6">
+                <b>Fast Mode</b>
+              </entry>
+              <entry morerows="1" colname="col7">
+                <b>Unit</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col3">
+                <b>Minimum</b>
+              </entry>
+              <entry colname="col4">
+                <b>Maximum</b>
+              </entry>
+              <entry colname="col5">
+                <b>Minimum</b>
+              </entry>
+              <entry colname="col6">
+                <b>Maximum</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Data hold time for I2C bus devices </entry>
+              <entry colname="col2"> t<sub>HD</sub>; DAT </entry>
+              <entry colname="col3" translate="no"> 0<xref href="#ABCA28C4-2112A87-354555AD543F1A9-C2345B/_bookmark150">2</xref></entry>
+              <entry colname="col4" translate="no"> 3.45<xref href="#ABCA28C4-2112A87-354555AD543F1A9-C2345B/_bookmark151">3</xref></entry>
+              <entry colname="col5" translate="no"> 0<xref href="#ABCA28C4-2112A87-354555AD543F1A9-C2345B/_bookmark152">4</xref></entry>
+              <entry colname="col6" translate="no"> 0.9<xref href="#ABCA28C4-2112A87-354555AD543F1A9-C2345B/_bookmark150">2</xref></entry>
+              <entry colname="col7"> µs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Data set-up time </entry>
+              <entry colname="col2"> t<sub>SU</sub>; DAT </entry>
+              <entry colname="col3" translate="no"> 250<xref href="#ABCA28C4-2112A87-354555AD543F1A9-C2345B/_bookmark153">5</xref></entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 100<xref href="#ABCA28C4-2112A87-354555AD543F1A9-C2345B/_bookmark151">3</xref>, <xref href="#task2461/_bookmark154">6</xref></entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7"> ns </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Rise time of SDA and SCL signals </entry>
+              <entry colname="col2"> t<sub>r</sub></entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 1000 </entry>
+              <entry colname="col5">
+                <p translate="no">
+                  <xref href="#ABCA28C4-2112A87-354555AD543F1A9-C2345B/_bookmark155">7</xref>
+                </p>
+                <p>20 +0.1C<sub>b</sub></p>
+              </entry>
+              <entry colname="col6" translate="no"> 300 </entry>
+              <entry colname="col7"> ns </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Fall time of SDA and SCL signals </entry>
+              <entry colname="col2"> t<sub>f</sub></entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 300 </entry>
+              <entry colname="col5">
+                <p translate="no">
+                  <xref href="#task2461/_bookmark154">6</xref>
+                </p>
+                <p>20 +0.1C<sub>b</sub></p>
+              </entry>
+              <entry colname="col6" translate="no"> 300 </entry>
+              <entry colname="col7"> ns </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Set-up time for STOP condition </entry>
+              <entry colname="col2"> t<sub>SU</sub>; STO </entry>
+              <entry colname="col3" translate="no"> 4 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 0.6 </entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7"> µs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Bus free time between STOP and START condition </entry>
+              <entry colname="col2"> tBUF </entry>
+              <entry colname="col3" translate="no"> 4.7 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 1.3 </entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7"> µs </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Pulse width of spikes that must be suppressed by the input filter </entry>
+              <entry colname="col2"> tSP </entry>
+              <entry colname="col3"> N/A </entry>
+              <entry colname="col4"> N/A </entry>
+              <entry colname="col5" translate="no"> 0 </entry>
+              <entry colname="col6" translate="no"> 50 </entry>
+              <entry colname="col7"> ns </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark149">The
+ maximum SCL Clock Frequency
+ in Fast mode with maximum bus loading can only be
+ achieved when using the High drive pins across the full voltage range and when using the Normal drive pins and VDD ≥ 2.7 V.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark150">The master mode I2C deasserts
+ ACK of an address byte simultaneously with the falling edge of SCL. If no slaves</cmd>
+        <info>
+          <p>acknowledge this address byte, then a negative hold time can result, depending
+ on the edge rates of the
+ SDA and SCL lines.</p>
+        </info>
+      </step>
+      <step>
+        <cmd id="_bookmark151">The maximum tHD; DAT must be met only if the device does not stretch the LOW period (tLOW) of the SCL signal.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark152">Input signal Slew = 10 ns and Output Load = 50 pF</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark153">Set-up time in slave-transmitter mode is 1 IPBus clock period, if the TX FIFO is empty.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark155">A Fast mode I2C
+ bus device can be used in a Standard mode I2C bus system, but the requirement t<sub>SU;</sub><sub>DAT</sub> ≥ 250 ns must then be met. This is automatically the case if the device does not stretch the LOW period of the SCL signal.
+ If such a device does stretch the LOW period of the SCL signal,
+ then it must output the next data bit to the SDA line t<sub>rmax</sub> + t<sub>SU;</sub><sub>DAT</sub> = 1000 + 250 = 1250 ns (according to the Standard
+ mode I2C bus specification) before the SCL line is released.</cmd>
+      </step>
+      <step>
+        <cmd>C<sub>b</sub> = total capacitance of the one bus line in pF.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

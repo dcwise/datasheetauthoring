@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7AC7B46-4585C57-5F287515D75CD59-C8E07D">
+  <title>Relationship between ratings and operating requirements</title>
+  <conbody>
+    <table>
+      <tgroup cols="5" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <p>Fatal range</p>
+              <p>Expected permanent failure</p>
+            </entry>
+            <entry colname="col2">
+              <p>Degraded operating range</p>
+              <ul>
+                <li>No permanent failure</li>
+                <li>Possible decreased life</li>
+                <li>Possible incorrect operation</li>
+              </ul>
+            </entry>
+            <entry colname="col3">
+              <p>Normal operating range</p>
+              <ul>
+                <li>No permanent failure</li>
+                <li>Correct operation</li>
+              </ul>
+            </entry>
+            <entry colname="col4">
+              <p>Degraded operating range</p>
+              <ul>
+                <li>No permanent failure</li>
+                <li>Possible decreased life</li>
+                <li>Possible incorrect operation</li>
+              </ul>
+            </entry>
+            <entry colname="col5">
+              <p>Fatal range</p>
+              <p>Expected permanent failure</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>–∞ ∞</p>
+    <p>Handling rating (min.)</p>
+    <p>Handling rating (max.)</p>
+    <p>Operating (power on)</p>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <p>Fatal range</p>
+              <p>Expected permanent failure</p>
+            </entry>
+            <entry colname="col2">
+              <p>Handling range</p>
+              <p>No permanent failure</p>
+            </entry>
+            <entry colname="col3">
+              <p>Fatal range</p>
+              <p>Expected permanent failure</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>–∞ ∞</p>
+    <p>Handling (power off)</p>
+  </conbody>
+</concept>

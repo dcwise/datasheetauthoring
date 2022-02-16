@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7BC744A-5C57211-F25A1C55D415553-7BDEC3">
+  <title>Table 17. Oscillator DC electrical specifications (continued)</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="7" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Typ.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col6">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col7">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry morerows="3" colname="col1">
+                <p>V <xref href="#A7BC744A-5C57211-F25A1C55D415553-7BDEC3/_bookmark89">5</xref></p>
+                <p>pp</p>
+              </entry>
+              <entry colname="col2"> Peak-to-peak amplitude of oscillation (oscillator mode) — low-frequency, low-power mode (HGO=0) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 0.6 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col2"> Peak-to-peak amplitude of oscillation (oscillator mode) — low-frequency, high-gain mode (HGO=1) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> VDD </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col2"> Peak-to-peak amplitude of oscillation (oscillator mode) — high-frequency, low-power mode (HGO=0) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 0.6 </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col2"> Peak-to-peak amplitude of oscillation (oscillator mode) — high-frequency, high-gain mode (HGO=1) </entry>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4"> VDD </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6"> V </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark86">V<sub>DD</sub>=3.3 V, Temperature =25 °C</cmd>
+      </step>
+      <step>
+        <cmd>See crystal or resonator manufacturer's recommendation.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark88">C<sub>x</sub> and C<sub>y</sub> can be provided
+ by using either integrated capacitors or external components.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark89">When low-power mode is selected,
+ R<sub>F</sub>
+ is integrated and must not be attached
+ externally.</cmd>
+      </step>
+      <step>
+        <cmd>The
+ EXTAL and XTAL pins should only be connected
+ to required oscillator components and must not be connected to any other device.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A77B465A-2851457-C2121587D155D71-597B56">
+  <title>Table 10. General switching specifications</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="6" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col4">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col6">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> GPIO pin interrupt pulse width (digital glitch filter disabled) — Synchronous path </entry>
+              <entry colname="col3" translate="no"> 1.5 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> Bus clock cycles </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#A77B465A-2851457-C2121587D155D71-597B56/_bookmark55">1</xref>, <xref href="#A77B465A-2851457-C2121587D155D71-597B56/_bookmark56">2</xref></entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> External RESET and NMI pin interrupt pulse width — Asynchronous path </entry>
+              <entry colname="col3" translate="no"> 100 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#A77B465A-2851457-C2121587D155D71-597B56/_bookmark57">3</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> GPIO pin interrupt pulse width (digital glitch filter disabled, passive filter disabled) — Asynchronous path </entry>
+              <entry colname="col3" translate="no"> 50 </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#A77B465A-2851457-C2121587D155D71-597B56/_bookmark58">4</xref>
+              </entry>
+            </row>
+            <row>
+              <entry morerows="6" colname="col1">
+              </entry>
+              <entry morerows="6" colname="col2">
+                <p>Port rise and fall time</p>
+                <ul>
+                  <li>Slew disabled<ul><li>1.71 ≤ V<sub>DD</sub> ≤ 2.7V</li><li>2.7 ≤ V<sub>DD</sub> ≤ 3.6V</li></ul></li>
+                  <li>Slew enabled<ul><li>1.71 ≤ V<sub>DD</sub> ≤ 2.7V</li><li>2.7 ≤ V<sub>DD</sub> ≤ 3.6V</li></ul></li>
+                </ul>
+              </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6" translate="no">
+                <xref href="#A77B465A-2851457-C2121587D155D71-597B56/_bookmark59">5</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 10 </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4" translate="no"> 5 </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col3"> — </entry>
+              <entry colname="col4" translate="no"> 30 </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4" translate="no"> 16 </entry>
+              <entry colname="col5"> ns </entry>
+              <entry colname="col6">
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark55">This
+ is the minimum pulse width that is guaranteed to pass through the pin synchronization circuitry.
+ Shorter pulses may or may not be recognized. In Stop, VLPS, LLS, and VLLSx modes, the synchronizer is bypassed so shorter pulses can be recognized in that case.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark56">The greater of synchronous and asynchronous timing must be met.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark57">These
+ pins have a passive filter enabled
+ on the inputs. This is
+ the shortest pulse width that is guaranteed to be recognized.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark58">These
+ pins do not have a passive filter on
+ the inputs. This is the shortest pulse width
+ that is guaranteed to be recognized.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark59">25 pF load</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

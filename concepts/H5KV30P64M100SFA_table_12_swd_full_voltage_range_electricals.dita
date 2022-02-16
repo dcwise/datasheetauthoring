@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB445A28-5C45711-F154A87A52DAD3F-6E80E0">
+  <title>Table 12. SWD full voltage range electricals</title>
+  <conbody>
+    <table>
+      <tgroup cols="5" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Unit</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2"> Operating voltage </entry>
+            <entry colname="col3" translate="no"> 1.71 </entry>
+            <entry colname="col4" translate="no"> 3.6 </entry>
+            <entry colname="col5"> V </entry>
+          </row>
+          <row>
+            <entry colname="col1"> S1 </entry>
+            <entry colname="col2">
+              <p>SWD_CLK frequency of operation</p>
+              <ul>
+                <li>Serial wire debug</li>
+              </ul>
+            </entry>
+            <entry colname="col3" translate="no">  0 </entry>
+            <entry colname="col4" translate="no">  33 </entry>
+            <entry colname="col5">  MHz </entry>
+          </row>
+          <row>
+            <entry colname="col1"> S2 </entry>
+            <entry colname="col2"> SWD_CLK cycle period </entry>
+            <entry colname="col3"> 1/S1 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> S3 </entry>
+            <entry colname="col2">
+              <p>SWD_CLK clock pulse width</p>
+              <ul>
+                <li>Serial wire debug</li>
+              </ul>
+            </entry>
+            <entry colname="col3" translate="no">  15 </entry>
+            <entry colname="col4">  — </entry>
+            <entry colname="col5">  ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> S4 </entry>
+            <entry colname="col2"> SWD_CLK rise and fall times </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 3 </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> S9 </entry>
+            <entry colname="col2"> SWD_DIO input data setup time to SWD_CLK rise </entry>
+            <entry colname="col3" translate="no"> 8 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> S10 </entry>
+            <entry colname="col2"> SWD_DIO input data hold time after SWD_CLK rise </entry>
+            <entry colname="col3" translate="no"> 1.4 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> S11 </entry>
+            <entry colname="col2"> SWD_CLK high to SWD_DIO data valid </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 25 </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> S12 </entry>
+            <entry colname="col2"> SWD_CLK high to SWD_DIO high-Z </entry>
+            <entry colname="col3" translate="no"> 5 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <image href="../graphics/H5KV30P64M100SFA_topic40_image003.png" />SWD_CLK (input)</p>
+    <p>
+      <table>
+        <tgroup cols="2" colsep="1" rowsep="1">
+          <colspec colname="col2" align="left" />
+          <colspec colname="col4" align="left" />
+          <tbody>
+            <row>
+              <entry align="left" colname="col2">
+                <fig>
+                  <image href="../graphics/H5KV30P64M100SFA_topic40_image005.png" />
+                </fig>
+              </entry>
+              <entry align="left" colname="col4">
+                <image href="../graphics/H5KV30P64M100SFA_topic40_image006.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </conbody>
+</concept>

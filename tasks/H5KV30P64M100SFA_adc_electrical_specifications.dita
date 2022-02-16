@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB45A285-C5C115A-9555D55F7D19E4A-7E4FDC">
+  <title>ADC electrical specifications</title>
+  <taskbody>
+    <context>
+      <p>The 16-bit accuracy
+ specifications listed in <xref href="H5KV30P64M100SFA_table_23_16_bit_adc_operating_conditions.dita">Table 23</xref> and <xref href="../concepts/H5KV30P64M100SFA_table_24_16_bit_adc_characteristics_vrefh_vdda_vrefl_vssa.dita">Table 24</xref> are achievable on the differential pins ADCx_DPx, ADCx_DMx.</p>
+      <p>All other ADC channels meet
+ the 13-bit differential/12-bit single-ended accuracy specifications.</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>
+          <b>16-bit
+ ADC operating conditions</b>
+        </cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

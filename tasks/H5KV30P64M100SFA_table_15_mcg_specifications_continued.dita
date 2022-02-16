@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7BC7B46-4A5C45C-111154A87B16274-55A8A2">
+  <title>Table 15. MCG specifications (continued)</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="8" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <colspec colname="col8" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry namest="col2" nameend="col3">
+                <b>Description</b>
+              </entry>
+              <entry colname="col4">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Typ.</b>
+              </entry>
+              <entry colname="col6">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col7">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col8">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry morerows="1" colname="col1">
+              </entry>
+              <entry morerows="1" colname="col2">
+              </entry>
+              <entry colname="col3"> 2197 × ffll_ref </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6">
+              </entry>
+              <entry colname="col7">
+              </entry>
+              <entry morerows="1" colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col3">
+                <p>High range (DRS=11)</p>
+                <p>2929 × ffll_ref</p>
+              </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> 95.98 </entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7"> MHz </entry>
+            </row>
+            <row>
+              <entry colname="col1"> Jcyc_fll </entry>
+              <entry namest="col2" nameend="col3">
+                <p>FLL period jitter</p>
+                <ul>
+                  <li>f<sub>VCO</sub> = 48 MHz</li>
+                  <li>f<sub>VCO</sub> = 98 MHz</li>
+                </ul>
+              </entry>
+              <entry colname="col4">
+                <p>—</p>
+                <p>—</p>
+              </entry>
+              <entry colname="col5" translate="no">
+                <p>— 180</p>
+                <p>150</p>
+              </entry>
+              <entry colname="col6">
+                <p>—</p>
+                <p>—</p>
+              </entry>
+              <entry colname="col7"> ps </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> tfll_acquire </entry>
+              <entry namest="col2" nameend="col3"> FLL target frequency acquisition time </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6" translate="no"> 1 </entry>
+              <entry colname="col7"> ms </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#A7BC7B46-4A5C45C-111154A87B16274-55A8A2/_bookmark81">7</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p id="_bookmark75">1. This parameter is measured
+ with the internal
+ reference (slow clock) being used as a reference to the FLL (FEI clock
+ mode).</p>
+      <p id="_bookmark76">2. 2.0 V &lt;= VDD &lt;= 3.6 V.</p>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark77">These typical
+ values listed are with the slow internal
+ reference clock (FEI) using factory trim and DMX32=0.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark79">The
+ resulting system clock frequencies should
+ not exceed their maximum specified
+ values. The DCO frequency deviation (Δf<sub>dco_t</sub>) over voltage and temperature should be considered.</cmd>
+      </step>
+      <step>
+        <cmd>These typical
+ values listed are with the slow internal
+ reference clock (FEI) using factory
+ trim and DMX32=1.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark80">The resulting
+ clock frequency must not exceed the maximum
+ specified clock frequency
+ of the device.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark81">This
+ specification applies to any time the FLL reference source or reference divider
+ is changed, trim value is changed, DMX32
+ bit is changed, DRS bits are changed, or changing from FLL disabled (BLPE,
+ BLPI) to FLL enabled (FEI, FEE, FBE, FBI). If a crystal/resonator is being used as the reference, this specification assumes it is already running.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

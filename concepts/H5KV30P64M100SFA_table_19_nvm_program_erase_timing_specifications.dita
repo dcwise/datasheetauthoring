@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A746A2C4-5C511F2-158155D15EE6E56-B3F57E">
+  <title>Table 19. NVM program/erase timing specifications</title>
+  <conbody>
+    <table>
+      <tgroup cols="7" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <colspec colname="col7" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Typ.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col6">
+              <b>Unit</b>
+            </entry>
+            <entry colname="col7">
+              <b>Notes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> thvpgm4 </entry>
+            <entry colname="col2"> Longword Program high-voltage time </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 7.5 </entry>
+            <entry colname="col5" translate="no"> 18 </entry>
+            <entry colname="col6"> μs </entry>
+            <entry colname="col7"> — </entry>
+          </row>
+          <row>
+            <entry colname="col1"> thversscr </entry>
+            <entry colname="col2"> Sector Erase high-voltage time </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 13 </entry>
+            <entry colname="col5" translate="no"> 113 </entry>
+            <entry colname="col6"> ms </entry>
+            <entry colname="col7" translate="no">
+              <xref href="#A746A2C4-5C511F2-158155D15EE6E56-B3F57E/_bookmark96">1</xref>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> thversall </entry>
+            <entry colname="col2"> Erase All high-voltage time </entry>
+            <entry colname="col3"> — </entry>
+            <entry colname="col4" translate="no"> 104 </entry>
+            <entry colname="col5" translate="no"> 904 </entry>
+            <entry colname="col6"> ms </entry>
+            <entry colname="col7" translate="no">
+              <xref href="#A746A2C4-5C511F2-158155D15EE6E56-B3F57E/_bookmark96">1</xref>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p id="_bookmark96">1. Maximum time based on expectations at cycling end-of-life.</p>
+  </conbody>
+</concept>

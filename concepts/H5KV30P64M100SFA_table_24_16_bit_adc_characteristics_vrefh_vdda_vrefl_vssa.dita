@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="ABC7445A-851C451-F2575D5593C12F0-9CF5CD">
+  <title>Table 24.   16-bit ADC characteristics (VREFH = VDDA, VREFL = VSSA)</title>
+  <conbody>
+    <table>
+      <tgroup cols="8" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <colspec colname="col7" />
+        <colspec colname="col8" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Conditions</b>
+              <xref href="#concept840/_bookmark111">
+                <b>1</b>
+              </xref>
+            </entry>
+            <entry colname="col4">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Typ.</b>
+              <xref href="../tasks/H5KV30P64M100SFA_table_24_16_bit_adc_characteristics_vrefh_vdda_vrefl_vssa_continued.dita#A7BC7B4A-2851C47-C52F1A125415549-384AE1/_bookmark112">
+                <b>2</b>
+              </xref>
+            </entry>
+            <entry colname="col6">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col7">
+              <b>Unit</b>
+            </entry>
+            <entry colname="col8">
+              <b>Notes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> IDDA_ADC </entry>
+            <entry colname="col2"> Supply current </entry>
+            <entry colname="col3">
+            </entry>
+            <entry colname="col4" translate="no"> 0.215 </entry>
+            <entry colname="col5"> — </entry>
+            <entry colname="col6" translate="no"> 1.7 </entry>
+            <entry colname="col7"> mA </entry>
+            <entry colname="col8" translate="no">
+              <xref href="../tasks/H5KV30P64M100SFA_table_24_16_bit_adc_characteristics_vrefh_vdda_vrefl_vssa_continued.dita#A7BC7B4A-2851C47-C52F1A125415549-384AE1/_bookmark113">3</xref>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2"> ADC asynchronous </entry>
+            <entry colname="col3">
+              <ul>
+                <li>ADLPC = 1, ADHSC = 0</li>
+              </ul>
+            </entry>
+            <entry colname="col4" translate="no"> 1.2 </entry>
+            <entry colname="col5" translate="no"> 2.4 </entry>
+            <entry colname="col6" translate="no"> 3.9 </entry>
+            <entry colname="col7"> MHz </entry>
+            <entry colname="col8"> tADACK = 1/ </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2"> clock source </entry>
+            <entry colname="col3">
+              <ul>
+                <li>ADLPC = 1, ADHSC = 1</li>
+              </ul>
+            </entry>
+            <entry colname="col4" translate="no"> 2.4 </entry>
+            <entry colname="col5" translate="no"> 4.0 </entry>
+            <entry colname="col6" translate="no"> 6.1 </entry>
+            <entry colname="col7"> MHz </entry>
+            <entry colname="col8"> fADACK </entry>
+          </row>
+          <row>
+            <entry colname="col1"> fADACK </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3">
+              <ul>
+                <li>ADLPC = 0, ADHSC = 0</li>
+              </ul>
+            </entry>
+            <entry colname="col4" translate="no"> 3.0 </entry>
+            <entry colname="col5" translate="no"> 5.2 </entry>
+            <entry colname="col6" translate="no"> 7.3 </entry>
+            <entry colname="col7"> MHz </entry>
+            <entry colname="col8">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3">
+              <ul>
+                <li>ADLPC = 0, ADHSC = 1</li>
+              </ul>
+            </entry>
+            <entry colname="col4" translate="no"> 4.4 </entry>
+            <entry colname="col5" translate="no"> 6.2 </entry>
+            <entry colname="col6" translate="no"> 9.5 </entry>
+            <entry colname="col7"> MHz </entry>
+            <entry colname="col8">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2"> Sample Time </entry>
+            <entry namest="col3" nameend="col8"> See Reference Manual chapter for sample times </entry>
+          </row>
+          <row>
+            <entry colname="col1"> TUE </entry>
+            <entry colname="col2"> Total unadjusted error </entry>
+            <entry colname="col3">
+              <ul>
+                <li>12-bit modes</li>
+                <li>&lt;12-bit modes</li>
+              </ul>
+            </entry>
+            <entry colname="col4">
+              <p>—</p>
+              <p>—</p>
+            </entry>
+            <entry colname="col5" translate="no">
+              <p>±4</p>
+              <p>±1.4</p>
+            </entry>
+            <entry colname="col6" translate="no">
+              <p>±6.8</p>
+              <p>±2.1</p>
+            </entry>
+            <entry colname="col7"> LSB<xref href="#concept840/_bookmark114">4</xref></entry>
+            <entry colname="col8" translate="no">
+              <xref href="../tasks/H5KV30P64M100SFA_table_24_16_bit_adc_characteristics_vrefh_vdda_vrefl_vssa_continued.dita#A7BC7B4A-2851C47-C52F1A125415549-384AE1/_bookmark115">5</xref>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> DNL </entry>
+            <entry colname="col2"> Differential non- linearity </entry>
+            <entry colname="col3">
+              <ul>
+                <li>12-bit modes</li>
+              </ul>
+            </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> ±0.7 </entry>
+            <entry colname="col6" translate="no">
+              <p>–1.1 -</p>
+              <p>+1.9</p>
+            </entry>
+            <entry colname="col7"> LSB<xref href="#concept840/_bookmark114">4</xref></entry>
+            <entry colname="col8" translate="no">
+              <xref href="../tasks/H5KV30P64M100SFA_table_24_16_bit_adc_characteristics_vrefh_vdda_vrefl_vssa_continued.dita#A7BC7B4A-2851C47-C52F1A125415549-384AE1/_bookmark115">5</xref>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3">
+              <ul>
+                <li>&lt;12-bit modes</li>
+              </ul>
+            </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> ±0.2 </entry>
+            <entry colname="col6" translate="no">
+              <p>–0.3 -</p>
+              <p>0.5</p>
+            </entry>
+            <entry colname="col7">
+            </entry>
+            <entry colname="col8">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> INL </entry>
+            <entry colname="col2"> Integral non-linearity </entry>
+            <entry colname="col3">
+              <ul>
+                <li>12-bit modes</li>
+              </ul>
+            </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5" translate="no"> ±1.0 </entry>
+            <entry colname="col6" translate="no">
+              <p>–2.7 -</p>
+              <p>+1.9</p>
+            </entry>
+            <entry colname="col7"> LSB<xref href="#concept840/_bookmark114">4</xref></entry>
+            <entry colname="col8" translate="no">
+              <xref href="../tasks/H5KV30P64M100SFA_table_24_16_bit_adc_characteristics_vrefh_vdda_vrefl_vssa_continued.dita#A7BC7B4A-2851C47-C52F1A125415549-384AE1/_bookmark115">5</xref>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <i>Table continues on the next page...</i>
+    </p>
+  </conbody>
+</concept>

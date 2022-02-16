@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7BC7B4A-2851C47-C52F1A125415549-384AE1">
+  <title>Table 24.   16-bit ADC characteristics (VREFH = VDDA, VREFL = VSSA) (continued)</title>
+  <taskbody>
+    <context>
+      <table>
+        <tgroup cols="8" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <colspec colname="col7" />
+          <colspec colname="col8" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>Symbol</b>
+              </entry>
+              <entry colname="col2">
+                <b>Description</b>
+              </entry>
+              <entry colname="col3">
+                <b>Conditions</b>
+                <xref href="#task2296/_bookmark111">
+                  <b>1</b>
+                </xref>
+              </entry>
+              <entry colname="col4">
+                <b>Min.</b>
+              </entry>
+              <entry colname="col5">
+                <b>Typ.</b>
+                <xref href="#A7BC7B4A-2851C47-C52F1A125415549-384AE1/_bookmark112">
+                  <b>2</b>
+                </xref>
+              </entry>
+              <entry colname="col6">
+                <b>Max.</b>
+              </entry>
+              <entry colname="col7">
+                <b>Unit</b>
+              </entry>
+              <entry colname="col8">
+                <b>Notes</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col3">
+                <ul>
+                  <li>&lt;12-bit modes</li>
+                </ul>
+              </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> ±0.5 </entry>
+              <entry colname="col6" translate="no">
+                <p>–0.7 -</p>
+                <p>+0.5</p>
+              </entry>
+              <entry colname="col7">
+              </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> EFS </entry>
+              <entry colname="col2"> Full-scale error </entry>
+              <entry colname="col3">
+                <ul>
+                  <li>12-bit modes</li>
+                </ul>
+              </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> –4 </entry>
+              <entry colname="col6" translate="no"> –5.4 </entry>
+              <entry colname="col7"> LSB<xref href="#task2296/_bookmark114">4</xref></entry>
+              <entry colname="col8">
+                <p>VADIN = V <xref href="#A7BC7B4A-2851C47-C52F1A125415549-384AE1/_bookmark115">5</xref></p>
+                <p>DDA</p>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col3">
+                <ul>
+                  <li>&lt;12-bit modes</li>
+                </ul>
+              </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> –1.4 </entry>
+              <entry colname="col6" translate="no"> –1.8 </entry>
+              <entry colname="col7">
+              </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> E<sub>Q</sub></entry>
+              <entry colname="col2"> Quantization error </entry>
+              <entry colname="col3">
+                <ul>
+                  <li>16-bit modes</li>
+                </ul>
+              </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> –1 - 0 </entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7"> LSB<xref href="#task2296/_bookmark114">4</xref></entry>
+              <entry morerows="1" colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col3">
+                <ul>
+                  <li>≤13-bit modes</li>
+                </ul>
+              </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5"> — </entry>
+              <entry colname="col6" translate="no"> ±0.5 </entry>
+              <entry colname="col7">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> ENOB </entry>
+              <entry colname="col2"> Effective number of </entry>
+              <entry colname="col3"> 16-bit differential mode </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6">
+              </entry>
+              <entry colname="col7">
+              </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#A7BC7B4A-2851C47-C52F1A125415549-384AE1/_bookmark116">6</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> bits </entry>
+              <entry colname="col3">
+                <ul>
+                  <li>Avg = 32</li>
+                </ul>
+              </entry>
+              <entry colname="col4" translate="no"> 12.8 </entry>
+              <entry colname="col5" translate="no"> 14.5 </entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7"> bits </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col3">
+                <ul>
+                  <li>Avg = 4</li>
+                </ul>
+              </entry>
+              <entry colname="col4" translate="no"> 11.9 </entry>
+              <entry colname="col5" translate="no"> 13.8 </entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7">  bits </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col3"> 16-bit single-ended mode </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6">
+              </entry>
+              <entry colname="col7">
+              </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col3">
+                <ul>
+                  <li>Avg = 32</li>
+                  <li>Avg = 4</li>
+                </ul>
+              </entry>
+              <entry colname="col4" translate="no">
+                <p>12.2</p>
+                <p>11.4</p>
+              </entry>
+              <entry colname="col5" translate="no">
+                <p>13.9</p>
+                <p>13.1</p>
+              </entry>
+              <entry colname="col6">
+                <p>—</p>
+                <p>—</p>
+              </entry>
+              <entry colname="col7"> bits bits </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> SINAD </entry>
+              <entry colname="col2"> Signal-to-noise plus distortion </entry>
+              <entry colname="col3"> See ENOB </entry>
+              <entry namest="col4" nameend="col6"> 6.02 × ENOB + 1.76 </entry>
+              <entry colname="col7"> dB </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> THD </entry>
+              <entry colname="col2"> Total harmonic distortion </entry>
+              <entry morerows="2" colname="col3">
+                <ol>
+                  <li>bit differential mode<ul><li>Avg = 32</li></ul></li>
+                </ol>
+                <ol>
+                  <li>bit single-ended mode<ul><li>Avg = 32</li></ul></li>
+                </ol>
+              </entry>
+              <entry colname="col4">  — </entry>
+              <entry colname="col5" translate="no">  -94 </entry>
+              <entry colname="col6">  — </entry>
+              <entry colname="col7"> dB </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#A7BC7B4A-2851C47-C52F1A125415549-384AE1/_bookmark117">7</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6">
+              </entry>
+              <entry colname="col7"> dB </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col4"> — </entry>
+              <entry colname="col5" translate="no"> -85 </entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7">
+              </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> SFDR </entry>
+              <entry colname="col2"> Spurious free dynamic range </entry>
+              <entry morerows="2" colname="col3">
+                <ol>
+                  <li>bit differential mode<ul><li>Avg = 32</li></ul></li>
+                </ol>
+                <ol>
+                  <li>bit single-ended mode<ul><li>Avg = 32</li></ul></li>
+                </ol>
+              </entry>
+              <entry colname="col4" translate="no">  82 </entry>
+              <entry colname="col5" translate="no">  95 </entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7"> dB </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#A7BC7B4A-2851C47-C52F1A125415549-384AE1/_bookmark117">7</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+              <entry colname="col6"> — </entry>
+              <entry colname="col7"> dB </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col4" translate="no"> 78 </entry>
+              <entry colname="col5" translate="no"> 90 </entry>
+              <entry colname="col6">
+              </entry>
+              <entry colname="col7">
+              </entry>
+              <entry colname="col8">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> EIL </entry>
+              <entry colname="col2"> Input leakage error </entry>
+              <entry colname="col3">
+              </entry>
+              <entry namest="col4" nameend="col6"> IIn × RAS </entry>
+              <entry colname="col7"> mV </entry>
+              <entry colname="col8">
+                <p>I<sub>In</sub> = leakage current</p>
+                <p>(refer to the MCU's voltage and current operating ratings)</p>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2"> Temp sensor slope </entry>
+              <entry colname="col3"> Across the full temperature range of the device </entry>
+              <entry colname="col4" translate="no"> 1.55 </entry>
+              <entry colname="col5" translate="no"> 1.62 </entry>
+              <entry colname="col6" translate="no"> 1.69 </entry>
+              <entry colname="col7"> mV/°C </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#A7BC7B4A-2851C47-C52F1A125415549-384AE1/_bookmark118">8</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> VTEMP25 </entry>
+              <entry colname="col2"> Temp sensor voltage </entry>
+              <entry colname="col3"> 25 °C </entry>
+              <entry colname="col4" translate="no"> 706 </entry>
+              <entry colname="col5" translate="no"> 716 </entry>
+              <entry colname="col6" translate="no"> 726 </entry>
+              <entry colname="col7"> mV </entry>
+              <entry colname="col8" translate="no">
+                <xref href="#A7BC7B4A-2851C47-C52F1A125415549-384AE1/_bookmark118">8</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark112">All accuracy numbers assume the ADC is calibrated
+ with V<sub>REFH</sub> = V<sub>DDA</sub></cmd>
+      </step>
+      <step>
+        <cmd>Typical values assume V<sub>DDA</sub> = 3.0 V, Temp = 25 °C, f<sub>ADCK</sub> = 2.0 MHz unless otherwise
+ stated. Typical values are for reference only and are not tested in production.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark113">The ADC supply current depends on the ADC conversion clock speed, conversion
+ rate and ADC_CFG1[ADLPC] (low power). For lowest power operation, ADC_CFG1[ADLPC] must be set, the ADC_CFG2[ADHSC] bit must be clear with 1 MHz ADC conversion clock speed.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark115">1 LSB = (V<sub>REFH</sub> - V<sub>REFL</sub>)/2N</cmd>
+      </step>
+      <step>
+        <cmd>ADC conversion clock &lt; 16 MHz, Max hardware averaging
+ (AVGE = %1, AVGS = %11)</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark116">Input data is 100 Hz sine wave. ADC conversion clock &lt; 12 MHz.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark117">Input data is 1 kHz sine wave. ADC conversion clock &lt; 12 MHz.</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark118">ADC conversion clock &lt; 3 MHz</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>15.00</p>
+      <p>14.70</p>
+      <p>14.40</p>
+      <p>14.10</p>
+      <p>ENOB</p>
+      <p>13.80</p>
+      <p>13.50</p>
+      <p>13.20</p>
+      <p>Typical ADC 16-bit Differential ENOB vs ADC Clock
+ 100Hz, 90% FS Sine Input</p>
+      <p>12.90</p>
+      <p>12.60</p>
+      <p>12.30</p>
+      <p>12.00</p>
+      <p>
+        <image href="../graphics/H5KV30P64M100SFA_topic75_image001.png" />1 2 3 4 5 6 7 8 9 10</p>
+      <p>ADC Clock Frequency
+ (MHz)</p>
+      <p>11 12</p>
+    </result>
+  </taskbody>
+</task>

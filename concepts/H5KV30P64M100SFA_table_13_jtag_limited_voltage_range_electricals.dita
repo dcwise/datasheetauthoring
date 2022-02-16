@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7BC7B46-45281C4-57211F2547A1725-755EB6">
+  <title>Table 13. JTAG limited voltage range electricals</title>
+  <conbody>
+    <table>
+      <tgroup cols="5" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Symbol</b>
+            </entry>
+            <entry colname="col2">
+              <b>Description</b>
+            </entry>
+            <entry colname="col3">
+              <b>Min.</b>
+            </entry>
+            <entry colname="col4">
+              <b>Max.</b>
+            </entry>
+            <entry colname="col5">
+              <b>Unit</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2"> Operating voltage </entry>
+            <entry colname="col3" translate="no"> 2.7 </entry>
+            <entry colname="col4" translate="no"> 3.6 </entry>
+            <entry colname="col5"> V </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J1 </entry>
+            <entry colname="col2">
+              <p>TCLK frequency of operation</p>
+              <ul>
+                <li>Boundary Scan</li>
+                <li>JTAG and CJTAG</li>
+              </ul>
+            </entry>
+            <entry colname="col3" translate="no">
+              <p>0</p>
+              <p>0</p>
+            </entry>
+            <entry colname="col4" translate="no">
+              <p>10</p>
+              <p>20</p>
+            </entry>
+            <entry colname="col5"> MHz </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J2 </entry>
+            <entry colname="col2"> TCLK cycle period </entry>
+            <entry colname="col3"> 1/J1 </entry>
+            <entry colname="col4"> — </entry>
+            <entry colname="col5"> ns </entry>
+          </row>
+          <row>
+            <entry colname="col1"> J3 </entry>
+            <entry colname="col2"> TCLK clock pulse width </entry>
+            <entry colname="col3" translate="no">  50 </entry>
+            <entry colname="col4">  — </entry>
+            <entry colname="col5">  ns </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <i>Table continues on the next page...</i>
+    </p>
+  </conbody>
+</concept>

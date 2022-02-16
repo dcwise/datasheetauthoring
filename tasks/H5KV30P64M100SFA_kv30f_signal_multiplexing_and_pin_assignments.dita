@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7464A25-1C4C154-A45A81E25D9A3B4-6EC3E6">
+  <title>KV30F Signal Multiplexing and Pin Assignments</title>
+  <shortdesc>The signal multiplexing and
+ pin assignments are also provided in an Excel file attached to this document:</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>Click the
+ paperclip symbol on the left side of the PDF window.</cmd>
+      </step>
+      <step>
+        <cmd>Double-click
+ on the Excel file to open it.</cmd>
+      </step>
+      <step>
+        <cmd>Select the “Pinout” tab.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>The Port Control Module is
+ responsible for selecting which ALT functionality is available on each pin.</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="ABC7B445-A285721-15A7F555822F366-DCE5BC">
+  <title>Power mode transition operating behaviors</title>
+  <shortdesc>All specifications except t<sub>POR</sub>, and VLLSx→RUN recovery
+ times in the following table assume this clock configuration:</shortdesc>
+  <conbody>
+    <ul>
+      <li>CPU and system clocks = 72 MHz</li>
+      <li>Bus clock = 36 MHz</li>
+      <li>Flash clock = 24 MHz</li>
+      <li>MCG mode: FEI</li>
+    </ul>
+  </conbody>
+</concept>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A74A85CC-1F1548F-1550A78159AD545-6A4A46">
+  <title>Package Markings</title>
+  <shortdesc>Package markings for Kinetis
+ MCU devices consists of 3 sets of identifiers:</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/H5KV30P64M100SFA_topic113_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>
+      <b>Figure 26.
+ Package Marking</b>
+    </p>
+    <p>1st identifier defines the
+ Part Number and is composed of at least 6 characters typically represented as one line. Part Number may wrap around
+ to a second line if the package
+ markings have 4 lines total.</p>
+    <p>2nd identifier defines the
+ Mask Set and is composed of 5 characters.</p>
+    <p>3rd identifier defines the
+ Trace Code used for traceability data and the Date Code for the week of manufacture is a subset of
+ the standard 10 character format</p>
+    <ul>
+      <li>The standard trace code format is “xxxxYYWWx”:<ul><li>The four leading digits and last one represented by an
+ “x” can be ignored and “YYWW”
+ indicate the Date Code</li><li>“YY” represents the last 2 digits
+ of the calendar year (e.g: 18 corresponds to
+ the year 2018)</li><li>“WW” represents the work week within the calendar year
+ (e.g: 50 corresponds to week 50)</li></ul></li>
+      <li>If the Trace Code on your device
+ consists of less than 10 characters or the package
+ markings are different than what has outlined above, please contact your local NXP representative for further
+ details</li>
+    </ul>
+  </conbody>
+</concept>

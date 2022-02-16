@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="ABC7B465-2157C21-11F214A77152574-55F78A">
+  <title>DSPI switching specifications (limited voltage range)</title>
+  <shortdesc>The Deserial Serial
+ Peripheral Interface (DSPI) provides a synchronous serial bus with master and slave operations. Many of the
+ transfer attributes are programmable. The tables
+ below provide DSPI timing characteristics for classic SPI timing modes. Refer
+ to the SPI chapter of the Reference
+ Manual for information on the modified transfer formats used for communicating with slower peripheral devices.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>
