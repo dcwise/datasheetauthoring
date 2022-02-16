@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<bookmap xml:lang="en-us" id="bookmap-1">
+  <title>NXP DATASHEET</title>
+  <frontmatter>
+    <booklists>
+      <toc />
+    </booklists>
+  </frontmatter>
+  <chapter href="concepts/H5KV30P64M100SFA_figure_1_functional_block_diagram.dita" />
+  <chapter href="concepts/H5KV30P64M100SFA_ratings.dita">
+    <topicref href="tasks/H5KV30P64M100SFA_thermal_handling_ratings.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_moisture_handling_ratings.dita" />
+    <topicref href="tasks/H5KV30P64M100SFA_esd_handling_ratings.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_voltage_and_current_operating_ratings.dita" />
+  </chapter>
+  <chapter href="concepts/H5KV30P64M100SFA_general.dita">
+    <topicref href="concepts/H5KV30P64M100SFA_ac_electrical_characteristics.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_nonswitching_electrical_specifications.dita">
+      <topicref href="concepts/H5KV30P64M100SFA_voltage_and_current_operating_requirements.dita">
+        <topicref href="tasks/H5KV30P64M100SFA_table_1_voltage_and_current_operating_requirements.dita" />
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_lvd_and_por_operating_requirements.dita">
+        <topicref href="concepts/H5KV30P64M100SFA_table_2_vdd_supply_lvd_and_por_operating_requirements.dita" />
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_voltage_and_current_operating_behaviors.dita">
+        <topicref href="tasks/H5KV30P64M100SFA_table_3_voltage_and_current_operating_behaviors.dita" />
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_power_mode_transition_operating_behaviors.dita">
+        <topicref href="concepts/H5KV30P64M100SFA_table_4_power_mode_transition_operating_behaviors.dita" />
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_power_consumption_operating_behaviors.dita">
+        <topicref href="tasks/H5KV30P64M100SFA_table_5_power_consumption_operating_behaviors.dita" />
+        <topicref href="concepts/H5KV30P64M100SFA_table_6_low_power_mode_peripheral_adders_typical_value.dita" />
+        <topicref href="concepts/H5KV30P64M100SFA_diagram_typical_idd_run_operating_behavior.dita">
+          <topicref href="concepts/H5KV30P64M100SFA_figure_3_run_mode_supply_current_vs_core_frequency.dita" />
+        </topicref>
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_emc_radiated_emissions_operating_behaviors.dita">
+        <topicref href="tasks/H5KV30P64M100SFA_table_7_emc_radiated_emissions_operating_behaviors_for_64_lqfp_package.dita" />
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_designing_with_radiated_emissions_in_mind.dita" />
+      <topicref href="concepts/H5KV30P64M100SFA_capacitance_attributes.dita" />
+    </topicref>
+    <topicref href="concepts/H5KV30P64M100SFA_switching_specifications.dita">
+      <topicref href="concepts/H5KV30P64M100SFA_device_clock_specifications.dita">
+        <topicref href="concepts/H5KV30P64M100SFA_table_9_device_clock_specifications.dita" />
+        <topicref href="concepts/H5KV30P64M100SFA_table_9_device_clock_specifications_continued.dita" />
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_general_switching_specifications.dita">
+        <topicref href="tasks/H5KV30P64M100SFA_table_10_general_switching_specifications.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/H5KV30P64M100SFA_thermal_specifications.dita">
+      <topicref href="concepts/H5KV30P64M100SFA_thermal_operating_requirements.dita">
+        <topicref href="concepts/H5KV30P64M100SFA_table_11_thermal_operating_requirements.dita" />
+      </topicref>
+      <topicref href="tasks/H5KV30P64M100SFA_thermal_attributes.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/H5KV30P64M100SFA_peripheral_operating_requirements_and_behaviors.dita">
+    <topicref href="concepts/H5KV30P64M100SFA_core_modules.dita">
+      <topicref href="concepts/H5KV30P64M100SFA_swd_electricals.dita">
+        <topicref href="concepts/H5KV30P64M100SFA_table_12_swd_full_voltage_range_electricals.dita" />
+        <topicref href="concepts/H5KV30P64M100SFA_figure_5_serial_wire_clock_input_timing.dita" />
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_jtag_electricals.dita">
+        <topicref href="concepts/H5KV30P64M100SFA_table_13_jtag_limited_voltage_range_electricals.dita" />
+        <topicref href="concepts/H5KV30P64M100SFA_table_13_jtag_limited_voltage_range_electricals_continued.dita" />
+        <topicref href="concepts/H5KV30P64M100SFA_figure_7_test_clock_input_timing.dita" />
+        <topicref href="concepts/H5KV30P64M100SFA_figure_8_boundary_scan_jtag_timing.dita" />
+        <topicref href="concepts/H5KV30P64M100SFA_figure_9_test_access_port_timing.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/H5KV30P64M100SFA_system_modules.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_clock_modules.dita">
+      <topicref href="concepts/H5KV30P64M100SFA_mcg_specifications.dita">
+        <topicref href="concepts/H5KV30P64M100SFA_table_15_mcg_specifications.dita" />
+        <topicref href="tasks/H5KV30P64M100SFA_table_15_mcg_specifications_continued.dita" />
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_irc48m_specifications.dita">
+        <topicref href="tasks/H5KV30P64M100SFA_table_16_irc48m_specifications.dita" />
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_oscillator_electrical_specifications.dita">
+        <topicref href="concepts/H5KV30P64M100SFA_oscillator_dc_electrical_specifications.dita">
+          <topicref href="concepts/H5KV30P64M100SFA_table_17_oscillator_dc_electrical_specifications.dita" />
+          <topicref href="tasks/H5KV30P64M100SFA_table_17_oscillator_dc_electrical_specifications_continued.dita" />
+        </topicref>
+        <topicref href="concepts/H5KV30P64M100SFA_oscillator_frequency_specifications.dita">
+          <topicref href="tasks/H5KV30P64M100SFA_table_18_oscillator_frequency_specifications.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/H5KV30P64M100SFA_memories_and_memory_interfaces.dita">
+      <topicref href="tasks/H5KV30P64M100SFA_flash_electrical_specifications.dita">
+        <topicref href="concepts/H5KV30P64M100SFA_table_19_nvm_program_erase_timing_specifications.dita" />
+        <topicref href="concepts/H5KV30P64M100SFA_flash_timing_specifications_commands.dita">
+          <topicref href="tasks/H5KV30P64M100SFA_table_20_flash_command_timing_specifications.dita" />
+        </topicref>
+        <topicref href="concepts/H5KV30P64M100SFA_flash_high_voltage_current_behaviors.dita" />
+        <topicref href="concepts/H5KV30P64M100SFA_reliability_specifications.dita">
+          <topicref href="tasks/H5KV30P64M100SFA_table_22_nvm_reliability_specifications.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/H5KV30P64M100SFA_security_and_integrity_modules.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_analog.dita">
+      <topicref href="tasks/H5KV30P64M100SFA_adc_electrical_specifications.dita">
+        <topicref href="tasks/H5KV30P64M100SFA_table_23_16_bit_adc_operating_conditions.dita" />
+        <topicref href="concepts/H5KV30P64M100SFA_16_bit_adc_electrical_characteristics.dita">
+          <topicref href="concepts/H5KV30P64M100SFA_table_24_16_bit_adc_characteristics_vrefh_vdda_vrefl_vssa.dita" />
+          <topicref href="tasks/H5KV30P64M100SFA_table_24_16_bit_adc_characteristics_vrefh_vdda_vrefl_vssa_continued.dita" />
+          <topicref href="concepts/H5KV30P64M100SFA_figure_12_typical_enob_vs_adc_clk_for_16_bit_differential_mode.dita" />
+        </topicref>
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_cmp_and_6_bit_dac_electrical_specifications.dita">
+        <topicref href="tasks/H5KV30P64M100SFA_table_25_comparator_and_6_bit_dac_electrical_specifications.dita" />
+        <topicref href="concepts/H5KV30P64M100SFA_figure_14_typical_hysteresis_vs_vin_level_vdd_3_3_v_pmode_0.dita" />
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_12_bit_dac_electrical_characteristics.dita">
+        <topicref href="concepts/H5KV30P64M100SFA_12_bit_dac_operating_requirements.dita">
+          <topicref href="tasks/H5KV30P64M100SFA_table_26_12_bit_dac_operating_requirements.dita" />
+        </topicref>
+        <topicref href="concepts/H5KV30P64M100SFA_12_bit_dac_operating_behaviors.dita">
+          <topicref href="tasks/H5KV30P64M100SFA_table_27_12_bit_dac_operating_behaviors.dita" />
+          <topicref href="concepts/H5KV30P64M100SFA_figure_16_typical_inl_error_vs_digital_code.dita" />
+        </topicref>
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_voltage_reference_electrical_specifications.dita">
+        <topicref href="tasks/H5KV30P64M100SFA_table_28_vref_full_range_operating_requirements.dita" />
+        <topicref href="tasks/H5KV30P64M100SFA_table_29_vref_full_range_operating_behaviors.dita" />
+        <topicref href="concepts/H5KV30P64M100SFA_table_30_vref_limited_range_operating_requirements.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/H5KV30P64M100SFA_timers.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_communication_interfaces.dita">
+      <topicref href="concepts/H5KV30P64M100SFA_dspi_switching_specifications_limited_voltage_range.dita">
+        <topicref href="tasks/H5KV30P64M100SFA_table_32_master_mode_dspi_timing_limited_voltage_range.dita" />
+        <topicref href="tasks/H5KV30P64M100SFA_figure_18_dspi_classic_spi_timing_master_mode.dita" />
+      </topicref>
+      <topicref href="tasks/H5KV30P64M100SFA_dspi_switching_specifications_full_voltage_range.dita">
+        <topicref href="concepts/H5KV30P64M100SFA_figure_20_dspi_classic_spi_timing_master_mode.dita" />
+      </topicref>
+      <topicref href="tasks/H5KV30P64M100SFA_inter_integrated_circuit_interface_i2c_timing.dita">
+        <topicref href="tasks/H5KV30P64M100SFA_table_37_i_2c_1_mbps_timing.dita" />
+      </topicref>
+      <topicref href="concepts/H5KV30P64M100SFA_uart_switching_specifications.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/H5KV30P64M100SFA_dimensions.dita">
+    <topicref href="concepts/H5KV30P64M100SFA_obtaining_package_dimensions.dita" />
+  </chapter>
+  <chapter href="concepts/H5KV30P64M100SFA_pinout.dita">
+    <topicref href="tasks/H5KV30P64M100SFA_kv30f_signal_multiplexing_and_pin_assignments.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_kv30f_signal_multiplexing_and_pin_assignments.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_recommended_connection_for_unused_analog_and_digital_pins.dita" />
+    <topicref href="tasks/H5KV30P64M100SFA_kv30f_pinouts.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_kv30f_pinouts.dita" />
+  </chapter>
+  <chapter href="concepts/H5KV30P64M100SFA_part_identification.dita">
+    <topicref href="concepts/H5KV30P64M100SFA_description.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_format.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_fields.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_example.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_package_markings.dita" />
+  </chapter>
+  <chapter href="concepts/H5KV30P64M100SFA_terminology_and_guidelines.dita">
+    <topicref href="concepts/H5KV30P64M100SFA_definitions.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_examples.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_typical_value_conditions.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_relationship_between_ratings_and_operating_requirements.dita" />
+    <topicref href="concepts/H5KV30P64M100SFA_guidelines_for_ratings_and_operating_requirements.dita" />
+  </chapter>
+  <chapter href="concepts/H5KV30P64M100SFA_revision_history.dita" />
+</bookmap>
